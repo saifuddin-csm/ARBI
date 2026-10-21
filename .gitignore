@@ -42,3 +42,6 @@ next-env.d.ts
 
 # env example is safe to commit
 !.env.example
+
+# generated placeholder images (scripts/generate-placeholders.mjs)
+/public/placeholders/

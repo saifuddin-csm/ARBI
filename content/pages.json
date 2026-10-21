@@ -1,0 +1,160 @@
+[
+  {
+    "slug": "about",
+    "title": "About ARBI",
+    "intro": "Placeholder copy — replace with ARBI's own story before launch.",
+    "sections": [
+      {
+        "heading": "Everyday clothing, made for here",
+        "paragraphs": [
+          "ARBI started with a simple frustration: most of what we wanted to wear wasn't made for a city where the thermometer rarely drops below thirty. So we set out to make clothes that breathe — pure linen, combed cotton and fluid viscose — in shapes that feel modern without trying too hard.",
+          "Every piece is designed in Dhaka and made in partnership with workshops we visit regularly. We keep our range small on purpose, so each style earns its place."
+        ]
+      },
+      {
+        "heading": "What we care about",
+        "paragraphs": ["Three things guide every decision we make:"],
+        "list": [
+          "Honest fabrics — natural fibres first, chosen for comfort in the heat.",
+          "Fit you can trust — consistent sizing and detailed size charts on every product.",
+          "Service that feels personal — real people on WhatsApp, phone and email."
+        ]
+      },
+      {
+        "heading": "Visit us",
+        "paragraphs": [
+          "Find us online every day, or visit one of our stores to try the collection in person. Our team is always happy to help you find your size."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "privacy",
+    "title": "Privacy Policy",
+    "draft": true,
+    "updated": "2026-10-21",
+    "intro": "DRAFT — placeholder text for the preview build. This policy must be reviewed by a qualified lawyer before launch.",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "paragraphs": [
+          "When you place an order or create an account we collect your name, phone number, email address and delivery address. We also collect basic usage data such as pages visited, to improve the store."
+        ]
+      },
+      {
+        "heading": "How we use it",
+        "paragraphs": [
+          "We use your information to process and deliver orders, provide customer support, and — only if you opt in — send you news about ARBI."
+        ]
+      },
+      {
+        "heading": "Sharing",
+        "paragraphs": [
+          "We share delivery details with our courier partners and payment details with our payment gateway, only as needed to complete your order. We never sell your personal data."
+        ]
+      },
+      {
+        "heading": "Your choices",
+        "paragraphs": [
+          "You can ask us to access, correct or delete your personal data at any time by contacting customer support."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "refund",
+    "title": "Refund & Exchange Policy",
+    "draft": true,
+    "updated": "2026-10-21",
+    "intro": "DRAFT — placeholder text for the preview build. Confirm terms before launch.",
+    "sections": [
+      {
+        "heading": "Exchanges",
+        "paragraphs": [
+          "Unworn items with original tags can be exchanged for a different size or colour within 7 days of delivery."
+        ]
+      },
+      {
+        "heading": "Refunds",
+        "paragraphs": [
+          "If an item is faulty or not as described, we will refund the full amount to your original payment method, or as store credit for cash-on-delivery orders."
+        ]
+      },
+      {
+        "heading": "Non-returnable items",
+        "paragraphs": [
+          "For hygiene reasons, caps and items marked final sale cannot be returned unless faulty."
+        ]
+      },
+      {
+        "heading": "How to start",
+        "paragraphs": [
+          "Contact customer support with your order number and we will arrange a pickup."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "shipping",
+    "title": "Shipping Policy",
+    "draft": true,
+    "updated": "2026-10-21",
+    "intro": "DRAFT — placeholder text for the preview build. Confirm rates and timings before launch.",
+    "sections": [
+      {
+        "heading": "Delivery times",
+        "paragraphs": [
+          "Orders are usually delivered within 2–3 working days inside Dhaka and 3–5 working days elsewhere in Bangladesh."
+        ]
+      },
+      {
+        "heading": "Delivery charges",
+        "list": ["Inside Dhaka: ৳80", "Outside Dhaka: ৳130", "Free delivery on orders over ৳3,000"],
+        "paragraphs": []
+      },
+      {
+        "heading": "Cash on delivery",
+        "paragraphs": [
+          "Cash on delivery is available nationwide. Please keep the exact amount ready where possible."
+        ]
+      },
+      {
+        "heading": "Tracking",
+        "paragraphs": [
+          "You will receive an SMS with tracking details once your order ships. You can also track it on our Track order page."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "terms",
+    "title": "Terms of Service",
+    "draft": true,
+    "updated": "2026-10-21",
+    "intro": "DRAFT — placeholder text for the preview build. These terms must be reviewed by a qualified lawyer before launch.",
+    "sections": [
+      {
+        "heading": "Using this store",
+        "paragraphs": [
+          "By using this website you agree to these terms. This is a preview build: no real orders are placed and no payments are taken."
+        ]
+      },
+      {
+        "heading": "Prices and availability",
+        "paragraphs": [
+          "All prices are in Bangladeshi taka (৳) and include VAT. We may change prices or withdraw products at any time; the price you pay is the one shown at checkout."
+        ]
+      },
+      {
+        "heading": "Orders",
+        "paragraphs": [
+          "An order is confirmed only when you receive an order confirmation from us. We may cancel orders that cannot be fulfilled or that appear fraudulent."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": ["Questions about these terms can be sent to our customer support team."]
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Orders & payment",
+    "items": [
+      {
+        "question": "Which payment methods do you accept?",
+        "answer": "Cash on delivery, bKash, Nagad and major cards (Visa, Mastercard, Amex). This preview build does not take real payments."
+      },
+      {
+        "question": "Can I change or cancel my order?",
+        "answer": "Contact us within 2 hours of placing your order and we will do our best to change or cancel it before it ships."
+      },
+      {
+        "question": "Do prices include VAT?",
+        "answer": "Yes. All prices shown are in taka (৳) and include VAT."
+      }
+    ]
+  },
+  {
+    "title": "Delivery",
+    "items": [
+      {
+        "question": "How long does delivery take?",
+        "answer": "Usually 2–3 working days inside Dhaka and 3–5 working days elsewhere in Bangladesh."
+      },
+      {
+        "question": "How much is delivery?",
+        "answer": "৳80 inside Dhaka and ৳130 outside Dhaka. Delivery is free on orders over ৳3,000."
+      },
+      {
+        "question": "How do I track my order?",
+        "answer": "Use the Track order page with your order number and the phone number or email used at checkout."
+      }
+    ]
+  },
+  {
+    "title": "Exchanges & returns",
+    "items": [
+      {
+        "question": "What is your exchange policy?",
+        "answer": "Unworn items with tags can be exchanged within 7 days of delivery. See our refund policy for details."
+      },
+      {
+        "question": "What if my item is faulty?",
+        "answer": "Contact us with a photo and your order number and we will arrange a replacement or a refund."
+      }
+    ]
+  },
+  {
+    "title": "Sizing & care",
+    "items": [
+      {
+        "question": "How do I find my size?",
+        "answer": "Every product page has a size chart with measurements in centimetres and inches, plus a guide to measuring yourself. You can also visit our Size guide page."
+      },
+      {
+        "question": "How should I wash linen?",
+        "answer": "Machine wash cold on a gentle cycle, skip the tumble dryer and iron while slightly damp. Linen softens beautifully with every wash."
+      }
+    ]
+  }
+]

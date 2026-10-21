@@ -304,7 +304,7 @@ Go live only when every box is ticked on the staging site first.
 
 ## Milestones for Claude Code
 
-Give Claude Code one milestone at a time and review the GitHub Pages link before moving on. Each milestone ends with a commit, passing CI and a live preview.
+For the GitHub Pages demo, Claude Code builds milestones 1–9 in one run without stopping between them; use the milestones as its internal checklist. Each milestone ends with a commit, passing CI and a live preview.
 
 **Phase 1 — frontend demo**
 
@@ -372,34 +372,64 @@ Phase 1 can start today with placeholders; these items replace them and settle t
 Export this doc as Markdown, save it in the new repo as `docs/BUILD_PLAN.md`, then paste the prompt below into Claude Code.
 
 ```markdown
-You are building the frontend for ARBI, a clothing brand's online store.
-Read docs/BUILD_PLAN.md fully before writing any code. It is the source of truth.
+Build the COMPLETE ARBI storefront frontend now, in this single session.
+Read docs/BUILD_PLAN.md fully first. It is the source of truth.
 
-Rules:
-- Replicate the STRUCTURE and UX of the reference store described in the plan
-  (section order, menus, drawers, filters, product-page flow). Do NOT copy any of
-  the reference brand's logo, images, videos, product text, taglines or source code.
-  Write all code from scratch and use ARBI assets or clearly marked placeholders.
-- Stack: Next.js (App Router, TypeScript strict), Tailwind CSS, Zustand, Embla,
-  React Hook Form + Zod, Lucide icons. Static export for GitHub Pages.
-- All data access goes through src/lib/api (mock JSON now, real backend later).
-  Components never import JSON directly.
-- Mobile-first, WCAG 2.2 AA, Lighthouse mobile >= 90.
-- Currency via formatPrice() helper, default BDT (৳).
-- Work one milestone at a time from the "Milestones for Claude Code" section.
-  After each milestone: run lint + tests + build, commit, and summarise what
-  changed and what I should check on the preview link.
+Scope: Phase 1, milestones 1 to 9, ALL of them. No backend.
+If project setup (milestone 1) already exists in this repo, keep it and continue.
+Do NOT stop after setup or after any single milestone. Do NOT ask me for
+confirmation between milestones. Keep a task list of milestones 1-9 and keep
+working until every item is done. Only stop early if something is truly blocked,
+and then tell me exactly what.
 
-First steps:
-1. Create CLAUDE.md with the rules above and the key decisions from the plan.
-2. Complete Milestone 1 (project setup + GitHub Pages deploy workflow).
-   The repo name is <REPO_NAME>, so basePath is /<REPO_NAME>.
-3. Stop and tell me the Pages URL so I can check it before Milestone 2.
+The finished site must have, working with mock data:
+- Header with ARBI logo, desktop mega menu (Men, Women, Collections, Accessories),
+  mobile drill-down drawer menu, search drawer with live results, account icon,
+  cart icon with count, announcement bar.
+- Home page with all sections from the plan: hero (video if present in
+  public/videos, else image), For Him / For Her tiles, two campaign banners,
+  featured product row, three collection cards, shop-the-look, new arrivals
+  carousel, brand statement, trust strip.
+- Collection pages for every collection: filter drawer (availability, price,
+  size, colour, category, fabric), sort, 4/2-column grid, product cards with
+  hover second image, quick add, colour dots, badges, pagination.
+- Product pages for every product: gallery, colour siblings, sizes with stock,
+  size-chart modal (table CM/Inch, how to measure, FAQs), quantity, add to cart,
+  buy now, accordions, sticky add-to-cart bar, related + recently viewed.
+- Cart drawer + cart page (persisted in localStorage), demo checkout with form
+  validation and an order-success page.
+- Search results, account (demo login + sample orders), track order (demo),
+  About, Contact, FAQ, Size guide, Store locator, 4 policy pages, 404.
+- Footer with trust strip, quick links, policies, shop-by-collection, contact,
+  socials, payment icons. "Preview build - no real orders" banner.
+
+Content and images:
+- Generate ~40 mock products (men + women, 6+ categories, 2-5 colours each,
+  sizes S-XXL / waist 28-38), 12 collections, 4 size charts, prices in BDT (৳).
+- Use ARBI photos from public/images if present. Otherwise create clean local
+  placeholder images (SVG/WebP) tinted with each product's colour and labelled
+  with the product name, so every card, banner and gallery shows an image.
+  No broken images anywhere.
+- Write original ARBI copy. Replicate only the STRUCTURE and UX of the reference
+  store; never copy its logo, images, videos, text, taglines or source code.
+
+Tech: Next.js App Router + TypeScript strict, Tailwind, Zustand, Embla,
+React Hook Form + Zod, Lucide. Static export for GitHub Pages
+(output 'export', images unoptimized, trailingSlash, basePath /<REPO_NAME>,
+generateStaticParams for every product and collection). All data through
+src/lib/api. Mobile-first, accessible menus/drawers/modals.
+
+Before you finish:
+1. Run lint, tests and `next build`.
+2. Check the out/ folder contains an index.html for the home page, every
+   collection, every product and every other page listed above. List the count.
+3. Commit and push so the GitHub Actions workflow deploys to Pages.
+4. Give me the Pages URL and a short list of what was built.
 ```
 
 **Tips for working with Claude Code**
 
-- Keep each request to one milestone; ask for a plan first on the bigger ones (home, product page, checkout).
+- If Claude Code stops before everything is built, reply "continue with the remaining milestones until all of 1–9 are done".
 - Put ARBI photos in `public/images/` with clear names (`linen-shirt-white-1.webp`) so Claude Code can wire them in.
 - When something looks off, send a screenshot with the page and screen width.
 - Turn on GitHub Pages in repo Settings → Pages → Source: GitHub Actions before the first deploy.

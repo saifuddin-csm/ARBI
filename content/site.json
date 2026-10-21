@@ -1,0 +1,41 @@
+{
+  "name": "ARBI",
+  "announcement": {
+    "id": "launch-2026",
+    "messages": [
+      "Free delivery on orders over ৳3,000",
+      "Cash on delivery available across Bangladesh",
+      "Easy 7-day exchanges"
+    ]
+  },
+  "brandStatement": "ARBI makes considered everyday clothing for a warm climate — honest fabrics, clean lines and fits that feel as good at nine at night as they did at nine in the morning.",
+  "freeShippingThreshold": 3000,
+  "shippingRates": { "insideDhaka": 80, "outsideDhaka": 130 },
+  "deliveryEstimate": "Delivery in 2–3 days inside Dhaka, 3–5 days outside Dhaka.",
+  "support": {
+    "address": "House 00, Road 00, Gulshan, Dhaka 1212 (placeholder address)",
+    "email": "support@arbi.example",
+    "phone": "+880 1000-000000",
+    "whatsapp": "+880 1000-000000",
+    "hours": "Saturday–Thursday, 10am–8pm"
+  },
+  "socials": [
+    { "network": "instagram", "href": "https://www.instagram.com/" },
+    { "network": "facebook", "href": "https://www.facebook.com/" },
+    { "network": "tiktok", "href": "https://www.tiktok.com/" },
+    { "network": "youtube", "href": "https://www.youtube.com/" }
+  ],
+  "paymentMethods": ["Cash on delivery", "bKash", "Nagad", "Visa", "Mastercard", "Amex"],
+  "trustBadges": [
+    { "icon": "truck", "title": "Free delivery", "text": "On orders over ৳3,000" },
+    { "icon": "returns", "title": "Easy exchanges", "text": "7 days, no fuss" },
+    { "icon": "secure", "title": "Secure payment", "text": "Cards, bKash & Nagad" },
+    { "icon": "support", "title": "Customer support", "text": "Sat–Thu, 10am–8pm" },
+    { "icon": "cod", "title": "Cash on delivery", "text": "Pay when it arrives" }
+  ],
+  "productTrustBadges": [
+    { "icon": "clock", "title": "Fast delivery", "text": "2–5 working days" },
+    { "icon": "returns", "title": "7-day exchange", "text": "Unworn with tags" },
+    { "icon": "secure", "title": "Secure checkout", "text": "Encrypted payments" }
+  ]
+}

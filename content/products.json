@@ -1,0 +1,4154 @@
+[
+  {
+    "id": "p001",
+    "slug": "mens-linen-classic-shirt-white",
+    "title": "Linen Classic Shirt",
+    "styleGroup": "mens-linen-classic-shirt",
+    "color": {
+      "name": "White",
+      "hex": "#F4F2EE"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Classic collar",
+    "fabric": "Linen",
+    "fit": "Regular",
+    "tags": ["100% Linen", "Breathable", "Summer"],
+    "price": 1890,
+    "images": [
+      {
+        "src": "/images/products/mens-linen-classic-shirt-white-1.webp",
+        "alt": "Linen Classic Shirt in White, front view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-white-2.webp",
+        "alt": "Linen Classic Shirt in White, back view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-white-3.webp",
+        "alt": "Linen Classic Shirt in White, detail view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-white-4.webp",
+        "alt": "Linen Classic Shirt in White, on model view"
+      }
+    ],
+    "shortDescription": "A breathable pure-linen shirt with a soft classic collar, cut for humid days.",
+    "description": "Woven from garment-washed linen that softens with every wear, this shirt keeps air moving on the hottest Dhaka afternoons. A classic collar, a single chest pocket and mother-of-pearl-look buttons keep it sharp enough for the office and easy enough for the weekend.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-001-S",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-001-M",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-001-L",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-001-XL",
+        "size": "XL",
+        "stock": 9
+      },
+      {
+        "sku": "ARBI-001-XXL",
+        "size": "XXL",
+        "stock": 4
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": [],
+    "rating": 4.7,
+    "reviewCount": 82,
+    "createdAt": "2026-08-24"
+  },
+  {
+    "id": "p002",
+    "slug": "mens-linen-classic-shirt-sand",
+    "title": "Linen Classic Shirt",
+    "styleGroup": "mens-linen-classic-shirt",
+    "color": {
+      "name": "Sand",
+      "hex": "#D9C7A7"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Classic collar",
+    "fabric": "Linen",
+    "fit": "Regular",
+    "tags": ["100% Linen", "Breathable", "Summer"],
+    "price": 1890,
+    "images": [
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sand-1.webp",
+        "alt": "Linen Classic Shirt in Sand, front view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sand-2.webp",
+        "alt": "Linen Classic Shirt in Sand, back view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sand-3.webp",
+        "alt": "Linen Classic Shirt in Sand, detail view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sand-4.webp",
+        "alt": "Linen Classic Shirt in Sand, on model view"
+      }
+    ],
+    "shortDescription": "A breathable pure-linen shirt with a soft classic collar, cut for humid days.",
+    "description": "Woven from garment-washed linen that softens with every wear, this shirt keeps air moving on the hottest Dhaka afternoons. A classic collar, a single chest pocket and mother-of-pearl-look buttons keep it sharp enough for the office and easy enough for the weekend.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Sand"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-002-S",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-002-M",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "sku": "ARBI-002-L",
+        "size": "L",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-002-XL",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-002-XXL",
+        "size": "XXL",
+        "stock": 14
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": ["new"],
+    "rating": 4,
+    "reviewCount": 57,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "id": "p003",
+    "slug": "mens-linen-classic-shirt-sky",
+    "title": "Linen Classic Shirt",
+    "styleGroup": "mens-linen-classic-shirt",
+    "color": {
+      "name": "Sky",
+      "hex": "#A9C6DE"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Classic collar",
+    "fabric": "Linen",
+    "fit": "Regular",
+    "tags": ["100% Linen", "Breathable", "Summer"],
+    "price": 1890,
+    "images": [
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sky-1.webp",
+        "alt": "Linen Classic Shirt in Sky, front view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sky-2.webp",
+        "alt": "Linen Classic Shirt in Sky, back view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sky-3.webp",
+        "alt": "Linen Classic Shirt in Sky, detail view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-sky-4.webp",
+        "alt": "Linen Classic Shirt in Sky, on model view"
+      }
+    ],
+    "shortDescription": "A breathable pure-linen shirt with a soft classic collar, cut for humid days.",
+    "description": "Woven from garment-washed linen that softens with every wear, this shirt keeps air moving on the hottest Dhaka afternoons. A classic collar, a single chest pocket and mother-of-pearl-look buttons keep it sharp enough for the office and easy enough for the weekend.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Sky"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-003-S",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-003-M",
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-003-L",
+        "size": "L",
+        "stock": 3
+      },
+      {
+        "sku": "ARBI-003-XL",
+        "size": "XL",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-003-XXL",
+        "size": "XXL",
+        "stock": 8
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": [],
+    "rating": 4.2,
+    "reviewCount": 22,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "p004",
+    "slug": "mens-linen-classic-shirt-olive",
+    "title": "Linen Classic Shirt",
+    "styleGroup": "mens-linen-classic-shirt",
+    "color": {
+      "name": "Olive",
+      "hex": "#6B6B3A"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Classic collar",
+    "fabric": "Linen",
+    "fit": "Regular",
+    "tags": ["100% Linen", "Breathable", "Summer"],
+    "price": 1890,
+    "images": [
+      {
+        "src": "/images/products/mens-linen-classic-shirt-olive-1.webp",
+        "alt": "Linen Classic Shirt in Olive, front view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-olive-2.webp",
+        "alt": "Linen Classic Shirt in Olive, back view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-olive-3.webp",
+        "alt": "Linen Classic Shirt in Olive, detail view"
+      },
+      {
+        "src": "/images/products/mens-linen-classic-shirt-olive-4.webp",
+        "alt": "Linen Classic Shirt in Olive, on model view"
+      }
+    ],
+    "shortDescription": "A breathable pure-linen shirt with a soft classic collar, cut for humid days.",
+    "description": "Woven from garment-washed linen that softens with every wear, this shirt keeps air moving on the hottest Dhaka afternoons. A classic collar, a single chest pocket and mother-of-pearl-look buttons keep it sharp enough for the office and easy enough for the weekend.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Olive"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-004-S",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-004-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-004-L",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-004-XL",
+        "size": "XL",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-004-XXL",
+        "size": "XXL",
+        "stock": 9
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": [],
+    "rating": 4.3,
+    "reviewCount": 95,
+    "createdAt": "2026-07-21",
+    "bestSellerRank": 7
+  },
+  {
+    "id": "p005",
+    "slug": "mens-oxford-button-down-shirt-white",
+    "title": "Oxford Button-Down Shirt",
+    "styleGroup": "mens-oxford-button-down-shirt",
+    "color": {
+      "name": "White",
+      "hex": "#F4F2EE"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Button-down",
+    "fabric": "Cotton",
+    "fit": "Slim",
+    "tags": ["100% Cotton", "Oxford weave", "Workwear"],
+    "price": 1690,
+    "images": [
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-white-1.webp",
+        "alt": "Oxford Button-Down Shirt in White, front view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-white-2.webp",
+        "alt": "Oxford Button-Down Shirt in White, back view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-white-3.webp",
+        "alt": "Oxford Button-Down Shirt in White, detail view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-white-4.webp",
+        "alt": "Oxford Button-Down Shirt in White, on model view"
+      }
+    ],
+    "shortDescription": "A crisp oxford-weave shirt with a button-down collar and a slim, modern cut.",
+    "description": "Our oxford is made from a sturdy basket-weave cotton that holds a clean shape from morning meetings to evening plans. The button-down collar sits neatly under a blazer or open on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Slim"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-005-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-005-M",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-005-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-005-XL",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-005-XXL",
+        "size": "XXL",
+        "stock": 10
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["bestseller"],
+    "rating": 4.5,
+    "reviewCount": 118,
+    "createdAt": "2026-08-04",
+    "bestSellerRank": 3
+  },
+  {
+    "id": "p006",
+    "slug": "mens-oxford-button-down-shirt-blue",
+    "title": "Oxford Button-Down Shirt",
+    "styleGroup": "mens-oxford-button-down-shirt",
+    "color": {
+      "name": "Blue",
+      "hex": "#5B7FB0"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Button-down",
+    "fabric": "Cotton",
+    "fit": "Slim",
+    "tags": ["100% Cotton", "Oxford weave", "Workwear"],
+    "price": 1690,
+    "images": [
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-blue-1.webp",
+        "alt": "Oxford Button-Down Shirt in Blue, front view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-blue-2.webp",
+        "alt": "Oxford Button-Down Shirt in Blue, back view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-blue-3.webp",
+        "alt": "Oxford Button-Down Shirt in Blue, detail view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-blue-4.webp",
+        "alt": "Oxford Button-Down Shirt in Blue, on model view"
+      }
+    ],
+    "shortDescription": "A crisp oxford-weave shirt with a button-down collar and a slim, modern cut.",
+    "description": "Our oxford is made from a sturdy basket-weave cotton that holds a clean shape from morning meetings to evening plans. The button-down collar sits neatly under a blazer or open on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Slim"
+      },
+      {
+        "label": "Colour",
+        "value": "Blue"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-006-S",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-006-M",
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-006-L",
+        "size": "L",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-006-XL",
+        "size": "XL",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-006-XXL",
+        "size": "XXL",
+        "stock": 2
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.2,
+    "reviewCount": 95,
+    "createdAt": "2026-09-13",
+    "bestSellerRank": 8
+  },
+  {
+    "id": "p007",
+    "slug": "mens-oxford-button-down-shirt-pink",
+    "title": "Oxford Button-Down Shirt",
+    "styleGroup": "mens-oxford-button-down-shirt",
+    "color": {
+      "name": "Pink",
+      "hex": "#E7B8BE"
+    },
+    "gender": "men",
+    "category": "shirts",
+    "style": "Button-down",
+    "fabric": "Cotton",
+    "fit": "Slim",
+    "tags": ["100% Cotton", "Oxford weave", "Workwear"],
+    "price": 1690,
+    "images": [
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-pink-1.webp",
+        "alt": "Oxford Button-Down Shirt in Pink, front view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-pink-2.webp",
+        "alt": "Oxford Button-Down Shirt in Pink, back view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-pink-3.webp",
+        "alt": "Oxford Button-Down Shirt in Pink, detail view"
+      },
+      {
+        "src": "/images/products/mens-oxford-button-down-shirt-pink-4.webp",
+        "alt": "Oxford Button-Down Shirt in Pink, on model view"
+      }
+    ],
+    "shortDescription": "A crisp oxford-weave shirt with a button-down collar and a slim, modern cut.",
+    "description": "Our oxford is made from a sturdy basket-weave cotton that holds a clean shape from morning meetings to evening plans. The button-down collar sits neatly under a blazer or open on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Slim"
+      },
+      {
+        "label": "Colour",
+        "value": "Pink"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-007-S",
+        "size": "S",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-007-M",
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "sku": "ARBI-007-L",
+        "size": "L",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-007-XL",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-007-XXL",
+        "size": "XXL",
+        "stock": 6
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.1,
+    "reviewCount": 51,
+    "createdAt": "2026-07-10"
+  },
+  {
+    "id": "p008",
+    "slug": "mens-essential-crew-tee-black",
+    "title": "Essential Crew Tee",
+    "styleGroup": "mens-essential-crew-tee",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "men",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["100% Cotton", "180 GSM", "Everyday"],
+    "price": 690,
+    "compareAtPrice": 890,
+    "images": [
+      {
+        "src": "/images/products/mens-essential-crew-tee-black-1.webp",
+        "alt": "Essential Crew Tee in Black, front view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-black-2.webp",
+        "alt": "Essential Crew Tee in Black, back view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-black-3.webp",
+        "alt": "Essential Crew Tee in Black, detail view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-black-4.webp",
+        "alt": "Essential Crew Tee in Black, on model view"
+      }
+    ],
+    "shortDescription": "A 180 GSM combed-cotton tee with a rib collar that keeps its shape.",
+    "description": "The tee everything else is built around. Combed, pre-shrunk cotton jersey with a taped neck and a rib collar that won't bacon after the wash. Layer it, tuck it, or wear it on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-008-S",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-008-M",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-008-L",
+        "size": "L",
+        "stock": 9
+      },
+      {
+        "sku": "ARBI-008-XL",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-008-XXL",
+        "size": "XXL",
+        "stock": 7
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["sale"],
+    "rating": 4.8,
+    "reviewCount": 74,
+    "createdAt": "2026-07-31"
+  },
+  {
+    "id": "p009",
+    "slug": "mens-essential-crew-tee-white",
+    "title": "Essential Crew Tee",
+    "styleGroup": "mens-essential-crew-tee",
+    "color": {
+      "name": "White",
+      "hex": "#F4F2EE"
+    },
+    "gender": "men",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["100% Cotton", "180 GSM", "Everyday"],
+    "price": 690,
+    "compareAtPrice": 890,
+    "images": [
+      {
+        "src": "/images/products/mens-essential-crew-tee-white-1.webp",
+        "alt": "Essential Crew Tee in White, front view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-white-2.webp",
+        "alt": "Essential Crew Tee in White, back view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-white-3.webp",
+        "alt": "Essential Crew Tee in White, detail view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-white-4.webp",
+        "alt": "Essential Crew Tee in White, on model view"
+      }
+    ],
+    "shortDescription": "A 180 GSM combed-cotton tee with a rib collar that keeps its shape.",
+    "description": "The tee everything else is built around. Combed, pre-shrunk cotton jersey with a taped neck and a rib collar that won't bacon after the wash. Layer it, tuck it, or wear it on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-009-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-009-M",
+        "size": "M",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-009-L",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-009-XL",
+        "size": "XL",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-009-XXL",
+        "size": "XXL",
+        "stock": 10
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["sale"],
+    "rating": 4.8,
+    "reviewCount": 31,
+    "createdAt": "2026-08-26"
+  },
+  {
+    "id": "p010",
+    "slug": "mens-essential-crew-tee-grey-melange",
+    "title": "Essential Crew Tee",
+    "styleGroup": "mens-essential-crew-tee",
+    "color": {
+      "name": "Grey Melange",
+      "hex": "#A3A3A3"
+    },
+    "gender": "men",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["100% Cotton", "180 GSM", "Everyday"],
+    "price": 690,
+    "compareAtPrice": 890,
+    "images": [
+      {
+        "src": "/images/products/mens-essential-crew-tee-grey-melange-1.webp",
+        "alt": "Essential Crew Tee in Grey Melange, front view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-grey-melange-2.webp",
+        "alt": "Essential Crew Tee in Grey Melange, back view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-grey-melange-3.webp",
+        "alt": "Essential Crew Tee in Grey Melange, detail view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-grey-melange-4.webp",
+        "alt": "Essential Crew Tee in Grey Melange, on model view"
+      }
+    ],
+    "shortDescription": "A 180 GSM combed-cotton tee with a rib collar that keeps its shape.",
+    "description": "The tee everything else is built around. Combed, pre-shrunk cotton jersey with a taped neck and a rib collar that won't bacon after the wash. Layer it, tuck it, or wear it on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Grey Melange"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-010-S",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-010-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-010-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-010-XL",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-010-XXL",
+        "size": "XXL",
+        "stock": 3
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["sale"],
+    "rating": 4.4,
+    "reviewCount": 10,
+    "createdAt": "2026-07-14"
+  },
+  {
+    "id": "p011",
+    "slug": "mens-essential-crew-tee-navy",
+    "title": "Essential Crew Tee",
+    "styleGroup": "mens-essential-crew-tee",
+    "color": {
+      "name": "Navy",
+      "hex": "#23314F"
+    },
+    "gender": "men",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["100% Cotton", "180 GSM", "Everyday"],
+    "price": 690,
+    "compareAtPrice": 890,
+    "images": [
+      {
+        "src": "/images/products/mens-essential-crew-tee-navy-1.webp",
+        "alt": "Essential Crew Tee in Navy, front view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-navy-2.webp",
+        "alt": "Essential Crew Tee in Navy, back view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-navy-3.webp",
+        "alt": "Essential Crew Tee in Navy, detail view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-navy-4.webp",
+        "alt": "Essential Crew Tee in Navy, on model view"
+      }
+    ],
+    "shortDescription": "A 180 GSM combed-cotton tee with a rib collar that keeps its shape.",
+    "description": "The tee everything else is built around. Combed, pre-shrunk cotton jersey with a taped neck and a rib collar that won't bacon after the wash. Layer it, tuck it, or wear it on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Navy"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-011-S",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-011-M",
+        "size": "M",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-011-L",
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-011-XL",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-011-XXL",
+        "size": "XXL",
+        "stock": 1
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["sale"],
+    "rating": 4.5,
+    "reviewCount": 14,
+    "createdAt": "2026-09-18"
+  },
+  {
+    "id": "p012",
+    "slug": "mens-essential-crew-tee-maroon",
+    "title": "Essential Crew Tee",
+    "styleGroup": "mens-essential-crew-tee",
+    "color": {
+      "name": "Maroon",
+      "hex": "#6E1F2B"
+    },
+    "gender": "men",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["100% Cotton", "180 GSM", "Everyday"],
+    "price": 690,
+    "compareAtPrice": 890,
+    "images": [
+      {
+        "src": "/images/products/mens-essential-crew-tee-maroon-1.webp",
+        "alt": "Essential Crew Tee in Maroon, front view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-maroon-2.webp",
+        "alt": "Essential Crew Tee in Maroon, back view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-maroon-3.webp",
+        "alt": "Essential Crew Tee in Maroon, detail view"
+      },
+      {
+        "src": "/images/products/mens-essential-crew-tee-maroon-4.webp",
+        "alt": "Essential Crew Tee in Maroon, on model view"
+      }
+    ],
+    "shortDescription": "A 180 GSM combed-cotton tee with a rib collar that keeps its shape.",
+    "description": "The tee everything else is built around. Combed, pre-shrunk cotton jersey with a taped neck and a rib collar that won't bacon after the wash. Layer it, tuck it, or wear it on its own.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Maroon"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-012-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-012-M",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-012-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-012-XL",
+        "size": "XL",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-012-XXL",
+        "size": "XXL",
+        "stock": 5
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["sale"],
+    "rating": 4.8,
+    "reviewCount": 90,
+    "createdAt": "2026-09-03",
+    "bestSellerRank": 9
+  },
+  {
+    "id": "p013",
+    "slug": "mens-pique-polo-navy",
+    "title": "Piqué Polo",
+    "styleGroup": "mens-pique-polo",
+    "color": {
+      "name": "Navy",
+      "hex": "#23314F"
+    },
+    "gender": "men",
+    "category": "polos",
+    "style": "Two-button placket",
+    "fabric": "Cotton piqué",
+    "fit": "Regular",
+    "tags": ["Cotton piqué", "Breathable", "Smart casual"],
+    "price": 1190,
+    "images": [
+      {
+        "src": "/images/products/mens-pique-polo-navy-1.webp",
+        "alt": "Piqué Polo in Navy, front view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-navy-2.webp",
+        "alt": "Piqué Polo in Navy, back view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-navy-3.webp",
+        "alt": "Piqué Polo in Navy, detail view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-navy-4.webp",
+        "alt": "Piqué Polo in Navy, on model view"
+      }
+    ],
+    "shortDescription": "A textured piqué polo with a clean two-button placket and ribbed cuffs.",
+    "description": "Honeycomb-knit cotton piqué gives this polo its structure and airflow. A two-button placket, ribbed collar and cuffs, and a slightly longer back hem make it an easy smart-casual staple.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton piqué"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Navy"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-013-S",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-013-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-013-L",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-013-XL",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-013-XXL",
+        "size": "XXL",
+        "stock": 5
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 3.9,
+    "reviewCount": 76,
+    "createdAt": "2026-08-06"
+  },
+  {
+    "id": "p014",
+    "slug": "mens-pique-polo-white",
+    "title": "Piqué Polo",
+    "styleGroup": "mens-pique-polo",
+    "color": {
+      "name": "White",
+      "hex": "#F4F2EE"
+    },
+    "gender": "men",
+    "category": "polos",
+    "style": "Two-button placket",
+    "fabric": "Cotton piqué",
+    "fit": "Regular",
+    "tags": ["Cotton piqué", "Breathable", "Smart casual"],
+    "price": 1190,
+    "images": [
+      {
+        "src": "/images/products/mens-pique-polo-white-1.webp",
+        "alt": "Piqué Polo in White, front view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-white-2.webp",
+        "alt": "Piqué Polo in White, back view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-white-3.webp",
+        "alt": "Piqué Polo in White, detail view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-white-4.webp",
+        "alt": "Piqué Polo in White, on model view"
+      }
+    ],
+    "shortDescription": "A textured piqué polo with a clean two-button placket and ribbed cuffs.",
+    "description": "Honeycomb-knit cotton piqué gives this polo its structure and airflow. A two-button placket, ribbed collar and cuffs, and a slightly longer back hem make it an easy smart-casual staple.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton piqué"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-014-S",
+        "size": "S",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-014-M",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-014-L",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-014-XL",
+        "size": "XL",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-014-XXL",
+        "size": "XXL",
+        "stock": 13
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.6,
+    "reviewCount": 59,
+    "createdAt": "2026-08-30"
+  },
+  {
+    "id": "p015",
+    "slug": "mens-pique-polo-bottle-green",
+    "title": "Piqué Polo",
+    "styleGroup": "mens-pique-polo",
+    "color": {
+      "name": "Bottle Green",
+      "hex": "#1F4D3A"
+    },
+    "gender": "men",
+    "category": "polos",
+    "style": "Two-button placket",
+    "fabric": "Cotton piqué",
+    "fit": "Regular",
+    "tags": ["Cotton piqué", "Breathable", "Smart casual"],
+    "price": 1190,
+    "images": [
+      {
+        "src": "/images/products/mens-pique-polo-bottle-green-1.webp",
+        "alt": "Piqué Polo in Bottle Green, front view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-bottle-green-2.webp",
+        "alt": "Piqué Polo in Bottle Green, back view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-bottle-green-3.webp",
+        "alt": "Piqué Polo in Bottle Green, detail view"
+      },
+      {
+        "src": "/images/products/mens-pique-polo-bottle-green-4.webp",
+        "alt": "Piqué Polo in Bottle Green, on model view"
+      }
+    ],
+    "shortDescription": "A textured piqué polo with a clean two-button placket and ribbed cuffs.",
+    "description": "Honeycomb-knit cotton piqué gives this polo its structure and airflow. A two-button placket, ribbed collar and cuffs, and a slightly longer back hem make it an easy smart-casual staple.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton piqué"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Bottle Green"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-015-S",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-015-M",
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-015-L",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-015-XL",
+        "size": "XL",
+        "stock": 14
+      },
+      {
+        "sku": "ARBI-015-XXL",
+        "size": "XXL",
+        "stock": 12
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.3,
+    "reviewCount": 13,
+    "createdAt": "2026-06-27"
+  },
+  {
+    "id": "p016",
+    "slug": "mens-tapered-chino-khaki",
+    "title": "Tapered Chino",
+    "styleGroup": "mens-tapered-chino",
+    "color": {
+      "name": "Khaki",
+      "hex": "#B59F74"
+    },
+    "gender": "men",
+    "category": "pants",
+    "style": "Flat front",
+    "fabric": "Cotton twill",
+    "fit": "Tapered",
+    "tags": ["Stretch twill", "Tapered fit", "Workwear"],
+    "price": 1790,
+    "images": [
+      {
+        "src": "/images/products/mens-tapered-chino-khaki-1.webp",
+        "alt": "Tapered Chino in Khaki, front view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-khaki-2.webp",
+        "alt": "Tapered Chino in Khaki, back view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-khaki-3.webp",
+        "alt": "Tapered Chino in Khaki, detail view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-khaki-4.webp",
+        "alt": "Tapered Chino in Khaki, on model view"
+      }
+    ],
+    "shortDescription": "Stretch cotton-twill chinos with a flat front and a tapered leg.",
+    "description": "Cut with a touch of stretch for all-day comfort, these chinos sit at the natural waist and taper gently to the ankle. Finished with a hidden coin pocket and a clean, flat front.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton twill"
+      },
+      {
+        "label": "Fit",
+        "value": "Tapered"
+      },
+      {
+        "label": "Colour",
+        "value": "Khaki"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-016-28",
+        "size": "28",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-016-30",
+        "size": "30",
+        "stock": 11
+      },
+      {
+        "sku": "ARBI-016-32",
+        "size": "32",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-016-34",
+        "size": "34",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-016-36",
+        "size": "36",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-016-38",
+        "size": "38",
+        "stock": 7
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 4.9,
+    "reviewCount": 83,
+    "createdAt": "2026-06-27"
+  },
+  {
+    "id": "p017",
+    "slug": "mens-tapered-chino-navy",
+    "title": "Tapered Chino",
+    "styleGroup": "mens-tapered-chino",
+    "color": {
+      "name": "Navy",
+      "hex": "#23314F"
+    },
+    "gender": "men",
+    "category": "pants",
+    "style": "Flat front",
+    "fabric": "Cotton twill",
+    "fit": "Tapered",
+    "tags": ["Stretch twill", "Tapered fit", "Workwear"],
+    "price": 1790,
+    "images": [
+      {
+        "src": "/images/products/mens-tapered-chino-navy-1.webp",
+        "alt": "Tapered Chino in Navy, front view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-navy-2.webp",
+        "alt": "Tapered Chino in Navy, back view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-navy-3.webp",
+        "alt": "Tapered Chino in Navy, detail view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-navy-4.webp",
+        "alt": "Tapered Chino in Navy, on model view"
+      }
+    ],
+    "shortDescription": "Stretch cotton-twill chinos with a flat front and a tapered leg.",
+    "description": "Cut with a touch of stretch for all-day comfort, these chinos sit at the natural waist and taper gently to the ankle. Finished with a hidden coin pocket and a clean, flat front.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton twill"
+      },
+      {
+        "label": "Fit",
+        "value": "Tapered"
+      },
+      {
+        "label": "Colour",
+        "value": "Navy"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-017-28",
+        "size": "28",
+        "stock": 3
+      },
+      {
+        "sku": "ARBI-017-30",
+        "size": "30",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-017-32",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-017-34",
+        "size": "34",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-017-36",
+        "size": "36",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-017-38",
+        "size": "38",
+        "stock": 3
+      }
+    ],
+    "collections": [],
+    "badges": ["new"],
+    "rating": 4.6,
+    "reviewCount": 31,
+    "createdAt": "2026-10-03"
+  },
+  {
+    "id": "p018",
+    "slug": "mens-tapered-chino-stone",
+    "title": "Tapered Chino",
+    "styleGroup": "mens-tapered-chino",
+    "color": {
+      "name": "Stone",
+      "hex": "#C8C1B4"
+    },
+    "gender": "men",
+    "category": "pants",
+    "style": "Flat front",
+    "fabric": "Cotton twill",
+    "fit": "Tapered",
+    "tags": ["Stretch twill", "Tapered fit", "Workwear"],
+    "price": 1790,
+    "images": [
+      {
+        "src": "/images/products/mens-tapered-chino-stone-1.webp",
+        "alt": "Tapered Chino in Stone, front view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-stone-2.webp",
+        "alt": "Tapered Chino in Stone, back view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-stone-3.webp",
+        "alt": "Tapered Chino in Stone, detail view"
+      },
+      {
+        "src": "/images/products/mens-tapered-chino-stone-4.webp",
+        "alt": "Tapered Chino in Stone, on model view"
+      }
+    ],
+    "shortDescription": "Stretch cotton-twill chinos with a flat front and a tapered leg.",
+    "description": "Cut with a touch of stretch for all-day comfort, these chinos sit at the natural waist and taper gently to the ankle. Finished with a hidden coin pocket and a clean, flat front.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton twill"
+      },
+      {
+        "label": "Fit",
+        "value": "Tapered"
+      },
+      {
+        "label": "Colour",
+        "value": "Stone"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-018-28",
+        "size": "28",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-018-30",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-018-32",
+        "size": "32",
+        "stock": 3
+      },
+      {
+        "sku": "ARBI-018-34",
+        "size": "34",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-018-36",
+        "size": "36",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-018-38",
+        "size": "38",
+        "stock": 0
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 4.1,
+    "reviewCount": 62,
+    "createdAt": "2026-07-25"
+  },
+  {
+    "id": "p019",
+    "slug": "mens-slim-denim-indigo",
+    "title": "Slim Denim",
+    "styleGroup": "mens-slim-denim",
+    "color": {
+      "name": "Indigo",
+      "hex": "#2E3A5C"
+    },
+    "gender": "men",
+    "category": "denim",
+    "style": "Five-pocket",
+    "fabric": "Denim",
+    "fit": "Slim",
+    "tags": ["12 oz denim", "Comfort stretch", "Five-pocket"],
+    "price": 2290,
+    "images": [
+      {
+        "src": "/images/products/mens-slim-denim-indigo-1.webp",
+        "alt": "Slim Denim in Indigo, front view"
+      },
+      {
+        "src": "/images/products/mens-slim-denim-indigo-2.webp",
+        "alt": "Slim Denim in Indigo, back view"
+      },
+      {
+        "src": "/images/products/mens-slim-denim-indigo-3.webp",
+        "alt": "Slim Denim in Indigo, detail view"
+      },
+      {
+        "src": "/images/products/mens-slim-denim-indigo-4.webp",
+        "alt": "Slim Denim in Indigo, on model view"
+      }
+    ],
+    "shortDescription": "A five-pocket slim jean in 12 oz comfort-stretch denim.",
+    "description": "A mid-weight denim with just enough stretch to move with you. Slim through the thigh with a narrow leg opening, finished with tonal stitching and branded ARBI shank buttons.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Denim"
+      },
+      {
+        "label": "Fit",
+        "value": "Slim"
+      },
+      {
+        "label": "Colour",
+        "value": "Indigo"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-019-28",
+        "size": "28",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-019-30",
+        "size": "30",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-019-32",
+        "size": "32",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-019-34",
+        "size": "34",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-019-36",
+        "size": "36",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-019-38",
+        "size": "38",
+        "stock": 0
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["new"],
+    "rating": 4.3,
+    "reviewCount": 30,
+    "createdAt": "2026-09-21"
+  },
+  {
+    "id": "p020",
+    "slug": "mens-slim-denim-black",
+    "title": "Slim Denim",
+    "styleGroup": "mens-slim-denim",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "men",
+    "category": "denim",
+    "style": "Five-pocket",
+    "fabric": "Denim",
+    "fit": "Slim",
+    "tags": ["12 oz denim", "Comfort stretch", "Five-pocket"],
+    "price": 2290,
+    "images": [
+      {
+        "src": "/images/products/mens-slim-denim-black-1.webp",
+        "alt": "Slim Denim in Black, front view"
+      },
+      {
+        "src": "/images/products/mens-slim-denim-black-2.webp",
+        "alt": "Slim Denim in Black, back view"
+      },
+      {
+        "src": "/images/products/mens-slim-denim-black-3.webp",
+        "alt": "Slim Denim in Black, detail view"
+      },
+      {
+        "src": "/images/products/mens-slim-denim-black-4.webp",
+        "alt": "Slim Denim in Black, on model view"
+      }
+    ],
+    "shortDescription": "A five-pocket slim jean in 12 oz comfort-stretch denim.",
+    "description": "A mid-weight denim with just enough stretch to move with you. Slim through the thigh with a narrow leg opening, finished with tonal stitching and branded ARBI shank buttons.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Denim"
+      },
+      {
+        "label": "Fit",
+        "value": "Slim"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-020-28",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-020-30",
+        "size": "30",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-020-32",
+        "size": "32",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-020-34",
+        "size": "34",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-020-36",
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-020-38",
+        "size": "38",
+        "stock": 4
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.6,
+    "reviewCount": 63,
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": "p021",
+    "slug": "mens-everyday-jogger-charcoal",
+    "title": "Everyday Jogger",
+    "styleGroup": "mens-everyday-jogger",
+    "color": {
+      "name": "Charcoal",
+      "hex": "#3C3C3C"
+    },
+    "gender": "men",
+    "category": "joggers",
+    "style": "Cuffed",
+    "fabric": "French terry",
+    "fit": "Relaxed",
+    "tags": ["French terry", "Drawstring waist", "Lounge"],
+    "price": 1490,
+    "images": [
+      {
+        "src": "/images/products/mens-everyday-jogger-charcoal-1.webp",
+        "alt": "Everyday Jogger in Charcoal, front view"
+      },
+      {
+        "src": "/images/products/mens-everyday-jogger-charcoal-2.webp",
+        "alt": "Everyday Jogger in Charcoal, back view"
+      },
+      {
+        "src": "/images/products/mens-everyday-jogger-charcoal-3.webp",
+        "alt": "Everyday Jogger in Charcoal, detail view"
+      },
+      {
+        "src": "/images/products/mens-everyday-jogger-charcoal-4.webp",
+        "alt": "Everyday Jogger in Charcoal, on model view"
+      }
+    ],
+    "shortDescription": "Soft French-terry joggers with a drawstring waist and ribbed cuffs.",
+    "description": "Loopback French terry that's warm without being heavy. An elastic drawstring waist, deep side pockets and a zip back pocket make these the pair you reach for first.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "French terry"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Charcoal"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-021-S",
+        "size": "S",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-021-M",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-021-L",
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-021-XL",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-021-XXL",
+        "size": "XXL",
+        "stock": 2
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": ["new"],
+    "rating": 4.6,
+    "reviewCount": 74,
+    "createdAt": "2026-09-24"
+  },
+  {
+    "id": "p022",
+    "slug": "mens-everyday-jogger-black",
+    "title": "Everyday Jogger",
+    "styleGroup": "mens-everyday-jogger",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "men",
+    "category": "joggers",
+    "style": "Cuffed",
+    "fabric": "French terry",
+    "fit": "Relaxed",
+    "tags": ["French terry", "Drawstring waist", "Lounge"],
+    "price": 1490,
+    "images": [
+      {
+        "src": "/images/products/mens-everyday-jogger-black-1.webp",
+        "alt": "Everyday Jogger in Black, front view"
+      },
+      {
+        "src": "/images/products/mens-everyday-jogger-black-2.webp",
+        "alt": "Everyday Jogger in Black, back view"
+      },
+      {
+        "src": "/images/products/mens-everyday-jogger-black-3.webp",
+        "alt": "Everyday Jogger in Black, detail view"
+      },
+      {
+        "src": "/images/products/mens-everyday-jogger-black-4.webp",
+        "alt": "Everyday Jogger in Black, on model view"
+      }
+    ],
+    "shortDescription": "Soft French-terry joggers with a drawstring waist and ribbed cuffs.",
+    "description": "Loopback French terry that's warm without being heavy. An elastic drawstring waist, deep side pockets and a zip back pocket make these the pair you reach for first.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "French terry"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-022-S",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-022-M",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "sku": "ARBI-022-L",
+        "size": "L",
+        "stock": 9
+      },
+      {
+        "sku": "ARBI-022-XL",
+        "size": "XL",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-022-XXL",
+        "size": "XXL",
+        "stock": 9
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4,
+    "reviewCount": 89,
+    "createdAt": "2026-06-28",
+    "bestSellerRank": 10
+  },
+  {
+    "id": "p023",
+    "slug": "mens-drawstring-shorts-olive",
+    "title": "Drawstring Shorts",
+    "styleGroup": "mens-drawstring-shorts",
+    "color": {
+      "name": "Olive",
+      "hex": "#6B6B3A"
+    },
+    "gender": "men",
+    "category": "shorts",
+    "style": "7-inch inseam",
+    "fabric": "Linen blend",
+    "fit": "Relaxed",
+    "tags": ["Linen blend", "7\" inseam", "Summer"],
+    "price": 990,
+    "compareAtPrice": 1290,
+    "images": [
+      {
+        "src": "/images/products/mens-drawstring-shorts-olive-1.webp",
+        "alt": "Drawstring Shorts in Olive, front view"
+      },
+      {
+        "src": "/images/products/mens-drawstring-shorts-olive-2.webp",
+        "alt": "Drawstring Shorts in Olive, back view"
+      },
+      {
+        "src": "/images/products/mens-drawstring-shorts-olive-3.webp",
+        "alt": "Drawstring Shorts in Olive, detail view"
+      },
+      {
+        "src": "/images/products/mens-drawstring-shorts-olive-4.webp",
+        "alt": "Drawstring Shorts in Olive, on model view"
+      }
+    ],
+    "shortDescription": "Linen-blend shorts with a drawstring waist and a 7-inch inseam.",
+    "description": "A breezy linen-cotton blend for long, hot days. Elasticated drawstring waist, two side pockets and one back pocket, with a 7-inch inseam that sits just above the knee.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen blend"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Olive"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-023-S",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-023-M",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-023-L",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-023-XL",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-023-XXL",
+        "size": "XXL",
+        "stock": 8
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": ["sale"],
+    "rating": 4.4,
+    "reviewCount": 77,
+    "createdAt": "2026-06-28"
+  },
+  {
+    "id": "p024",
+    "slug": "mens-drawstring-shorts-sand",
+    "title": "Drawstring Shorts",
+    "styleGroup": "mens-drawstring-shorts",
+    "color": {
+      "name": "Sand",
+      "hex": "#D9C7A7"
+    },
+    "gender": "men",
+    "category": "shorts",
+    "style": "7-inch inseam",
+    "fabric": "Linen blend",
+    "fit": "Relaxed",
+    "tags": ["Linen blend", "7\" inseam", "Summer"],
+    "price": 990,
+    "compareAtPrice": 1290,
+    "images": [
+      {
+        "src": "/images/products/mens-drawstring-shorts-sand-1.webp",
+        "alt": "Drawstring Shorts in Sand, front view"
+      },
+      {
+        "src": "/images/products/mens-drawstring-shorts-sand-2.webp",
+        "alt": "Drawstring Shorts in Sand, back view"
+      },
+      {
+        "src": "/images/products/mens-drawstring-shorts-sand-3.webp",
+        "alt": "Drawstring Shorts in Sand, detail view"
+      },
+      {
+        "src": "/images/products/mens-drawstring-shorts-sand-4.webp",
+        "alt": "Drawstring Shorts in Sand, on model view"
+      }
+    ],
+    "shortDescription": "Linen-blend shorts with a drawstring waist and a 7-inch inseam.",
+    "description": "A breezy linen-cotton blend for long, hot days. Elasticated drawstring waist, two side pockets and one back pocket, with a 7-inch inseam that sits just above the knee.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen blend"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Sand"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-024-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-024-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-024-L",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-024-XL",
+        "size": "XL",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-024-XXL",
+        "size": "XXL",
+        "stock": 13
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": ["sale"],
+    "rating": 4.3,
+    "reviewCount": 14,
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": "p025",
+    "slug": "mens-heavyweight-sweatshirt-grey-melange",
+    "title": "Heavyweight Sweatshirt",
+    "styleGroup": "mens-heavyweight-sweatshirt",
+    "color": {
+      "name": "Grey Melange",
+      "hex": "#A3A3A3"
+    },
+    "gender": "men",
+    "category": "sweatshirts",
+    "style": "Crew neck",
+    "fabric": "Cotton fleece",
+    "fit": "Relaxed",
+    "tags": ["400 GSM", "Brushed fleece", "Winter"],
+    "price": 2190,
+    "images": [
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-1.webp",
+        "alt": "Heavyweight Sweatshirt in Grey Melange, front view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-2.webp",
+        "alt": "Heavyweight Sweatshirt in Grey Melange, back view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-3.webp",
+        "alt": "Heavyweight Sweatshirt in Grey Melange, detail view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-4.webp",
+        "alt": "Heavyweight Sweatshirt in Grey Melange, on model view"
+      }
+    ],
+    "shortDescription": "A 400 GSM brushed-fleece crew with a relaxed, dropped-shoulder fit.",
+    "description": "Built for cool winter evenings: heavyweight cotton fleece, brushed on the inside, with a dropped shoulder and a ribbed hem and cuffs that hold their stretch.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton fleece"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Grey Melange"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-025-S",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-025-M",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-025-L",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-025-XL",
+        "size": "XL",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-025-XXL",
+        "size": "XXL",
+        "stock": 8
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 4,
+    "reviewCount": 59,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": "p026",
+    "slug": "mens-heavyweight-sweatshirt-black",
+    "title": "Heavyweight Sweatshirt",
+    "styleGroup": "mens-heavyweight-sweatshirt",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "men",
+    "category": "sweatshirts",
+    "style": "Crew neck",
+    "fabric": "Cotton fleece",
+    "fit": "Relaxed",
+    "tags": ["400 GSM", "Brushed fleece", "Winter"],
+    "price": 2190,
+    "images": [
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-black-1.webp",
+        "alt": "Heavyweight Sweatshirt in Black, front view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-black-2.webp",
+        "alt": "Heavyweight Sweatshirt in Black, back view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-black-3.webp",
+        "alt": "Heavyweight Sweatshirt in Black, detail view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-black-4.webp",
+        "alt": "Heavyweight Sweatshirt in Black, on model view"
+      }
+    ],
+    "shortDescription": "A 400 GSM brushed-fleece crew with a relaxed, dropped-shoulder fit.",
+    "description": "Built for cool winter evenings: heavyweight cotton fleece, brushed on the inside, with a dropped shoulder and a ribbed hem and cuffs that hold their stretch.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton fleece"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-026-S",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-026-M",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "sku": "ARBI-026-L",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-026-XL",
+        "size": "XL",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-026-XXL",
+        "size": "XXL",
+        "stock": 2
+      }
+    ],
+    "collections": [],
+    "badges": ["new"],
+    "rating": 3.9,
+    "reviewCount": 62,
+    "createdAt": "2026-10-03"
+  },
+  {
+    "id": "p027",
+    "slug": "mens-heavyweight-sweatshirt-cream",
+    "title": "Heavyweight Sweatshirt",
+    "styleGroup": "mens-heavyweight-sweatshirt",
+    "color": {
+      "name": "Cream",
+      "hex": "#EFE6D2"
+    },
+    "gender": "men",
+    "category": "sweatshirts",
+    "style": "Crew neck",
+    "fabric": "Cotton fleece",
+    "fit": "Relaxed",
+    "tags": ["400 GSM", "Brushed fleece", "Winter"],
+    "price": 2190,
+    "images": [
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-cream-1.webp",
+        "alt": "Heavyweight Sweatshirt in Cream, front view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-cream-2.webp",
+        "alt": "Heavyweight Sweatshirt in Cream, back view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-cream-3.webp",
+        "alt": "Heavyweight Sweatshirt in Cream, detail view"
+      },
+      {
+        "src": "/images/products/mens-heavyweight-sweatshirt-cream-4.webp",
+        "alt": "Heavyweight Sweatshirt in Cream, on model view"
+      }
+    ],
+    "shortDescription": "A 400 GSM brushed-fleece crew with a relaxed, dropped-shoulder fit.",
+    "description": "Built for cool winter evenings: heavyweight cotton fleece, brushed on the inside, with a dropped shoulder and a ribbed hem and cuffs that hold their stretch.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton fleece"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Cream"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-027-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-027-M",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-027-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-027-XL",
+        "size": "XL",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-027-XXL",
+        "size": "XXL",
+        "stock": 14
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 4.8,
+    "reviewCount": 24,
+    "createdAt": "2026-08-27"
+  },
+  {
+    "id": "p028",
+    "slug": "mens-coach-jacket-black",
+    "title": "Coach Jacket",
+    "styleGroup": "mens-coach-jacket",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "men",
+    "category": "jackets",
+    "style": "Snap front",
+    "fabric": "Nylon",
+    "fit": "Regular",
+    "tags": ["Water-resistant", "Lightweight", "Outerwear"],
+    "price": 3490,
+    "images": [
+      {
+        "src": "/images/products/mens-coach-jacket-black-1.webp",
+        "alt": "Coach Jacket in Black, front view"
+      },
+      {
+        "src": "/images/products/mens-coach-jacket-black-2.webp",
+        "alt": "Coach Jacket in Black, back view"
+      },
+      {
+        "src": "/images/products/mens-coach-jacket-black-3.webp",
+        "alt": "Coach Jacket in Black, detail view"
+      },
+      {
+        "src": "/images/products/mens-coach-jacket-black-4.webp",
+        "alt": "Coach Jacket in Black, on model view"
+      }
+    ],
+    "shortDescription": "A lightweight, water-resistant coach jacket with a snap front.",
+    "description": "Our take on the classic coach jacket in a water-resistant nylon shell with a soft mesh lining. Snap front, adjustable hem and side pockets: ready for monsoon showers.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Nylon"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-028-S",
+        "size": "S",
+        "stock": 14
+      },
+      {
+        "sku": "ARBI-028-M",
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "sku": "ARBI-028-L",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-028-XL",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-028-XXL",
+        "size": "XXL",
+        "stock": 9
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": ["new"],
+    "rating": 4,
+    "reviewCount": 79,
+    "createdAt": "2026-10-21"
+  },
+  {
+    "id": "p029",
+    "slug": "mens-coach-jacket-olive",
+    "title": "Coach Jacket",
+    "styleGroup": "mens-coach-jacket",
+    "color": {
+      "name": "Olive",
+      "hex": "#6B6B3A"
+    },
+    "gender": "men",
+    "category": "jackets",
+    "style": "Snap front",
+    "fabric": "Nylon",
+    "fit": "Regular",
+    "tags": ["Water-resistant", "Lightweight", "Outerwear"],
+    "price": 3490,
+    "images": [
+      {
+        "src": "/images/products/mens-coach-jacket-olive-1.webp",
+        "alt": "Coach Jacket in Olive, front view"
+      },
+      {
+        "src": "/images/products/mens-coach-jacket-olive-2.webp",
+        "alt": "Coach Jacket in Olive, back view"
+      },
+      {
+        "src": "/images/products/mens-coach-jacket-olive-3.webp",
+        "alt": "Coach Jacket in Olive, detail view"
+      },
+      {
+        "src": "/images/products/mens-coach-jacket-olive-4.webp",
+        "alt": "Coach Jacket in Olive, on model view"
+      }
+    ],
+    "shortDescription": "A lightweight, water-resistant coach jacket with a snap front.",
+    "description": "Our take on the classic coach jacket in a water-resistant nylon shell with a soft mesh lining. Snap front, adjustable hem and side pockets: ready for monsoon showers.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Nylon"
+      },
+      {
+        "label": "Fit",
+        "value": "Regular"
+      },
+      {
+        "label": "Colour",
+        "value": "Olive"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "men-tops",
+    "variants": [
+      {
+        "sku": "ARBI-029-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-029-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-029-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-029-XL",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-029-XXL",
+        "size": "XXL",
+        "stock": 0
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": ["bestseller"],
+    "rating": 4.2,
+    "reviewCount": 117,
+    "createdAt": "2026-09-07",
+    "bestSellerRank": 4
+  },
+  {
+    "id": "p030",
+    "slug": "womens-wrap-midi-dress-terracotta",
+    "title": "Wrap Midi Dress",
+    "styleGroup": "womens-wrap-midi-dress",
+    "color": {
+      "name": "Terracotta",
+      "hex": "#B5573A"
+    },
+    "gender": "women",
+    "category": "dresses",
+    "style": "Wrap",
+    "fabric": "Viscose",
+    "fit": "Relaxed",
+    "tags": ["Fluid viscose", "Midi length", "Occasion"],
+    "price": 2490,
+    "images": [
+      {
+        "src": "/images/products/womens-wrap-midi-dress-terracotta-1.webp",
+        "alt": "Wrap Midi Dress in Terracotta, front view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-terracotta-2.webp",
+        "alt": "Wrap Midi Dress in Terracotta, back view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-terracotta-3.webp",
+        "alt": "Wrap Midi Dress in Terracotta, detail view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-terracotta-4.webp",
+        "alt": "Wrap Midi Dress in Terracotta, on model view"
+      }
+    ],
+    "shortDescription": "A fluid viscose wrap dress that falls to a flattering midi length.",
+    "description": "Cut from a softly draping viscose, this wrap dress ties at the waist and swings to mid-calf. Flutter sleeves and a V-neckline make it an easy choice for dinners, dawats and everything between.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Viscose"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Terracotta"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-030-XS",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-030-S",
+        "size": "S",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-030-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-030-L",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-030-XL",
+        "size": "XL",
+        "stock": 1
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": [],
+    "rating": 4.2,
+    "reviewCount": 63,
+    "createdAt": "2026-08-11"
+  },
+  {
+    "id": "p031",
+    "slug": "womens-wrap-midi-dress-black",
+    "title": "Wrap Midi Dress",
+    "styleGroup": "womens-wrap-midi-dress",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "women",
+    "category": "dresses",
+    "style": "Wrap",
+    "fabric": "Viscose",
+    "fit": "Relaxed",
+    "tags": ["Fluid viscose", "Midi length", "Occasion"],
+    "price": 2490,
+    "images": [
+      {
+        "src": "/images/products/womens-wrap-midi-dress-black-1.webp",
+        "alt": "Wrap Midi Dress in Black, front view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-black-2.webp",
+        "alt": "Wrap Midi Dress in Black, back view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-black-3.webp",
+        "alt": "Wrap Midi Dress in Black, detail view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-black-4.webp",
+        "alt": "Wrap Midi Dress in Black, on model view"
+      }
+    ],
+    "shortDescription": "A fluid viscose wrap dress that falls to a flattering midi length.",
+    "description": "Cut from a softly draping viscose, this wrap dress ties at the waist and swings to mid-calf. Flutter sleeves and a V-neckline make it an easy choice for dinners, dawats and everything between.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Viscose"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-031-XS",
+        "size": "XS",
+        "stock": 14
+      },
+      {
+        "sku": "ARBI-031-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-031-M",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-031-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-031-XL",
+        "size": "XL",
+        "stock": 0
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": [],
+    "rating": 4.2,
+    "reviewCount": 17,
+    "createdAt": "2026-08-19"
+  },
+  {
+    "id": "p032",
+    "slug": "womens-wrap-midi-dress-sage",
+    "title": "Wrap Midi Dress",
+    "styleGroup": "womens-wrap-midi-dress",
+    "color": {
+      "name": "Sage",
+      "hex": "#9CAF94"
+    },
+    "gender": "women",
+    "category": "dresses",
+    "style": "Wrap",
+    "fabric": "Viscose",
+    "fit": "Relaxed",
+    "tags": ["Fluid viscose", "Midi length", "Occasion"],
+    "price": 2490,
+    "images": [
+      {
+        "src": "/images/products/womens-wrap-midi-dress-sage-1.webp",
+        "alt": "Wrap Midi Dress in Sage, front view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-sage-2.webp",
+        "alt": "Wrap Midi Dress in Sage, back view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-sage-3.webp",
+        "alt": "Wrap Midi Dress in Sage, detail view"
+      },
+      {
+        "src": "/images/products/womens-wrap-midi-dress-sage-4.webp",
+        "alt": "Wrap Midi Dress in Sage, on model view"
+      }
+    ],
+    "shortDescription": "A fluid viscose wrap dress that falls to a flattering midi length.",
+    "description": "Cut from a softly draping viscose, this wrap dress ties at the waist and swings to mid-calf. Flutter sleeves and a V-neckline make it an easy choice for dinners, dawats and everything between.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Viscose"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Sage"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-032-XS",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-032-S",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-032-M",
+        "size": "M",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-032-L",
+        "size": "L",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-032-XL",
+        "size": "XL",
+        "stock": 6
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": [],
+    "rating": 4.6,
+    "reviewCount": 59,
+    "createdAt": "2026-09-12"
+  },
+  {
+    "id": "p033",
+    "slug": "womens-relaxed-linen-shirt-white",
+    "title": "Relaxed Linen Shirt",
+    "styleGroup": "womens-relaxed-linen-shirt",
+    "color": {
+      "name": "White",
+      "hex": "#F4F2EE"
+    },
+    "gender": "women",
+    "category": "shirts",
+    "style": "Oversized",
+    "fabric": "Linen",
+    "fit": "Relaxed",
+    "tags": ["100% Linen", "Oversized", "Summer"],
+    "price": 1790,
+    "images": [
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-white-1.webp",
+        "alt": "Relaxed Linen Shirt in White, front view"
+      },
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-white-2.webp",
+        "alt": "Relaxed Linen Shirt in White, back view"
+      },
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-white-3.webp",
+        "alt": "Relaxed Linen Shirt in White, detail view"
+      },
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-white-4.webp",
+        "alt": "Relaxed Linen Shirt in White, on model view"
+      }
+    ],
+    "shortDescription": "An oversized pure-linen shirt with a dropped shoulder and curved hem.",
+    "description": "Generous through the body with a dropped shoulder and a curved hem, this linen shirt works buttoned up, open over a tee, or knotted at the waist.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-033-XS",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-033-S",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-033-M",
+        "size": "M",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-033-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-033-XL",
+        "size": "XL",
+        "stock": 6
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": ["new", "bestseller"],
+    "rating": 4.1,
+    "reviewCount": 97,
+    "createdAt": "2026-09-21",
+    "bestSellerRank": 6
+  },
+  {
+    "id": "p034",
+    "slug": "womens-relaxed-linen-shirt-lilac",
+    "title": "Relaxed Linen Shirt",
+    "styleGroup": "womens-relaxed-linen-shirt",
+    "color": {
+      "name": "Lilac",
+      "hex": "#C3B1D6"
+    },
+    "gender": "women",
+    "category": "shirts",
+    "style": "Oversized",
+    "fabric": "Linen",
+    "fit": "Relaxed",
+    "tags": ["100% Linen", "Oversized", "Summer"],
+    "price": 1790,
+    "images": [
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-lilac-1.webp",
+        "alt": "Relaxed Linen Shirt in Lilac, front view"
+      },
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-lilac-2.webp",
+        "alt": "Relaxed Linen Shirt in Lilac, back view"
+      },
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-lilac-3.webp",
+        "alt": "Relaxed Linen Shirt in Lilac, detail view"
+      },
+      {
+        "src": "/images/products/womens-relaxed-linen-shirt-lilac-4.webp",
+        "alt": "Relaxed Linen Shirt in Lilac, on model view"
+      }
+    ],
+    "shortDescription": "An oversized pure-linen shirt with a dropped shoulder and curved hem.",
+    "description": "Generous through the body with a dropped shoulder and a curved hem, this linen shirt works buttoned up, open over a tee, or knotted at the waist.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Linen"
+      },
+      {
+        "label": "Fit",
+        "value": "Relaxed"
+      },
+      {
+        "label": "Colour",
+        "value": "Lilac"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold, gentle cycle",
+      "Do not tumble dry",
+      "Warm iron while slightly damp",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-034-XS",
+        "size": "XS",
+        "stock": 11
+      },
+      {
+        "sku": "ARBI-034-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-034-M",
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "sku": "ARBI-034-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-034-XL",
+        "size": "XL",
+        "stock": 4
+      }
+    ],
+    "collections": ["linen-edit"],
+    "badges": [],
+    "rating": 3.9,
+    "reviewCount": 58,
+    "createdAt": "2026-07-30"
+  },
+  {
+    "id": "p035",
+    "slug": "womens-wide-leg-trouser-ecru",
+    "title": "Wide-Leg Trouser",
+    "styleGroup": "womens-wide-leg-trouser",
+    "color": {
+      "name": "Ecru",
+      "hex": "#E8DFCB"
+    },
+    "gender": "women",
+    "category": "pants",
+    "style": "High rise",
+    "fabric": "Crepe",
+    "fit": "Wide leg",
+    "tags": ["Soft crepe", "High rise", "Workwear"],
+    "price": 1990,
+    "images": [
+      {
+        "src": "/images/products/womens-wide-leg-trouser-ecru-1.webp",
+        "alt": "Wide-Leg Trouser in Ecru, front view"
+      },
+      {
+        "src": "/images/products/womens-wide-leg-trouser-ecru-2.webp",
+        "alt": "Wide-Leg Trouser in Ecru, back view"
+      },
+      {
+        "src": "/images/products/womens-wide-leg-trouser-ecru-3.webp",
+        "alt": "Wide-Leg Trouser in Ecru, detail view"
+      },
+      {
+        "src": "/images/products/womens-wide-leg-trouser-ecru-4.webp",
+        "alt": "Wide-Leg Trouser in Ecru, on model view"
+      }
+    ],
+    "shortDescription": "High-rise crepe trousers with a pressed crease and a fluid wide leg.",
+    "description": "A tailored trouser in a soft, wrinkle-resistant crepe. High rise with a pressed front crease and a wide leg that moves beautifully.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Crepe"
+      },
+      {
+        "label": "Fit",
+        "value": "Wide leg"
+      },
+      {
+        "label": "Colour",
+        "value": "Ecru"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-035-XS",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-035-S",
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-035-M",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "sku": "ARBI-035-L",
+        "size": "L",
+        "stock": 7
+      },
+      {
+        "sku": "ARBI-035-XL",
+        "size": "XL",
+        "stock": 11
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": ["bestseller"],
+    "rating": 4,
+    "reviewCount": 119,
+    "createdAt": "2026-07-27",
+    "bestSellerRank": 2
+  },
+  {
+    "id": "p036",
+    "slug": "womens-wide-leg-trouser-black",
+    "title": "Wide-Leg Trouser",
+    "styleGroup": "womens-wide-leg-trouser",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "women",
+    "category": "pants",
+    "style": "High rise",
+    "fabric": "Crepe",
+    "fit": "Wide leg",
+    "tags": ["Soft crepe", "High rise", "Workwear"],
+    "price": 1990,
+    "images": [
+      {
+        "src": "/images/products/womens-wide-leg-trouser-black-1.webp",
+        "alt": "Wide-Leg Trouser in Black, front view"
+      },
+      {
+        "src": "/images/products/womens-wide-leg-trouser-black-2.webp",
+        "alt": "Wide-Leg Trouser in Black, back view"
+      },
+      {
+        "src": "/images/products/womens-wide-leg-trouser-black-3.webp",
+        "alt": "Wide-Leg Trouser in Black, detail view"
+      },
+      {
+        "src": "/images/products/womens-wide-leg-trouser-black-4.webp",
+        "alt": "Wide-Leg Trouser in Black, on model view"
+      }
+    ],
+    "shortDescription": "High-rise crepe trousers with a pressed crease and a fluid wide leg.",
+    "description": "A tailored trouser in a soft, wrinkle-resistant crepe. High rise with a pressed front crease and a wide leg that moves beautifully.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Crepe"
+      },
+      {
+        "label": "Fit",
+        "value": "Wide leg"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-bottoms",
+    "variants": [
+      {
+        "sku": "ARBI-036-XS",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-036-S",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-036-M",
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-036-L",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-036-XL",
+        "size": "XL",
+        "stock": 12
+      }
+    ],
+    "collections": ["festive-edit"],
+    "badges": ["bestseller"],
+    "rating": 4.1,
+    "reviewCount": 99,
+    "createdAt": "2026-07-18",
+    "bestSellerRank": 5
+  },
+  {
+    "id": "p037",
+    "slug": "womens-ribbed-tee-white",
+    "title": "Ribbed Fitted Tee",
+    "styleGroup": "womens-ribbed-tee",
+    "color": {
+      "name": "White",
+      "hex": "#F4F2EE"
+    },
+    "gender": "women",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton rib",
+    "fit": "Fitted",
+    "tags": ["Cotton rib", "Stretch", "Everyday"],
+    "price": 790,
+    "images": [
+      {
+        "src": "/images/products/womens-ribbed-tee-white-1.webp",
+        "alt": "Ribbed Fitted Tee in White, front view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-white-2.webp",
+        "alt": "Ribbed Fitted Tee in White, back view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-white-3.webp",
+        "alt": "Ribbed Fitted Tee in White, detail view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-white-4.webp",
+        "alt": "Ribbed Fitted Tee in White, on model view"
+      }
+    ],
+    "shortDescription": "A fitted rib-knit tee with a little stretch and a neat crew neck.",
+    "description": "A close-fitting rib-knit cotton tee with stretch for comfort. Pairs with everything from wide-leg trousers to denim.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton rib"
+      },
+      {
+        "label": "Fit",
+        "value": "Fitted"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-037-XS",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-037-S",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-037-M",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "sku": "ARBI-037-L",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-037-XL",
+        "size": "XL",
+        "stock": 4
+      }
+    ],
+    "collections": [],
+    "badges": ["bestseller"],
+    "rating": 3.9,
+    "reviewCount": 121,
+    "createdAt": "2026-08-14",
+    "bestSellerRank": 1
+  },
+  {
+    "id": "p038",
+    "slug": "womens-ribbed-tee-black",
+    "title": "Ribbed Fitted Tee",
+    "styleGroup": "womens-ribbed-tee",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "women",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton rib",
+    "fit": "Fitted",
+    "tags": ["Cotton rib", "Stretch", "Everyday"],
+    "price": 790,
+    "images": [
+      {
+        "src": "/images/products/womens-ribbed-tee-black-1.webp",
+        "alt": "Ribbed Fitted Tee in Black, front view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-black-2.webp",
+        "alt": "Ribbed Fitted Tee in Black, back view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-black-3.webp",
+        "alt": "Ribbed Fitted Tee in Black, detail view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-black-4.webp",
+        "alt": "Ribbed Fitted Tee in Black, on model view"
+      }
+    ],
+    "shortDescription": "A fitted rib-knit tee with a little stretch and a neat crew neck.",
+    "description": "A close-fitting rib-knit cotton tee with stretch for comfort. Pairs with everything from wide-leg trousers to denim.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton rib"
+      },
+      {
+        "label": "Fit",
+        "value": "Fitted"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-038-XS",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-038-S",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "sku": "ARBI-038-M",
+        "size": "M",
+        "stock": 9
+      },
+      {
+        "sku": "ARBI-038-L",
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "sku": "ARBI-038-XL",
+        "size": "XL",
+        "stock": 0
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 4,
+    "reviewCount": 5,
+    "createdAt": "2026-08-08"
+  },
+  {
+    "id": "p039",
+    "slug": "womens-ribbed-tee-rose",
+    "title": "Ribbed Fitted Tee",
+    "styleGroup": "womens-ribbed-tee",
+    "color": {
+      "name": "Rose",
+      "hex": "#D6929B"
+    },
+    "gender": "women",
+    "category": "tees",
+    "style": "Crew neck",
+    "fabric": "Cotton rib",
+    "fit": "Fitted",
+    "tags": ["Cotton rib", "Stretch", "Everyday"],
+    "price": 790,
+    "images": [
+      {
+        "src": "/images/products/womens-ribbed-tee-rose-1.webp",
+        "alt": "Ribbed Fitted Tee in Rose, front view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-rose-2.webp",
+        "alt": "Ribbed Fitted Tee in Rose, back view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-rose-3.webp",
+        "alt": "Ribbed Fitted Tee in Rose, detail view"
+      },
+      {
+        "src": "/images/products/womens-ribbed-tee-rose-4.webp",
+        "alt": "Ribbed Fitted Tee in Rose, on model view"
+      }
+    ],
+    "shortDescription": "A fitted rib-knit tee with a little stretch and a neat crew neck.",
+    "description": "A close-fitting rib-knit cotton tee with stretch for comfort. Pairs with everything from wide-leg trousers to denim.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton rib"
+      },
+      {
+        "label": "Fit",
+        "value": "Fitted"
+      },
+      {
+        "label": "Colour",
+        "value": "Rose"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "sizeChartId": "women-tops",
+    "variants": [
+      {
+        "sku": "ARBI-039-XS",
+        "size": "XS",
+        "stock": 10
+      },
+      {
+        "sku": "ARBI-039-S",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-039-M",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-039-L",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "sku": "ARBI-039-XL",
+        "size": "XL",
+        "stock": 1
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 3.9,
+    "reviewCount": 31,
+    "createdAt": "2026-07-24"
+  },
+  {
+    "id": "p040",
+    "slug": "canvas-tote-natural",
+    "title": "Canvas Tote",
+    "styleGroup": "canvas-tote",
+    "color": {
+      "name": "Natural",
+      "hex": "#E3D6BC"
+    },
+    "gender": "unisex",
+    "category": "accessories",
+    "style": "Tote",
+    "fabric": "Cotton canvas",
+    "tags": ["12 oz canvas", "Inner pocket", "Everyday"],
+    "price": 690,
+    "images": [
+      {
+        "src": "/images/products/canvas-tote-natural-1.webp",
+        "alt": "Canvas Tote in Natural, front view"
+      },
+      {
+        "src": "/images/products/canvas-tote-natural-2.webp",
+        "alt": "Canvas Tote in Natural, back view"
+      },
+      {
+        "src": "/images/products/canvas-tote-natural-3.webp",
+        "alt": "Canvas Tote in Natural, detail view"
+      },
+      {
+        "src": "/images/products/canvas-tote-natural-4.webp",
+        "alt": "Canvas Tote in Natural, on model view"
+      }
+    ],
+    "shortDescription": "A sturdy 12 oz cotton-canvas tote with an inner zip pocket.",
+    "description": "Big enough for a laptop and a day's essentials. Heavy cotton canvas, reinforced handles and an inner zip pocket for keys and cards.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton canvas"
+      },
+      {
+        "label": "Colour",
+        "value": "Natural"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "variants": [
+      {
+        "sku": "ARBI-040-ONESIZE",
+        "size": "One size",
+        "stock": 2
+      }
+    ],
+    "collections": [],
+    "badges": [],
+    "rating": 4.2,
+    "reviewCount": 60,
+    "createdAt": "2026-08-15"
+  },
+  {
+    "id": "p041",
+    "slug": "canvas-tote-black",
+    "title": "Canvas Tote",
+    "styleGroup": "canvas-tote",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "unisex",
+    "category": "accessories",
+    "style": "Tote",
+    "fabric": "Cotton canvas",
+    "tags": ["12 oz canvas", "Inner pocket", "Everyday"],
+    "price": 690,
+    "images": [
+      {
+        "src": "/images/products/canvas-tote-black-1.webp",
+        "alt": "Canvas Tote in Black, front view"
+      },
+      {
+        "src": "/images/products/canvas-tote-black-2.webp",
+        "alt": "Canvas Tote in Black, back view"
+      },
+      {
+        "src": "/images/products/canvas-tote-black-3.webp",
+        "alt": "Canvas Tote in Black, detail view"
+      },
+      {
+        "src": "/images/products/canvas-tote-black-4.webp",
+        "alt": "Canvas Tote in Black, on model view"
+      }
+    ],
+    "shortDescription": "A sturdy 12 oz cotton-canvas tote with an inner zip pocket.",
+    "description": "Big enough for a laptop and a day's essentials. Heavy cotton canvas, reinforced handles and an inner zip pocket for keys and cards.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton canvas"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "variants": [
+      {
+        "sku": "ARBI-041-ONESIZE",
+        "size": "One size",
+        "stock": 1
+      }
+    ],
+    "collections": [],
+    "badges": ["new"],
+    "rating": 4.5,
+    "reviewCount": 88,
+    "createdAt": "2026-10-10"
+  },
+  {
+    "id": "p042",
+    "slug": "logo-cap-black",
+    "title": "Logo Cap",
+    "styleGroup": "logo-cap",
+    "color": {
+      "name": "Black",
+      "hex": "#1C1C1C"
+    },
+    "gender": "unisex",
+    "category": "accessories",
+    "style": "Six-panel",
+    "fabric": "Cotton twill",
+    "tags": ["Cotton twill", "Adjustable", "Embroidered"],
+    "price": 590,
+    "images": [
+      {
+        "src": "/images/products/logo-cap-black-1.webp",
+        "alt": "Logo Cap in Black, front view"
+      },
+      {
+        "src": "/images/products/logo-cap-black-2.webp",
+        "alt": "Logo Cap in Black, back view"
+      },
+      {
+        "src": "/images/products/logo-cap-black-3.webp",
+        "alt": "Logo Cap in Black, detail view"
+      },
+      {
+        "src": "/images/products/logo-cap-black-4.webp",
+        "alt": "Logo Cap in Black, on model view"
+      }
+    ],
+    "shortDescription": "A six-panel cotton cap with a tonal embroidered ARBI mark.",
+    "description": "Washed cotton twill, a curved brim and an adjustable strap at the back, finished with a small tonal ARBI embroidery.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton twill"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "variants": [
+      {
+        "sku": "ARBI-042-ONESIZE",
+        "size": "One size",
+        "stock": 5
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.8,
+    "reviewCount": 83,
+    "createdAt": "2026-07-30"
+  },
+  {
+    "id": "p043",
+    "slug": "logo-cap-stone",
+    "title": "Logo Cap",
+    "styleGroup": "logo-cap",
+    "color": {
+      "name": "Stone",
+      "hex": "#C8C1B4"
+    },
+    "gender": "unisex",
+    "category": "accessories",
+    "style": "Six-panel",
+    "fabric": "Cotton twill",
+    "tags": ["Cotton twill", "Adjustable", "Embroidered"],
+    "price": 590,
+    "images": [
+      {
+        "src": "/images/products/logo-cap-stone-1.webp",
+        "alt": "Logo Cap in Stone, front view"
+      },
+      {
+        "src": "/images/products/logo-cap-stone-2.webp",
+        "alt": "Logo Cap in Stone, back view"
+      },
+      {
+        "src": "/images/products/logo-cap-stone-3.webp",
+        "alt": "Logo Cap in Stone, detail view"
+      },
+      {
+        "src": "/images/products/logo-cap-stone-4.webp",
+        "alt": "Logo Cap in Stone, on model view"
+      }
+    ],
+    "shortDescription": "A six-panel cotton cap with a tonal embroidered ARBI mark.",
+    "description": "Washed cotton twill, a curved brim and an adjustable strap at the back, finished with a small tonal ARBI embroidery.",
+    "details": [
+      {
+        "label": "Fabric",
+        "value": "Cotton twill"
+      },
+      {
+        "label": "Colour",
+        "value": "Stone"
+      },
+      {
+        "label": "Country of origin",
+        "value": "Bangladesh"
+      },
+      {
+        "label": "Manufactured by",
+        "value": "ARBI Clothing (placeholder — confirm)"
+      }
+    ],
+    "care": [
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
+      "Do not bleach"
+    ],
+    "variants": [
+      {
+        "sku": "ARBI-043-ONESIZE",
+        "size": "One size",
+        "stock": 0
+      }
+    ],
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4,
+    "reviewCount": 43,
+    "createdAt": "2026-07-29"
+  }
+]

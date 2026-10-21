@@ -1,0 +1,34 @@
+[
+  {
+    "id": "r1",
+    "author": "Tanvir H.",
+    "rating": 5,
+    "title": "Perfect for the heat",
+    "body": "Wore it all day in thirty-four degrees and stayed comfortable. The fabric gets softer after each wash.",
+    "date": "2026-10-04"
+  },
+  {
+    "id": "r2",
+    "author": "Nusrat J.",
+    "rating": 4,
+    "title": "Great fit, slightly long",
+    "body": "True to size across the chest. Sleeves are a touch long for me but nothing a quick roll doesn't fix.",
+    "date": "2026-09-22"
+  },
+  {
+    "id": "r3",
+    "author": "Rafi A.",
+    "rating": 5,
+    "title": "Quality feels premium",
+    "body": "Stitching and buttons feel much better than the price suggests. Delivery to Chattogram took three days.",
+    "date": "2026-09-10"
+  },
+  {
+    "id": "r4",
+    "author": "Sadia K.",
+    "rating": 4,
+    "title": "Lovely colour",
+    "body": "The colour is exactly as pictured. Exchanged for a smaller size without any trouble.",
+    "date": "2026-08-30"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "number": "ARBI-10421",
+    "email": "demo@arbi.example",
+    "phone": "01700000000",
+    "placedAt": "2026-10-18T10:24:00+06:00",
+    "status": "shipped",
+    "history": [
+      { "status": "placed", "at": "2026-10-18T10:24:00+06:00" },
+      { "status": "confirmed", "at": "2026-10-18T12:02:00+06:00" },
+      { "status": "packed", "at": "2026-10-19T09:40:00+06:00" },
+      {
+        "status": "shipped",
+        "at": "2026-10-19T17:15:00+06:00",
+        "note": "Handed to courier. Tracking ID SF-000000 (sample)."
+      }
+    ],
+    "items": [
+      {
+        "title": "Linen Classic Shirt",
+        "colorName": "Sand",
+        "size": "M",
+        "qty": 1,
+        "price": 1890,
+        "slug": "mens-linen-classic-shirt-sand"
+      },
+      {
+        "title": "Tapered Chino",
+        "colorName": "Navy",
+        "size": "32",
+        "qty": 1,
+        "price": 1790,
+        "slug": "mens-tapered-chino-navy"
+      }
+    ],
+    "subtotal": 3680,
+    "shipping": 0,
+    "total": 3680,
+    "paymentMethod": "Cash on delivery",
+    "address": "Demo address, Banani, Dhaka"
+  },
+  {
+    "number": "ARBI-10388",
+    "email": "demo@arbi.example",
+    "phone": "01700000000",
+    "placedAt": "2026-10-02T19:05:00+06:00",
+    "status": "delivered",
+    "history": [
+      { "status": "placed", "at": "2026-10-02T19:05:00+06:00" },
+      { "status": "confirmed", "at": "2026-10-02T20:10:00+06:00" },
+      { "status": "packed", "at": "2026-10-03T11:00:00+06:00" },
+      { "status": "shipped", "at": "2026-10-03T16:30:00+06:00" },
+      { "status": "delivered", "at": "2026-10-05T14:20:00+06:00" }
+    ],
+    "items": [
+      {
+        "title": "Essential Crew Tee",
+        "colorName": "Black",
+        "size": "L",
+        "qty": 3,
+        "price": 690,
+        "slug": "mens-essential-crew-tee-black"
+      }
+    ],
+    "subtotal": 2070,
+    "shipping": 80,
+    "total": 2150,
+    "paymentMethod": "bKash",
+    "address": "Demo address, Banani, Dhaka"
+  },
+  {
+    "number": "ARBI-10302",
+    "email": "demo@arbi.example",
+    "phone": "01700000000",
+    "placedAt": "2026-09-14T13:40:00+06:00",
+    "status": "delivered",
+    "history": [
+      { "status": "placed", "at": "2026-09-14T13:40:00+06:00" },
+      { "status": "confirmed", "at": "2026-09-14T14:00:00+06:00" },
+      { "status": "packed", "at": "2026-09-15T10:00:00+06:00" },
+      { "status": "shipped", "at": "2026-09-15T18:00:00+06:00" },
+      { "status": "delivered", "at": "2026-09-17T12:00:00+06:00" }
+    ],
+    "items": [
+      {
+        "title": "Wrap Midi Dress",
+        "colorName": "Terracotta",
+        "size": "S",
+        "qty": 1,
+        "price": 2490,
+        "slug": "womens-wrap-midi-dress-terracotta"
+      }
+    ],
+    "subtotal": 2490,
+    "shipping": 130,
+    "total": 2620,
+    "paymentMethod": "Card",
+    "address": "Demo address, Agrabad, Chattogram"
+  },
+  {
+    "number": "ARBI-10467",
+    "email": "demo@arbi.example",
+    "phone": "01700000000",
+    "placedAt": "2026-10-20T21:12:00+06:00",
+    "status": "confirmed",
+    "history": [
+      { "status": "placed", "at": "2026-10-20T21:12:00+06:00" },
+      { "status": "confirmed", "at": "2026-10-21T10:05:00+06:00" }
+    ],
+    "items": [
+      {
+        "title": "Canvas Tote",
+        "colorName": "Natural",
+        "size": "One size",
+        "qty": 1,
+        "price": 690,
+        "slug": "canvas-tote-natural"
+      },
+      {
+        "title": "Logo Cap",
+        "colorName": "Black",
+        "size": "One size",
+        "qty": 1,
+        "price": 590,
+        "slug": "logo-cap-black"
+      }
+    ],
+    "subtotal": 1280,
+    "shipping": 80,
+    "total": 1360,
+    "paymentMethod": "Nagad",
+    "address": "Demo address, Banani, Dhaka"
+  },
+  {
+    "number": "ARBI-10215",
+    "email": "demo@arbi.example",
+    "phone": "01700000000",
+    "placedAt": "2026-08-28T09:30:00+06:00",
+    "status": "cancelled",
+    "history": [
+      { "status": "placed", "at": "2026-08-28T09:30:00+06:00" },
+      {
+        "status": "cancelled",
+        "at": "2026-08-28T11:00:00+06:00",
+        "note": "Cancelled at customer's request."
+      }
+    ],
+    "items": [
+      {
+        "title": "Coach Jacket",
+        "colorName": "Black",
+        "size": "XL",
+        "qty": 1,
+        "price": 3490,
+        "slug": "mens-coach-jacket-black"
+      }
+    ],
+    "subtotal": 3490,
+    "shipping": 0,
+    "total": 3490,
+    "paymentMethod": "Cash on delivery",
+    "address": "Demo address, Banani, Dhaka"
+  }
+]

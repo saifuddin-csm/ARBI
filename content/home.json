@@ -1,0 +1,197 @@
+{
+  "sections": [
+    {
+      "type": "hero",
+      "data": {
+        "heading": "Made for the heat",
+        "subheading": "New season linen, cotton and easy layers.",
+        "cta": {
+          "label": "Shop new arrivals",
+          "href": "/collections/new-arrivals/"
+        },
+        "image": {
+          "src": "/images/home/hero-desktop.webp",
+          "alt": "ARBI new season campaign",
+          "label": "Hero (desktop 16:9) — poster for hero video",
+          "width": 2560,
+          "height": 1440,
+          "tone": "#D9C7A7"
+        },
+        "mobileImage": {
+          "src": "/images/home/hero-mobile.webp",
+          "alt": "ARBI new season campaign",
+          "label": "Hero (mobile 9:16)",
+          "width": 1080,
+          "height": 1920,
+          "tone": "#D9C7A7"
+        },
+        "video": {
+          "mp4": "/videos/hero.mp4",
+          "webm": "/videos/hero.webm"
+        }
+      }
+    },
+    {
+      "type": "splitTiles",
+      "data": {
+        "tiles": [
+          {
+            "title": "ARBI for Him",
+            "cta": {
+              "label": "Explore",
+              "href": "/collections/men/"
+            },
+            "image": {
+              "src": "/images/home/tile-him.webp",
+              "alt": "Menswear from ARBI",
+              "label": "For Him tile (3:4)",
+              "tone": "#A9C6DE"
+            }
+          },
+          {
+            "title": "ARBI for Her",
+            "cta": {
+              "label": "Explore",
+              "href": "/collections/women/"
+            },
+            "image": {
+              "src": "/images/home/tile-her.webp",
+              "alt": "Womenswear from ARBI",
+              "label": "For Her tile (3:4)",
+              "tone": "#E7B8BE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "banner",
+      "data": {
+        "eyebrow": "Campaign",
+        "heading": "The Linen Edit",
+        "text": "Pure linen in sand, sky and olive. Lighter layers for long, bright days.",
+        "cta": {
+          "label": "Shop the edit",
+          "href": "/collections/linen-edit/"
+        },
+        "mobile": {
+          "src": "/images/home/banner-1-mobile.webp",
+          "alt": "The Linen Edit campaign",
+          "label": "Campaign banner 1 (mobile 2:3)",
+          "width": 1080,
+          "height": 1620,
+          "tone": "#E3D6BC"
+        },
+        "desktop": {
+          "src": "/images/home/banner-1-desktop.webp",
+          "alt": "The Linen Edit campaign",
+          "label": "Campaign banner 1 (desktop 21:9)",
+          "width": 2560,
+          "height": 1080,
+          "tone": "#E3D6BC"
+        }
+      }
+    },
+    {
+      "type": "productRow",
+      "data": {
+        "heading": "The Linen Classic, four ways",
+        "products": {
+          "styleGroup": "mens-linen-classic-shirt"
+        },
+        "cta": {
+          "label": "View all shirts",
+          "href": "/collections/shirts/"
+        }
+      }
+    },
+    {
+      "type": "banner",
+      "data": {
+        "eyebrow": "Campaign",
+        "heading": "Dressed for every invitation",
+        "text": "Wrap dresses, tailored trousers and sharp outer layers for the festive season.",
+        "cta": {
+          "label": "Shop the Festive Edit",
+          "href": "/collections/festive-edit/"
+        },
+        "mobile": {
+          "src": "/images/home/banner-2-mobile.webp",
+          "alt": "The Festive Edit campaign",
+          "label": "Campaign banner 2 (mobile 2:3)",
+          "width": 1080,
+          "height": 1620,
+          "tone": "#B5573A"
+        },
+        "desktop": {
+          "src": "/images/home/banner-2-desktop.webp",
+          "alt": "The Festive Edit campaign",
+          "label": "Campaign banner 2 (desktop 21:9)",
+          "width": 2560,
+          "height": 1080,
+          "tone": "#B5573A"
+        }
+      }
+    },
+    {
+      "type": "collectionCards",
+      "data": {
+        "heading": "Shop the edits",
+        "collections": ["linen-edit", "weekend-edit", "festive-edit"]
+      }
+    },
+    {
+      "type": "shopTheLook",
+      "data": {
+        "heading": "Shop the look",
+        "text": "Linen shirt, tapered chino, canvas tote — an easy uniform for warm city days.",
+        "image": {
+          "src": "/images/home/look-1.webp",
+          "alt": "Model wearing an ARBI linen shirt, chinos and tote",
+          "label": "Shop the look (4:5)",
+          "width": 1600,
+          "height": 2000,
+          "tone": "#C8C1B4"
+        },
+        "products": [
+          "mens-linen-classic-shirt-sand",
+          "mens-tapered-chino-navy",
+          "canvas-tote-natural",
+          "logo-cap-stone"
+        ]
+      }
+    },
+    {
+      "type": "carousel",
+      "data": {
+        "heading": "New arrivals",
+        "products": {
+          "sort": "newest",
+          "limit": 10
+        },
+        "cta": {
+          "label": "Shop all new",
+          "href": "/collections/new-arrivals/"
+        }
+      }
+    },
+    {
+      "type": "carousel",
+      "data": {
+        "heading": "Best sellers",
+        "products": {
+          "collection": "best-sellers",
+          "limit": 10
+        },
+        "cta": {
+          "label": "Shop best sellers",
+          "href": "/collections/best-sellers/"
+        }
+      }
+    },
+    {
+      "type": "brandStatement",
+      "data": {}
+    }
+  ]
+}

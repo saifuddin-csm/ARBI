@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "all",
+    "title": "Shop All",
+    "description": "Every ARBI piece in one place — shirts, tees, bottoms, outerwear, dresses and accessories.",
+    "card": {
+      "src": "/images/collections/all.webp",
+      "alt": "A rail of ARBI clothing in neutral tones",
+      "label": "Shop all"
+    },
+    "filter": {}
+  },
+  {
+    "slug": "men",
+    "title": "Men",
+    "description": "Considered essentials for him: breathable shirts, everyday tees and tailored bottoms made for the Bangladeshi climate.",
+    "tagline": "Built for the heat, cut for the city.",
+    "banner": {
+      "mobile": {
+        "src": "/images/collections/men-banner-mobile.webp",
+        "alt": "ARBI menswear campaign",
+        "label": "Men — banner (mobile 2:3)",
+        "width": 1080,
+        "height": 1620
+      },
+      "desktop": {
+        "src": "/images/collections/men-banner-desktop.webp",
+        "alt": "ARBI menswear campaign",
+        "label": "Men — banner (desktop 21:9)",
+        "width": 2560,
+        "height": 1080
+      }
+    },
+    "card": {
+      "src": "/images/collections/men.webp",
+      "alt": "Man wearing an ARBI linen shirt",
+      "label": "Men"
+    },
+    "filter": { "gender": "men" }
+  },
+  {
+    "slug": "women",
+    "title": "Women",
+    "description": "Easy, fluid pieces for her: linen shirts, wrap dresses and high-rise trousers that move with the day.",
+    "tagline": "Ease, in every layer.",
+    "banner": {
+      "mobile": {
+        "src": "/images/collections/women-banner-mobile.webp",
+        "alt": "ARBI womenswear campaign",
+        "label": "Women — banner (mobile 2:3)",
+        "width": 1080,
+        "height": 1620
+      },
+      "desktop": {
+        "src": "/images/collections/women-banner-desktop.webp",
+        "alt": "ARBI womenswear campaign",
+        "label": "Women — banner (desktop 21:9)",
+        "width": 2560,
+        "height": 1080
+      }
+    },
+    "card": {
+      "src": "/images/collections/women.webp",
+      "alt": "Woman wearing an ARBI wrap dress",
+      "label": "Women"
+    },
+    "filter": { "gender": "women" }
+  },
+  {
+    "slug": "new-arrivals",
+    "title": "New Arrivals",
+    "description": "The latest drops from the ARBI studio.",
+    "card": {
+      "src": "/images/collections/new-arrivals.webp",
+      "alt": "New ARBI arrivals",
+      "label": "New arrivals"
+    },
+    "filter": { "badge": "new" }
+  },
+  {
+    "slug": "best-sellers",
+    "title": "Best Sellers",
+    "description": "The pieces our customers come back for, again and again.",
+    "card": {
+      "src": "/images/collections/best-sellers.webp",
+      "alt": "ARBI best sellers",
+      "label": "Best sellers"
+    },
+    "filter": { "badge": "bestseller" }
+  },
+  {
+    "slug": "sale",
+    "title": "Sale",
+    "description": "Limited-time prices on selected styles. While sizes last.",
+    "card": { "src": "/images/collections/sale.webp", "alt": "ARBI sale", "label": "Sale" },
+    "filter": { "badge": "sale" }
+  },
+  {
+    "slug": "shirts",
+    "title": "Shirts",
+    "description": "Linen, oxford and relaxed shirts for him and her.",
+    "card": { "src": "/images/collections/shirts.webp", "alt": "ARBI shirts", "label": "Shirts" },
+    "filter": { "category": ["shirts"] }
+  },
+  {
+    "slug": "tees-and-polos",
+    "title": "Tees & Polos",
+    "description": "Everyday cotton tees and piqué polos.",
+    "card": {
+      "src": "/images/collections/tees-and-polos.webp",
+      "alt": "ARBI tees and polos",
+      "label": "Tees & polos"
+    },
+    "filter": { "category": ["tees", "polos"] }
+  },
+  {
+    "slug": "bottoms",
+    "title": "Bottoms",
+    "description": "Chinos, denim, joggers, shorts and trousers.",
+    "card": {
+      "src": "/images/collections/bottoms.webp",
+      "alt": "ARBI bottoms",
+      "label": "Bottoms"
+    },
+    "filter": { "category": ["pants", "denim", "joggers", "shorts"] }
+  },
+  {
+    "slug": "outerwear",
+    "title": "Outerwear",
+    "description": "Sweatshirts and jackets for cooler evenings and monsoon showers.",
+    "card": {
+      "src": "/images/collections/outerwear.webp",
+      "alt": "ARBI outerwear",
+      "label": "Outerwear"
+    },
+    "filter": { "category": ["sweatshirts", "jackets"] }
+  },
+  {
+    "slug": "dresses",
+    "title": "Dresses",
+    "description": "Fluid dresses for days out and evenings in.",
+    "card": {
+      "src": "/images/collections/dresses.webp",
+      "alt": "ARBI dresses",
+      "label": "Dresses"
+    },
+    "filter": { "category": ["dresses"] }
+  },
+  {
+    "slug": "accessories",
+    "title": "Accessories",
+    "description": "Totes and caps to finish the look.",
+    "card": {
+      "src": "/images/collections/accessories.webp",
+      "alt": "ARBI accessories",
+      "label": "Accessories"
+    },
+    "filter": { "category": ["accessories"] }
+  },
+  {
+    "slug": "linen-edit",
+    "title": "The Linen Edit",
+    "description": "Pure linen and linen blends, chosen to keep you cool through the hottest months.",
+    "tagline": "Lighter layers for long, bright days.",
+    "banner": {
+      "mobile": {
+        "src": "/images/collections/linen-edit-banner-mobile.webp",
+        "alt": "The Linen Edit by ARBI",
+        "label": "Linen Edit — banner (mobile 2:3)",
+        "width": 1080,
+        "height": 1620
+      },
+      "desktop": {
+        "src": "/images/collections/linen-edit-banner-desktop.webp",
+        "alt": "The Linen Edit by ARBI",
+        "label": "Linen Edit — banner (desktop 21:9)",
+        "width": 2560,
+        "height": 1080
+      }
+    },
+    "card": {
+      "src": "/images/collections/linen-edit.webp",
+      "alt": "Linen shirts in natural tones",
+      "label": "The Linen Edit"
+    },
+    "filter": { "tag": "linen-edit" }
+  },
+  {
+    "slug": "weekend-edit",
+    "title": "The Weekend Edit",
+    "description": "Relaxed tees, joggers and denim for slow Fridays and easy Saturdays.",
+    "tagline": "Off duty, still put together.",
+    "card": {
+      "src": "/images/collections/weekend-edit.webp",
+      "alt": "Relaxed weekend outfits",
+      "label": "The Weekend Edit"
+    },
+    "filter": { "tag": "weekend-edit" }
+  },
+  {
+    "slug": "festive-edit",
+    "title": "The Festive Edit",
+    "description": "Dressier pieces for dawats, weddings and the season's celebrations.",
+    "tagline": "Dressed for every invitation.",
+    "card": {
+      "src": "/images/collections/festive-edit.webp",
+      "alt": "Festive outfits by ARBI",
+      "label": "The Festive Edit"
+    },
+    "filter": { "tag": "festive-edit" }
+  }
+]

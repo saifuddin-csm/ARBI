@@ -1,0 +1,336 @@
+{
+  "main": [
+    {
+      "label": "Men",
+      "href": "/collections/men/",
+      "groups": [
+        {
+          "title": "Top wear",
+          "links": [
+            {
+              "label": "Shirts",
+              "href": "/collections/men/?category=shirts"
+            },
+            {
+              "label": "Tees",
+              "href": "/collections/men/?category=tees"
+            },
+            {
+              "label": "Polos",
+              "href": "/collections/men/?category=polos"
+            }
+          ]
+        },
+        {
+          "title": "Bottom wear",
+          "links": [
+            {
+              "label": "Chinos",
+              "href": "/collections/men/?category=pants"
+            },
+            {
+              "label": "Denim",
+              "href": "/collections/men/?category=denim"
+            },
+            {
+              "label": "Joggers",
+              "href": "/collections/men/?category=joggers"
+            },
+            {
+              "label": "Shorts",
+              "href": "/collections/men/?category=shorts"
+            }
+          ]
+        },
+        {
+          "title": "Outer wear",
+          "links": [
+            {
+              "label": "Sweatshirts",
+              "href": "/collections/men/?category=sweatshirts"
+            },
+            {
+              "label": "Jackets",
+              "href": "/collections/men/?category=jackets"
+            }
+          ]
+        },
+        {
+          "title": "Edits",
+          "links": [
+            {
+              "label": "The Linen Edit",
+              "href": "/collections/linen-edit/"
+            },
+            {
+              "label": "The Weekend Edit",
+              "href": "/collections/weekend-edit/"
+            },
+            {
+              "label": "Best Sellers",
+              "href": "/collections/best-sellers/"
+            }
+          ]
+        }
+      ],
+      "feature": {
+        "title": "New for him",
+        "href": "/collections/new-arrivals/",
+        "image": {
+          "src": "/images/menu/men-feature.webp",
+          "alt": "New menswear arrivals",
+          "label": "Menu feature — men"
+        }
+      }
+    },
+    {
+      "label": "Women",
+      "href": "/collections/women/",
+      "groups": [
+        {
+          "title": "Top wear",
+          "links": [
+            {
+              "label": "Shirts",
+              "href": "/collections/women/?category=shirts"
+            },
+            {
+              "label": "Tees",
+              "href": "/collections/women/?category=tees"
+            }
+          ]
+        },
+        {
+          "title": "Bottom wear",
+          "links": [
+            {
+              "label": "Trousers",
+              "href": "/collections/women/?category=pants"
+            }
+          ]
+        },
+        {
+          "title": "Dresses",
+          "links": [
+            {
+              "label": "All dresses",
+              "href": "/collections/dresses/"
+            }
+          ]
+        },
+        {
+          "title": "Edits",
+          "links": [
+            {
+              "label": "The Festive Edit",
+              "href": "/collections/festive-edit/"
+            },
+            {
+              "label": "The Linen Edit",
+              "href": "/collections/linen-edit/"
+            }
+          ]
+        }
+      ],
+      "feature": {
+        "title": "The Festive Edit",
+        "href": "/collections/festive-edit/",
+        "image": {
+          "src": "/images/menu/women-feature.webp",
+          "alt": "Festive womenswear",
+          "label": "Menu feature — women"
+        }
+      }
+    },
+    {
+      "label": "Collections",
+      "href": "/collections/all/",
+      "groups": [
+        {
+          "title": "Shop by edit",
+          "links": [
+            {
+              "label": "The Linen Edit",
+              "href": "/collections/linen-edit/"
+            },
+            {
+              "label": "The Weekend Edit",
+              "href": "/collections/weekend-edit/"
+            },
+            {
+              "label": "The Festive Edit",
+              "href": "/collections/festive-edit/"
+            }
+          ]
+        },
+        {
+          "title": "Shop by category",
+          "links": [
+            {
+              "label": "Shirts",
+              "href": "/collections/shirts/"
+            },
+            {
+              "label": "Tees & Polos",
+              "href": "/collections/tees-and-polos/"
+            },
+            {
+              "label": "Bottoms",
+              "href": "/collections/bottoms/"
+            },
+            {
+              "label": "Outerwear",
+              "href": "/collections/outerwear/"
+            },
+            {
+              "label": "Dresses",
+              "href": "/collections/dresses/"
+            }
+          ]
+        },
+        {
+          "title": "Highlights",
+          "links": [
+            {
+              "label": "New Arrivals",
+              "href": "/collections/new-arrivals/"
+            },
+            {
+              "label": "Best Sellers",
+              "href": "/collections/best-sellers/"
+            },
+            {
+              "label": "Sale",
+              "href": "/collections/sale/"
+            },
+            {
+              "label": "Shop All",
+              "href": "/collections/all/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Accessories",
+      "href": "/collections/accessories/",
+      "groups": [
+        {
+          "title": "Accessories",
+          "links": [
+            {
+              "label": "Canvas Tote",
+              "href": "/products/canvas-tote-natural/"
+            },
+            {
+              "label": "Logo Cap",
+              "href": "/products/logo-cap-black/"
+            },
+            {
+              "label": "All accessories",
+              "href": "/collections/accessories/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "label": "About ARBI",
+      "href": "/pages/about/"
+    },
+    {
+      "label": "Contact",
+      "href": "/pages/contact/"
+    },
+    {
+      "label": "Track order",
+      "href": "/track-order/"
+    },
+    {
+      "label": "Store locator",
+      "href": "/pages/store-locator/"
+    },
+    {
+      "label": "Size guide",
+      "href": "/pages/size-guide/"
+    }
+  ],
+  "footer": {
+    "quickLinks": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/pages/about/"
+      },
+      {
+        "label": "Contact",
+        "href": "/pages/contact/"
+      },
+      {
+        "label": "FAQ",
+        "href": "/pages/faq/"
+      },
+      {
+        "label": "Track order",
+        "href": "/track-order/"
+      },
+      {
+        "label": "Size guide",
+        "href": "/pages/size-guide/"
+      },
+      {
+        "label": "Store locator",
+        "href": "/pages/store-locator/"
+      }
+    ],
+    "policies": [
+      {
+        "label": "Privacy policy",
+        "href": "/policies/privacy/"
+      },
+      {
+        "label": "Refund policy",
+        "href": "/policies/refund/"
+      },
+      {
+        "label": "Shipping policy",
+        "href": "/policies/shipping/"
+      },
+      {
+        "label": "Terms of service",
+        "href": "/policies/terms/"
+      }
+    ],
+    "collections": [
+      {
+        "label": "Men",
+        "href": "/collections/men/"
+      },
+      {
+        "label": "Women",
+        "href": "/collections/women/"
+      },
+      {
+        "label": "New Arrivals",
+        "href": "/collections/new-arrivals/"
+      },
+      {
+        "label": "The Linen Edit",
+        "href": "/collections/linen-edit/"
+      },
+      {
+        "label": "Accessories",
+        "href": "/collections/accessories/"
+      },
+      {
+        "label": "Sale",
+        "href": "/collections/sale/"
+      }
+    ]
+  }
+}

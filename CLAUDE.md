@@ -20,10 +20,15 @@ read the relevant section before starting a milestone.
   respect `prefers-reduced-motion` (hero video pauses).
 - **Prices via `formatPrice()`** (`src/lib/utils/formatPrice.ts`). Default currency BDT (৳).
   Prices are stored as **whole taka, VAT-inclusive** (1290 = ৳1,290).
-- **One milestone at a time** (plan section "Milestones for Claude Code"). After each:
+- **Milestones** (plan section "Milestones for Claude Code") are an internal checklist; the
+  Phase 1 demo is built in one run without stopping between them. After each milestone:
   run `npm run lint`, `npm run typecheck`, `npm test`, `npm run format:check`,
-  `npm run build`; commit; summarise what changed and what to check on the preview link;
-  then stop for review.
+  `npm run build`; commit. At the end, push and summarise what to check on the preview.
+- **Images and videos are swappable placeholders.** Content JSON references real paths
+  under `/images/...` and `/videos/...`. At build time `src/lib/api` uses the real file if
+  it exists in `public/` (any of .webp/.avif/.jpg/.jpeg/.png), otherwise the generated SVG
+  in `/placeholders/...` (`scripts/generate-placeholders.mjs`, runs before dev/build).
+  `docs/ASSETS.md` lists every expected filename.
 
 ## Key decisions
 
