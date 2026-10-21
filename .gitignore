@@ -48,3 +48,7 @@ next-env.d.ts
 
 # local Claude Code launch config
 /.claude/
+
+# Playwright
+/test-results/
+/playwright-report/
