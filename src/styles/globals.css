@@ -78,3 +78,11 @@
     }
   }
 }
+
+/* Vertical rhythm between page sections: 64px mobile, 120px desktop. */
+@utility section-space {
+  padding-block: 64px;
+  @media (min-width: 1024px) {
+    padding-block: 120px;
+  }
+}
