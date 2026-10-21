@@ -2,8 +2,8 @@ import { assetPath } from "@/lib/utils";
 
 // Intrinsic sizes of the logo files; keep the aspect ratio and avoid layout shift.
 const VARIANTS = {
-  /** Compact lockup (wordmark + signature) for the header and other tight spaces. */
-  default: { src: "/brand/arbi-logo.webp", width: 720, height: 404 },
+  /** Compact lockup (wordmark with the signature to its right) for the header. */
+  default: { src: "/brand/arbi-logo.webp", width: 900, height: 219 },
   /** Full lockup with the "Clothes for you" tagline, for light backgrounds. */
   full: { src: "/brand/arbi-logo-full.webp", width: 720, height: 538 },
   /** Full lockup in white ink (red kept), for dark backgrounds like the footer. */

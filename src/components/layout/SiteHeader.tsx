@@ -58,7 +58,7 @@ export function SiteHeader({
             priority
             className={cn(
               "w-auto transition-[height] duration-300",
-              compact ? "h-10 lg:h-11" : "h-12 lg:h-[60px]",
+              compact ? "h-7 lg:h-8" : "h-8 lg:h-10",
             )}
           />
         </Link>

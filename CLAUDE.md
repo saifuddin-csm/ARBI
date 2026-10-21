@@ -85,7 +85,7 @@ read the relevant section before starting a milestone.
   (`support`) and `content/stores.json`. Phone, WhatsApp and opening hours are still
   placeholders.
 - **Brand assets:** cut out (transparent) from the owner's raster logo, rendered by
-  `<Logo variant=…>`: `arbi-logo` = compact header lockup (wordmark + signature, tagline
+  `<Logo variant=…>`: `arbi-logo` = compact header lockup (signature to the right of the wordmark, tagline
   dropped for space), `arbi-logo-full` = full lockup with "Clothes for you", and
   `arbi-logo-white` = full lockup in white ink for the black footer (all in
   `public/brand/`, `.webp` + `.png`). Favicon/apple icon (`src/app/icon.png`,

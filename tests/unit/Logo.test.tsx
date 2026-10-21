@@ -9,8 +9,8 @@ describe("Logo", () => {
     render(<Logo />);
     const img = screen.getByRole("img", { name: "ARBI" });
     expect(img).toHaveAttribute("src", "/brand/arbi-logo.webp");
-    expect(img).toHaveAttribute("width", "720");
-    expect(img).toHaveAttribute("height", "404");
+    expect(img).toHaveAttribute("width", "900");
+    expect(img).toHaveAttribute("height", "219");
   });
 });
 
