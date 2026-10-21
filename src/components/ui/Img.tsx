@@ -1,3 +1,5 @@
+import type { CSSProperties } from "react";
+
 import { assetPath } from "@/lib/utils/assetPath";
 import type { Media } from "@/types";
 
@@ -8,13 +10,14 @@ type ImgProps = {
   priority?: boolean;
   sizes?: string;
   alt?: string;
+  style?: CSSProperties;
 };
 
 /**
  * Renders a resolved Media item (uploaded photo or generated placeholder). Static export
  * has no image optimiser, so this is a plain <img> with basePath, size and lazy loading.
  */
-export function Img({ media, className, priority, sizes, alt }: ImgProps) {
+export function Img({ media, className, priority, sizes, alt, style }: ImgProps) {
   return (
     // eslint-disable-next-line @next/next/no-img-element -- static export; images are pre-optimised
     <img
@@ -27,6 +30,7 @@ export function Img({ media, className, priority, sizes, alt }: ImgProps) {
       fetchPriority={priority ? "high" : undefined}
       decoding="async"
       className={className}
+      style={style}
     />
   );
 }
