@@ -59,8 +59,18 @@ read the relevant section before starting a milestone.
   with their own stock. Types in `src/types` match the plan's `Product`, `Collection`,
   `SizeChart`, `HomeSection`, `CartItem`. Home page sections are driven by
   `content/home.json`.
-- **State:** Zustand stores in `src/store` (cart, wishlist, recentlyViewed) persisted to
-  localStorage; guard browser APIs so prerendering doesn't touch `window`.
+- **State:** Zustand stores in `src/store` (cart, recentlyViewed, demo account + last
+  order) persisted to localStorage with `skipHydration`; `StoreHydrator` loads them after
+  mount and `useHydrated()` guards UI that depends on them. Guard browser APIs so
+  prerendering doesn't touch `window`.
+- **Performance (Lighthouse mobile ≥ 90):** keep client JS small. `ProductCard` is
+  server-renderable with only `QuickAdd` hydrating; client lists (collection filters) take
+  server-rendered cards as props. Drawers/modals that start closed (search, mobile menu,
+  filters, size chart, lightbox) load via `next/dynamic` + `useMountOnOpen`. No RHF/Zod on
+  components shown on every page. Inter uses `display: "optional"`; the taka sign (৳)
+  falls back to installed Bengali system fonts instead of a web font.
+- **Forms:** React Hook Form + Zod schemas from `src/lib/schemas` (shared with the Phase 2
+  backend). Phase 1 forms validate and show demo confirmations; nothing is sent.
 - **Preview build:** `robots: noindex` in root metadata and a "Preview build: no real
   orders" demo banner (`src/components/layout/DemoBanner.tsx`) on every page.
 - **Brand assets:** logo at `public/brand/arbi-logo.webp` (+ `.png`), rendered by
@@ -70,19 +80,37 @@ read the relevant section before starting a milestone.
 ## Layout
 
 ```
-.github/workflows/deploy.yml  CI: lint, typecheck, test, format, build, deploy to Pages
-content/                      mock JSON (products, collections, home, size charts, nav)
-public/                       brand/, images/, videos/, .nojekyll
-src/app/                      routes
-src/components/               ui/, layout/, product/, collection/, cart/, home/
-src/lib/api/                  data access layer (mock now, backend later)
-src/lib/utils/                formatPrice, assetPath, filters, seo helpers
-src/store/                    Zustand stores
+.github/workflows/deploy.yml  CI: lint, typecheck, unit, format, build, links, e2e, deploy
+content/                      mock JSON (products, collections, home, site, nav, pages, ...)
+docs/ASSETS.md                generated list of image/video files to upload
+public/                       brand/, images/ (uploads), videos/ (uploads), .nojekyll
+scripts/                      generate-placeholders, check-links, serve-out
+src/app/                      routes (incl. search-index.json route)
+src/components/               ui/, layout/, home/, collection/, product/, cart/, checkout/,
+                              account/, content/, search/
+src/lib/api/                  data access layer (mock now, backend later) + media.ts
+src/lib/hooks/                useDialog, useAddToCart, useSearchIndex, useMountOnOpen
+src/lib/schemas/              Zod schemas (checkout, auth, contact, track order)
+src/lib/utils/                formatPrice, assetPath, catalog (filter/sort/paginate), seo, cn
+src/store/                    Zustand stores + StoreHydrator
 src/styles/globals.css        Tailwind + design tokens
 src/types/                    shared types
-tests/unit/                   Vitest + Testing Library; Playwright e2e arrives in Milestone 7
+tests/unit/                   Vitest + Testing Library
+tests/e2e/                    Playwright (mobile + desktop) against the static export
 ```
+
+## Commands
+
+- `npm run dev` — dev server (generates placeholders first)
+- `npm run build` — static export to `out/`
+- `npm test` / `npm run test:e2e` — unit / Playwright (build first; set
+  `NEXT_PUBLIC_BASE_PATH` the same for build and e2e)
+- `npm run check:links` — broken internal link check over `out/`
+- `npm run serve` — serve `out/` like GitHub Pages on :4173 (gzip, base path, 404.html)
 
 ## Local environment
 
-Node >= 20.9 is required (Next.js 16). `.nvmrc` pins 22, and CI uses Node 22.
+Node >= 20.9 is required (Next.js 16). `.nvmrc` pins 22, and CI uses Node 22. Locally,
+Playwright uses the installed Microsoft Edge (`channel: "msedge"`); CI installs Chromium.
+On Windows, set `NEXT_PUBLIC_BASE_PATH` from PowerShell/cmd — Git Bash rewrites `/ARBI`
+into a Windows path.

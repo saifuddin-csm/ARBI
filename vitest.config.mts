@@ -9,6 +9,8 @@ export default defineConfig({
   },
   test: {
     environment: "jsdom",
+    // Unit tests assume a root deploy, whatever the shell has set for builds.
+    env: { NEXT_PUBLIC_BASE_PATH: "" },
     include: ["tests/unit/**/*.test.{ts,tsx}"],
     setupFiles: ["tests/setup.ts"],
   },

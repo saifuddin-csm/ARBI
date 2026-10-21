@@ -1,21 +1,17 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useId, useState } from "react";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
+import { type FormEvent, useId, useState } from "react";
 
-const schema = z.object({ email: z.email("Enter a valid email address") });
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-/** Demo newsletter signup: validates, then confirms without sending anything (Phase 1). */
+/**
+ * Demo newsletter signup: validates, then confirms without sending anything (Phase 1).
+ * Plain state instead of React Hook Form + Zod: it's on every page, so it stays tiny.
+ */
 export function Newsletter() {
   const [done, setDone] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const id = useId();
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<z.infer<typeof schema>>({ resolver: zodResolver(schema) });
 
   if (done) {
     return (
@@ -25,8 +21,18 @@ export function Newsletter() {
     );
   }
 
+  function onSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const email = String(new FormData(e.currentTarget).get("email") ?? "").trim();
+    if (!EMAIL.test(email)) {
+      setError("Enter a valid email address");
+      return;
+    }
+    setDone(true);
+  }
+
   return (
-    <form onSubmit={handleSubmit(() => setDone(true))} noValidate className="w-full max-w-md">
+    <form onSubmit={onSubmit} noValidate className="w-full max-w-md">
       <label htmlFor={id} className="label-caps text-xs">
         Join the ARBI list
       </label>
@@ -34,21 +40,22 @@ export function Newsletter() {
       <div className="flex border-b border-text">
         <input
           id={id}
+          name="email"
           type="email"
           autoComplete="email"
           placeholder="Email address"
-          aria-invalid={errors.email ? true : undefined}
-          aria-describedby={errors.email ? `${id}-error` : undefined}
+          aria-invalid={error ? true : undefined}
+          aria-describedby={error ? `${id}-error` : undefined}
+          onChange={() => error && setError(null)}
           className="min-w-0 flex-1 bg-transparent py-3 text-sm outline-none placeholder:text-muted"
-          {...register("email")}
         />
         <button type="submit" className="px-2 label-caps text-xs hover:underline">
           Subscribe
         </button>
       </div>
-      {errors.email && (
+      {error && (
         <p id={`${id}-error`} className="mt-2 text-xs text-sale">
-          {errors.email.message}
+          {error}
         </p>
       )}
     </form>

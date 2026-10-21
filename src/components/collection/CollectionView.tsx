@@ -2,7 +2,8 @@
 
 import { SlidersHorizontal, X } from "lucide-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useId, useMemo, useState } from "react";
+import dynamic from "next/dynamic";
+import { type ReactNode, useId, useMemo, useState } from "react";
 
 import { Pagination } from "@/components/ui/Pagination";
 import {
@@ -19,11 +20,14 @@ import {
   parseCatalogParams,
   sortProducts,
 } from "@/lib/utils/catalog";
+import { useMountOnOpen } from "@/lib/hooks/useMountOnOpen";
 import { formatPrice } from "@/lib/utils/formatPrice";
 import type { ProductSummary } from "@/types";
 
-import { FilterDrawer } from "./FilterDrawer";
-import { ProductGrid } from "./ProductGrid";
+import { GRID_CLASS } from "./grid";
+
+// Loaded the first time someone opens the filters.
+const FilterDrawer = dynamic(() => import("./FilterDrawer").then((m) => m.FilterDrawer));
 
 type Chip = { label: string; remove: (f: Filters) => Filters };
 
@@ -59,12 +63,19 @@ function activeChips(f: Filters): Chip[] {
   return chips;
 }
 
+type CollectionViewProps = {
+  products: ProductSummary[];
+  /** Server-rendered product cards keyed by slug, so cards don't hydrate as client components. */
+  cards: Record<string, ReactNode>;
+};
+
 /** Client-side filtering, sorting and pagination, synced to the URL so links can be shared. */
-export function CollectionView({ products }: { products: ProductSummary[] }) {
+export function CollectionView({ products, cards }: CollectionViewProps) {
   const params = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const filtersMounted = useMountOnOpen(filtersOpen);
   const sortId = useId();
 
   const { filters, sort, page } = parseCatalogParams(new URLSearchParams(params.toString()));
@@ -159,7 +170,11 @@ export function CollectionView({ products }: { products: ProductSummary[] }) {
           </button>
         </div>
       ) : (
-        <ProductGrid products={paged.items} />
+        <ul className={GRID_CLASS}>
+          {paged.items.map((p) => (
+            <li key={p.slug}>{cards[p.slug]}</li>
+          ))}
+        </ul>
       )}
 
       <Pagination
@@ -168,14 +183,16 @@ export function CollectionView({ products }: { products: ProductSummary[] }) {
         hrefFor={(p) => hrefWith(filters, sort, p)}
       />
 
-      <FilterDrawer
-        open={filtersOpen}
-        onClose={() => setFiltersOpen(false)}
-        products={products}
-        options={options}
-        value={filters}
-        onApply={(f) => update(f)}
-      />
+      {filtersMounted && (
+        <FilterDrawer
+          open={filtersOpen}
+          onClose={() => setFiltersOpen(false)}
+          products={products}
+          options={options}
+          value={filters}
+          onApply={(f) => update(f)}
+        />
+      )}
     </>
   );
 }

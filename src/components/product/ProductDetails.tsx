@@ -1,6 +1,7 @@
 "use client";
 
 import { Ruler, Truck } from "lucide-react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
@@ -13,11 +14,13 @@ import { PriceTag } from "@/components/ui/PriceTag";
 import { QuantityStepper } from "@/components/ui/QuantityStepper";
 import { Rating } from "@/components/ui/Rating";
 import { useAddToCart } from "@/lib/hooks/useAddToCart";
+import { useMountOnOpen } from "@/lib/hooks/useMountOnOpen";
 import { cn } from "@/lib/utils/cn";
 import { useRecentlyViewed } from "@/store/recentlyViewed";
 import type { ColorLink, Product, ProductSummary, SizeChart, TrustBadge } from "@/types";
 
-import { SizeChartModal } from "./SizeChartModal";
+// The size guide loads the first time someone opens it.
+const SizeChartModal = dynamic(() => import("./SizeChartModal").then((m) => m.SizeChartModal));
 
 type ProductDetailsProps = {
   product: Product;
@@ -48,6 +51,7 @@ export function ProductDetails({
   const [qty, setQty] = useState(1);
   const [sizeError, setSizeError] = useState(false);
   const [chartOpen, setChartOpen] = useState(false);
+  const chartMounted = useMountOnOpen(chartOpen);
   const [showSticky, setShowSticky] = useState(false);
   const actionsRef = useRef<HTMLDivElement>(null);
   const sizeGroupRef = useRef<HTMLFieldSetElement>(null);
@@ -279,7 +283,7 @@ export function ProductDetails({
         </AccordionItem>
       </Accordion>
 
-      {sizeChart && (
+      {sizeChart && chartMounted && (
         <SizeChartModal chart={sizeChart} open={chartOpen} onClose={() => setChartOpen(false)} />
       )}
 

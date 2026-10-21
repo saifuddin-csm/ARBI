@@ -1,17 +1,20 @@
 "use client";
 
 import { Menu, Search, ShoppingBag, User } from "lucide-react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import { Logo } from "@/components/ui/Logo";
+import { useMountOnOpen } from "@/lib/hooks/useMountOnOpen";
 import { cn } from "@/lib/utils/cn";
 import { cartCount, useCart } from "@/store/cart";
 import { useUI } from "@/store/ui";
 import type { Navigation, SocialLink } from "@/types";
 
 import { MegaMenu } from "./MegaMenu";
-import { MobileMenu } from "./MobileMenu";
+// The mobile menu loads the first time it is opened.
+const MobileMenu = dynamic(() => import("./MobileMenu").then((m) => m.MobileMenu));
 
 const iconBtn = "size-11 items-center justify-center hover:opacity-70";
 
@@ -27,6 +30,7 @@ export function SiteHeader({
   const panel = useUI((s) => s.panel);
   const open = useUI((s) => s.open);
   const close = useUI((s) => s.close);
+  const menuMounted = useMountOnOpen(panel === "menu");
 
   useEffect(() => {
     const onScroll = () => setCompact(window.scrollY > 40);
@@ -114,12 +118,14 @@ export function SiteHeader({
           </button>
         </div>
       </div>
-      <MobileMenu
-        open={panel === "menu"}
-        onClose={close}
-        navigation={navigation}
-        socials={socials}
-      />
+      {menuMounted && (
+        <MobileMenu
+          open={panel === "menu"}
+          onClose={close}
+          navigation={navigation}
+          socials={socials}
+        />
+      )}
     </header>
   );
 }

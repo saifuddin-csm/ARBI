@@ -18,15 +18,21 @@
   --tracking-label: 0.1em;
 }
 
-/* Font faces come from next/font variables set on <html>, so they must stay inline. */
+/*
+ * Font faces come from next/font variables set on <html>, so they must stay inline.
+ * The taka sign (৳) is not in Inter; installed Bengali system fonts render it, which
+ * avoids downloading a web font for one glyph.
+ */
 @theme inline {
   --font-display:
-    var(--font-display-face, var(--font-body-face)), var(--font-taka-face), ui-sans-serif,
-    system-ui, sans-serif;
-  --font-body: var(--font-body-face), var(--font-taka-face), ui-sans-serif, system-ui, sans-serif;
+    var(--font-display-face, var(--font-body-face)), var(--font-bengali), ui-sans-serif, system-ui,
+    sans-serif;
+  --font-body: var(--font-body-face), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
+  --font-bengali:
+    "Nirmala UI", "Noto Sans Bengali", "Kohinoor Bangla", "Bangla Sangam MN", "Vrinda";
   --container: 1440px;
   --gutter: 16px;
 }

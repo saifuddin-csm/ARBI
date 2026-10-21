@@ -4,6 +4,7 @@ import { Suspense } from "react";
 
 import { CollectionView } from "@/components/collection/CollectionView";
 import { ProductGrid } from "@/components/collection/ProductGrid";
+import { ProductCard } from "@/components/product/ProductCard";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { ResponsiveImg } from "@/components/ui/ResponsiveImg";
 import { getCollection, getCollectionProducts, getCollectionSlugs } from "@/lib/api";
@@ -29,6 +30,13 @@ export default async function CollectionPage({ params }: PageProps<"/collections
   const products = await getCollectionProducts(slug);
   // Prerendered first page (default sort) shown until the client applies URL filters.
   const firstPage = sortProducts(products, "featured").slice(0, PAGE_SIZE);
+  const firstSlugs = new Set(firstPage.slice(0, 4).map((p) => p.slug));
+  const cards = Object.fromEntries(
+    products.map((p) => [
+      p.slug,
+      <ProductCard key={p.slug} product={p} priority={firstSlugs.has(p.slug)} />,
+    ]),
+  );
 
   return (
     <>
@@ -56,7 +64,7 @@ export default async function CollectionPage({ params }: PageProps<"/collections
           )}
         </header>
         <Suspense fallback={<ProductGrid products={firstPage} />}>
-          <CollectionView products={products} />
+          <CollectionView products={products} cards={cards} />
         </Suspense>
       </div>
     </>

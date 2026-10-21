@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Noto_Sans_Bengali } from "next/font/google";
+import { Inter } from "next/font/google";
 
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { DemoBanner } from "@/components/layout/DemoBanner";
-import { SearchDrawer } from "@/components/layout/SearchDrawer";
+import { LazySearchDrawer } from "@/components/layout/LazySearchDrawer";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { getNavigation, getSite } from "@/lib/api";
@@ -14,15 +14,9 @@ import "@/styles/globals.css";
 
 // Placeholder face until ARBI's brand fonts are chosen. When a separate display
 // font arrives, load it here with variable "--font-display-face".
-const bodyFace = Inter({ variable: "--font-body-face", subsets: ["latin"], display: "swap" });
-// Only for the taka sign (৳); its unicode-range means it downloads only on pages that show one.
-const takaFace = Noto_Sans_Bengali({
-  variable: "--font-taka-face",
-  subsets: ["bengali"],
-  weight: "400",
-  display: "swap",
-  preload: false,
-});
+// display: optional — first visits on slow connections keep the fallback (no late swap,
+// which protects LCP); Inter is used once cached.
+const bodyFace = Inter({ variable: "--font-body-face", subsets: ["latin"], display: "optional" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl("/")),
@@ -45,7 +39,7 @@ export const viewport: Viewport = {
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const [navigation, site] = await Promise.all([getNavigation(), getSite()]);
   return (
-    <html lang="en" className={`${bodyFace.variable} ${takaFace.variable} h-full antialiased`}>
+    <html lang="en" className={`${bodyFace.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
         <a
           href="#main"
@@ -63,7 +57,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         <SiteFooter navigation={navigation} site={site} />
         <CartDrawer freeShippingThreshold={site.freeShippingThreshold} />
-        <SearchDrawer />
+        <LazySearchDrawer />
         <StoreHydrator />
       </body>
     </html>

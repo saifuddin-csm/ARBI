@@ -1,9 +1,10 @@
 // Serves the static export in out/ the way GitHub Pages does: under the base path, with
-// directory index.html files and out/404.html for unknown paths. Used by Playwright and
-// for local previews:  NEXT_PUBLIC_BASE_PATH=/ARBI node scripts/serve-out.mjs
+// directory index.html files, gzip for text, and out/404.html for unknown paths. Used by
+// Playwright and for local previews:  NEXT_PUBLIC_BASE_PATH=/ARBI node scripts/serve-out.mjs
 import fs from "node:fs";
 import http from "node:http";
 import path from "node:path";
+import zlib from "node:zlib";
 
 const root = path.resolve("out");
 const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -26,6 +27,20 @@ const TYPES = {
   ".mp4": "video/mp4",
   ".webm": "video/webm",
 };
+const COMPRESSIBLE = new Set([".html", ".css", ".js", ".json", ".txt", ".svg"]);
+
+function send(req, res, status, file) {
+  const ext = path.extname(file);
+  const headers = { "content-type": TYPES[ext] ?? "application/octet-stream" };
+  const gzip = COMPRESSIBLE.has(ext) && (req.headers["accept-encoding"] ?? "").includes("gzip");
+  if (gzip) {
+    headers["content-encoding"] = "gzip";
+    headers.vary = "Accept-Encoding";
+  }
+  res.writeHead(status, headers);
+  const stream = fs.createReadStream(file);
+  (gzip ? stream.pipe(zlib.createGzip()) : stream).pipe(res);
+}
 
 http
   .createServer((req, res) => {
@@ -43,13 +58,10 @@ http
       res.writeHead(403);
       return res.end();
     }
-    if (fs.existsSync(file) && fs.statSync(file).isDirectory())
+    if (fs.existsSync(file) && fs.statSync(file).isDirectory()) {
       file = path.join(file, "index.html");
-    if (!fs.existsSync(file)) {
-      res.writeHead(404, { "content-type": TYPES[".html"] });
-      return res.end(fs.readFileSync(path.join(root, "404.html")));
     }
-    res.writeHead(200, { "content-type": TYPES[path.extname(file)] ?? "application/octet-stream" });
-    fs.createReadStream(file).pipe(res);
+    if (!fs.existsSync(file)) return send(req, res, 404, path.join(root, "404.html"));
+    send(req, res, 200, file);
   })
   .listen(port, () => console.log(`Serving out/ at http://localhost:${port}${base}/`));
