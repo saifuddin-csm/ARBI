@@ -45,6 +45,11 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
           NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.base_url }}
 
+      - name: Check internal links
+        run: npm run check:links
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 

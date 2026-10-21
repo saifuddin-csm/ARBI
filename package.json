@@ -15,7 +15,8 @@
     "predev": "npm run placeholders",
     "prebuild": "npm run placeholders",
     "test:e2e": "playwright test",
-    "serve": "node scripts/serve-out.mjs"
+    "serve": "node scripts/serve-out.mjs",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.2",
