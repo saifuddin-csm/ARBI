@@ -2,10 +2,12 @@ import { assetPath } from "@/lib/utils";
 
 // Intrinsic sizes of the logo files; keep the aspect ratio and avoid layout shift.
 const VARIANTS = {
-  /** Black logo on white, for light backgrounds. */
-  default: { src: "/brand/arbi-logo.webp", width: 816, height: 497 },
-  /** White logo on transparent (red signature kept), for dark backgrounds like the footer. */
-  white: { src: "/brand/arbi-logo-white.webp", width: 400, height: 244 },
+  /** Compact lockup (wordmark + signature) for the header and other tight spaces. */
+  default: { src: "/brand/arbi-logo.webp", width: 720, height: 404 },
+  /** Full lockup with the "Clothes for you" tagline, for light backgrounds. */
+  full: { src: "/brand/arbi-logo-full.webp", width: 720, height: 538 },
+  /** Full lockup in white ink (red kept), for dark backgrounds like the footer. */
+  white: { src: "/brand/arbi-logo-white.webp", width: 720, height: 538 },
 };
 
 type LogoProps = {

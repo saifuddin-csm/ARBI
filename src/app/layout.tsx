@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "ARBI",
-    images: [{ url: siteUrl("/brand/arbi-logo.png"), width: 816, height: 497, alt: "ARBI" }],
+    images: [{ url: siteUrl("/brand/arbi-logo-full.png"), width: 720, height: 538, alt: "ARBI" }],
   },
 };
 

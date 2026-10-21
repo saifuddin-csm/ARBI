@@ -36,7 +36,7 @@ export function SiteFooter({ navigation, site }: { navigation: Navigation; site:
       <div className="container-page grid gap-12 py-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.3fr] lg:gap-8 lg:py-16">
         <div className="space-y-6">
           <Link href="/" aria-label="ARBI home" className="inline-block">
-            <Logo variant="white" className="h-12 w-auto" />
+            <Logo variant="white" className="h-24 w-auto lg:h-28" />
           </Link>
           <Newsletter />
         </div>

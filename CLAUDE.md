@@ -84,8 +84,13 @@ read the relevant section before starting a milestone.
 - **Real business details:** ARBI Chattogram (address, email) live in `content/site.json`
   (`support`) and `content/stores.json`. Phone, WhatsApp and opening hours are still
   placeholders.
-- **Brand assets:** logo at `public/brand/arbi-logo.webp` (+ `.png`), rendered by
-  `<Logo />`; favicon/apple icon at `src/app/icon.png` and `src/app/apple-icon.png`.
+- **Brand assets:** cut out (transparent) from the owner's raster logo, rendered by
+  `<Logo variant=…>`: `arbi-logo` = compact header lockup (wordmark + signature, tagline
+  dropped for space), `arbi-logo-full` = full lockup with "Clothes for you", and
+  `arbi-logo-white` = full lockup in white ink for the black footer (all in
+  `public/brand/`, `.webp` + `.png`). Favicon/apple icon (`src/app/icon.png`,
+  `apple-icon.png`) use the "A" with its red swoosh on the brand cream (#F0E9E0). The
+  source is only 411 px wide; ask for an SVG before launch.
   Font is Inter as a placeholder; accent `#c8102e` is a placeholder derived from the logo red.
 
 ## Layout
