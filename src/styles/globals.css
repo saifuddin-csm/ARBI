@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/*
+ * ARBI design tokens. Values are placeholders until the brand guide arrives;
+ * change them here only. Tailwind exposes each as a CSS variable (--color-bg ...)
+ * and a utility (bg-bg, text-text, text-muted, border-line, bg-accent, text-sale,
+ * rounded-brand, font-display, font-body).
+ */
+@theme {
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-muted: #6b6b6b;
+  --color-line: #e5e5e5;
+  /* Placeholder: deepened from the logo's red so white text on it passes WCAG AA. */
+  --color-accent: #c8102e;
+  --color-sale: #b42318;
+  --radius-brand: 2px;
+  --tracking-label: 0.1em;
+}
+
+/* Font faces come from next/font variables set on <html>, so they must stay inline. */
+@theme inline {
+  --font-display:
+    var(--font-display-face, var(--font-body-face)), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-body-face), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --container: 1440px;
+  --gutter: 16px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --gutter: 40px;
+  }
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* Uppercase nav / button / section label style from the design rules. */
+@utility label-caps {
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  font-family: var(--font-display);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-text);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
