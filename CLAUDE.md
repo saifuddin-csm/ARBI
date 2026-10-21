@@ -71,8 +71,12 @@ read the relevant section before starting a milestone.
   falls back to installed Bengali system fonts instead of a web font.
 - **Forms:** React Hook Form + Zod schemas from `src/lib/schemas` (shared with the Phase 2
   backend). Phase 1 forms validate and show demo confirmations; nothing is sent.
-- **Preview build:** `robots: noindex` in root metadata and a "Preview build: no real
-  orders" demo banner (`src/components/layout/DemoBanner.tsx`) on every page.
+- **Preview build:** `robots: noindex` in root metadata. The site-wide "Preview build"
+  banner was removed at the owner's request; demo notes remain on checkout, account and
+  form confirmations.
+- **Real business details:** ARBI Chattogram (address, email) live in `content/site.json`
+  (`support`) and `content/stores.json`. Phone, WhatsApp and opening hours are still
+  placeholders.
 - **Brand assets:** logo at `public/brand/arbi-logo.webp` (+ `.png`), rendered by
   `<Logo />`; favicon/apple icon at `src/app/icon.png` and `src/app/apple-icon.png`.
   Font is Inter as a placeholder; accent `#c8102e` is a placeholder derived from the logo red.

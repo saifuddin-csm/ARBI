@@ -138,7 +138,7 @@ export function MobileMenu({ open, onClose, navigation, socials }: MobileMenuPro
   }
 
   return (
-    <Drawer open={open} onClose={onClose} side="left" title="Menu">
+    <Drawer open={open} onClose={onClose} side="right" title="Menu">
       <nav aria-label="Mobile">{body}</nav>
     </Drawer>
   );

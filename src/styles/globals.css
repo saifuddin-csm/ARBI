@@ -92,3 +92,15 @@
     padding-block: 120px;
   }
 }
+
+/*
+ * Dark sections (the footer): re-points the colour tokens, so every utility inside
+ * (bg-bg, text-text, text-muted, border-line, focus rings) flips without extra classes.
+ */
+.theme-dark {
+  --color-bg: #0f0f0f;
+  --color-text: #ffffff;
+  --color-muted: #a8a8a8;
+  --color-line: #2b2b2b;
+  color-scheme: dark;
+}

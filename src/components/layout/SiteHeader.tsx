@@ -48,50 +48,27 @@ export function SiteHeader({
     >
       <div
         className={cn(
-          "container-page grid grid-cols-[1fr_auto_1fr] items-center transition-[height] duration-300",
+          // Phones: logo left, icons right. Desktop: logo | mega menu | icons.
+          "container-page flex items-center justify-between transition-[height] duration-300 lg:grid lg:grid-cols-[1fr_auto_1fr]",
           compact ? "h-14" : "h-16 lg:h-20",
         )}
       >
-        <div className="flex items-center lg:gap-6">
-          <button
-            type="button"
-            className={cn(iconBtn, "-ml-3 inline-flex lg:hidden")}
-            onClick={() => open("menu")}
-            aria-label="Open menu"
-            aria-expanded={panel === "menu"}
-          >
-            <Menu className="size-5" aria-hidden />
-          </button>
-          <button
-            type="button"
-            className={cn(iconBtn, "inline-flex lg:hidden")}
-            onClick={() => open("search")}
-            aria-label="Search"
-          >
-            <Search className="size-5" aria-hidden />
-          </button>
-          <Link href="/" className="hidden lg:block" aria-label="ARBI home">
-            <Logo
-              priority
-              className={cn("w-auto transition-[height] duration-300", compact ? "h-9" : "h-12")}
-            />
-          </Link>
-        </div>
+        <Link href="/" className="justify-self-start" aria-label="ARBI home">
+          <Logo
+            priority
+            className={cn(
+              "w-auto transition-[height] duration-300",
+              compact ? "h-8 lg:h-9" : "h-10 lg:h-12",
+            )}
+          />
+        </Link>
 
-        <div className="flex justify-center">
-          <Link href="/" className="lg:hidden" aria-label="ARBI home">
-            <Logo
-              priority
-              className={cn("w-auto transition-[height] duration-300", compact ? "h-8" : "h-10")}
-            />
-          </Link>
-          <MegaMenu items={navigation.main} />
-        </div>
+        <MegaMenu items={navigation.main} />
 
         <div className="flex items-center justify-end">
           <button
             type="button"
-            className={cn(iconBtn, "hidden lg:inline-flex")}
+            className={cn(iconBtn, "inline-flex")}
             onClick={() => open("search")}
             aria-label="Search"
           >
@@ -102,7 +79,7 @@ export function SiteHeader({
           </Link>
           <button
             type="button"
-            className={cn(iconBtn, "relative -mr-3 inline-flex")}
+            className={cn(iconBtn, "relative inline-flex lg:-mr-3")}
             onClick={() => open("cart")}
             aria-label={`Bag, ${count} ${count === 1 ? "item" : "items"}`}
           >
@@ -115,6 +92,15 @@ export function SiteHeader({
                 {count}
               </span>
             )}
+          </button>
+          <button
+            type="button"
+            className={cn(iconBtn, "-mr-3 inline-flex lg:hidden")}
+            onClick={() => open("menu")}
+            aria-label="Open menu"
+            aria-expanded={panel === "menu"}
+          >
+            <Menu className="size-5" aria-hidden />
           </button>
         </div>
       </div>

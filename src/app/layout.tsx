@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
-import { DemoBanner } from "@/components/layout/DemoBanner";
 import { LazySearchDrawer } from "@/components/layout/LazySearchDrawer";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -47,7 +46,6 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         >
           Skip to content
         </a>
-        <DemoBanner />
         {site.announcement && (
           <AnnouncementBar id={site.announcement.id} messages={site.announcement.messages} />
         )}

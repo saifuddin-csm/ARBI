@@ -1,32 +1,11 @@
 [
   {
-    "id": "gulshan",
-    "name": "ARBI Gulshan (sample store)",
-    "address": "Placeholder address, Gulshan Avenue",
-    "city": "Dhaka",
-    "phone": "+880 1000-000001",
-    "hours": "Every day, 11am–9pm",
-    "lat": 23.7925,
-    "lng": 90.4078
-  },
-  {
-    "id": "dhanmondi",
-    "name": "ARBI Dhanmondi (sample store)",
-    "address": "Placeholder address, Satmasjid Road",
-    "city": "Dhaka",
-    "phone": "+880 1000-000002",
-    "hours": "Every day, 11am–9pm",
-    "lat": 23.7461,
-    "lng": 90.3742
-  },
-  {
     "id": "chattogram",
-    "name": "ARBI Chattogram (sample store)",
-    "address": "Placeholder address, GEC Circle",
-    "city": "Chattogram",
-    "phone": "+880 1000-000003",
-    "hours": "Saturday–Thursday, 11am–8pm",
-    "lat": 22.3589,
-    "lng": 91.8213
+    "name": "ARBI Chattogram",
+    "address": "Arbi Tower, Suite 1A, House 51/A, Road 3, Zakir Hossain Road, South Khulshi",
+    "city": "Chattogram 4225, Bangladesh",
+    "email": "arbichattogram@gmail.com",
+    "lat": 22.3565,
+    "lng": 91.8085
   }
 ]

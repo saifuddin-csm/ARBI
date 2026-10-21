@@ -28,7 +28,7 @@ function LinkColumn({ title, links }: { title: string; links: NavLink[] }) {
 export function SiteFooter({ navigation, site }: { navigation: Navigation; site: SiteSettings }) {
   const tel = (n: string) => n.replace(/[^\d+]/g, "");
   return (
-    <footer className="mt-auto border-t border-line bg-bg">
+    <footer className="theme-dark mt-auto bg-bg text-text">
       <div className="container-page border-b border-line py-12 lg:py-16">
         <TrustStrip badges={site.trustBadges} />
       </div>
@@ -36,7 +36,7 @@ export function SiteFooter({ navigation, site }: { navigation: Navigation; site:
       <div className="container-page grid gap-12 py-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.3fr] lg:gap-8 lg:py-16">
         <div className="space-y-6">
           <Link href="/" aria-label="ARBI home" className="inline-block">
-            <Logo className="h-12 w-auto" />
+            <Logo variant="white" className="h-12 w-auto" />
           </Link>
           <Newsletter />
         </div>

@@ -212,8 +212,9 @@ export type Store = {
   name: string;
   address: string;
   city: string;
-  phone: string;
-  hours: string;
+  phone?: string;
+  email?: string;
+  hours?: string;
   lat: number;
   lng: number;
 };

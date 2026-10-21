@@ -1,4 +1,4 @@
-import { Clock, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import type { Metadata } from "next";
 
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
@@ -26,10 +26,9 @@ export default async function StoreLocatorPage() {
       />
       <h1 className="text-3xl font-light sm:text-4xl">Find a store</h1>
       <p className="mt-3 max-w-xl text-sm text-muted">
-        Sample stores shown for the preview build — replace with ARBI&apos;s real locations, or hide
-        this page if ARBI sells online only.
+        Visit us in person to try the collection and find your size.
       </p>
-      <ul className="mt-10 grid gap-10 lg:grid-cols-3">
+      <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {stores.map((s) => (
           <li key={s.id} className="flex flex-col">
             <div className="aspect-[4/3] overflow-hidden bg-line">
@@ -47,19 +46,31 @@ export default async function StoreLocatorPage() {
                 <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden />
                 {s.address}, {s.city}
               </li>
-              <li className="flex gap-2">
-                <Clock className="mt-0.5 size-4 shrink-0" aria-hidden />
-                {s.hours}
-              </li>
-              <li>
-                <a
-                  href={`tel:${s.phone.replace(/[^\d+]/g, "")}`}
-                  className="flex gap-2 hover:underline"
-                >
-                  <Phone className="mt-0.5 size-4 shrink-0" aria-hidden />
-                  {s.phone}
-                </a>
-              </li>
+              {s.hours && (
+                <li className="flex gap-2">
+                  <Clock className="mt-0.5 size-4 shrink-0" aria-hidden />
+                  {s.hours}
+                </li>
+              )}
+              {s.phone && (
+                <li>
+                  <a
+                    href={`tel:${s.phone.replace(/[^\d+]/g, "")}`}
+                    className="flex gap-2 hover:underline"
+                  >
+                    <Phone className="mt-0.5 size-4 shrink-0" aria-hidden />
+                    {s.phone}
+                  </a>
+                </li>
+              )}
+              {s.email && (
+                <li>
+                  <a href={`mailto:${s.email}`} className="flex gap-2 hover:underline">
+                    <Mail className="mt-0.5 size-4 shrink-0" aria-hidden />
+                    {s.email}
+                  </a>
+                </li>
+              )}
             </ul>
             <a
               href={`https://www.openstreetmap.org/?mlat=${s.lat}&mlon=${s.lng}#map=16/${s.lat}/${s.lng}`}
