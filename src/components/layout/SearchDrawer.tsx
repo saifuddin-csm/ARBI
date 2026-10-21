@@ -12,7 +12,7 @@ import { useSearchIndex } from "@/lib/hooks/useSearchIndex";
 import { matchesQuery } from "@/lib/utils/catalog";
 import { useUI } from "@/store/ui";
 
-const POPULAR = ["Linen", "Shirts", "Tees", "Dresses", "Denim", "Tote"];
+const POPULAR = ["Linen", "Shirts", "Panjabi", "Tees", "Denim", "Tote"];
 const MAX_RESULTS = 6;
 
 export function SearchDrawer() {
@@ -53,7 +53,7 @@ export function SearchDrawer() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search for shirts, linen, dresses…"
+            placeholder="Search for shirts, linen, panjabi…"
             autoComplete="off"
             className="w-full bg-transparent py-2 text-base outline-none placeholder:text-muted"
             aria-controls={`${inputId}-results`}

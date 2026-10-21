@@ -15,10 +15,10 @@ import {
 const summaries = async () => (await getProducts()).map(toSummary);
 
 describe("mock catalogue", () => {
-  it("has about 40 products across men, women and at least 6 categories", async () => {
+  it("has about 40 menswear products across at least 6 categories", async () => {
     const products = await getProducts();
     expect(products.length).toBeGreaterThanOrEqual(38);
-    expect(new Set(products.map((p) => p.gender))).toEqual(new Set(["men", "women", "unisex"]));
+    expect(new Set(products.map((p) => p.gender))).toEqual(new Set(["men"]));
     expect(new Set(products.map((p) => p.category)).size).toBeGreaterThanOrEqual(6);
   });
 
@@ -32,31 +32,28 @@ describe("mock catalogue", () => {
 
 describe("sibling colour lookup", () => {
   it("returns every colour of the style group and marks the current one", async () => {
-    const product = (await getProduct("mens-linen-classic-shirt-sand"))!;
+    const product = (await getProduct("linen-classic-shirt-sand"))!;
     const siblings = getSiblings(product);
     expect(siblings.map((s) => s.color.name)).toEqual(["White", "Sand", "Sky", "Olive"]);
     expect(siblings.filter((s) => s.current).map((s) => s.slug)).toEqual([
-      "mens-linen-classic-shirt-sand",
+      "linen-classic-shirt-sand",
     ]);
   });
 
   it("does not mix style groups", async () => {
-    const product = (await getProduct("womens-relaxed-linen-shirt-white"))!;
-    expect(getSiblings(product).every((s) => s.slug.startsWith("womens-relaxed-linen-shirt"))).toBe(
-      true,
-    );
+    const product = (await getProduct("cotton-panjabi-white"))!;
+    expect(getSiblings(product).every((s) => s.slug.startsWith("cotton-panjabi-"))).toBe(true);
   });
 });
 
 describe("collections", () => {
-  it("matches by gender, category list and edit tag", async () => {
-    const men = await getCollectionProducts("men");
-    expect(men.length).toBeGreaterThan(0);
-    expect(men.every((p) => p.gender === "men")).toBe(true);
+  it("matches everything, category lists and edit tags", async () => {
+    const all = await getCollectionProducts("all");
+    expect(all).toHaveLength((await getProducts()).length);
 
     const bottoms = await getCollectionProducts("bottoms");
     expect(new Set(bottoms.map((p) => p.category))).toEqual(
-      new Set(["pants", "denim", "joggers", "shorts"]),
+      new Set(["pants", "denim", "cargo", "joggers", "shorts"]),
     );
 
     const linen = await getCollectionProducts("linen-edit");
@@ -83,7 +80,7 @@ describe("filterProducts", () => {
       availability: "in",
     });
     expect(result.map((p) => p.slug)).toEqual(
-      expect.arrayContaining(["mens-oxford-button-down-shirt-white"]),
+      expect.arrayContaining(["oxford-button-down-shirt-white"]),
     );
     expect(result.every((p) => p.color.name === "White" && p.category === "shirts")).toBe(true);
     expect(result.every((p) => p.price <= 1800 && p.inStock)).toBe(true);
@@ -91,7 +88,7 @@ describe("filterProducts", () => {
 
   it("finds sold-out products with availability=out", async () => {
     const out = filterProducts(await summaries(), { ...EMPTY_FILTERS, availability: "out" });
-    expect(out.map((p) => p.slug)).toContain("mens-coach-jacket-olive");
+    expect(out.map((p) => p.slug)).toContain("coach-jacket-olive");
   });
 });
 
@@ -142,7 +139,7 @@ describe("URL params", () => {
 describe("filter options and search", () => {
   it("orders sizes naturally", async () => {
     const { sizes } = getFilterOptions(await summaries());
-    expect(sizes.slice(0, 6)).toEqual(["XS", "S", "M", "L", "XL", "XXL"]);
+    expect(sizes.slice(0, 7)).toEqual(["S", "M", "L", "XL", "XXL", "28", "30"]);
   });
 
   it("matches every word, case- and accent-insensitively", () => {

@@ -6,6 +6,7 @@ import { useId, useState } from "react";
 import { AccordionItem } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { Drawer } from "@/components/ui/Drawer";
+import { Swatch } from "@/components/ui/Swatch";
 import {
   EMPTY_FILTERS,
   type FilterOptions,
@@ -228,21 +229,14 @@ export function FilterDrawer({
                   const checked = draft.colors.includes(c.name);
                   return (
                     <li key={c.name}>
-                      <label className="flex min-h-10 cursor-pointer items-center gap-3 text-sm has-[:focus-visible]:underline">
+                      <label className="group/swatch flex min-h-10 cursor-pointer items-center gap-3 text-sm has-[:focus-visible]:underline">
                         <input
                           type="checkbox"
                           className="sr-only"
                           checked={checked}
                           onChange={() => set({ colors: toggle(draft.colors, c.name) })}
                         />
-                        <span
-                          aria-hidden
-                          className={cn(
-                            "size-6 rounded-full border border-black/15 ring-offset-2",
-                            checked && "ring-2 ring-text",
-                          )}
-                          style={{ backgroundColor: c.hex }}
-                        />
+                        <Swatch hex={c.hex} selected={checked} />
                         {c.name}
                       </label>
                     </li>

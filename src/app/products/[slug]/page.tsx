@@ -55,12 +55,10 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
     getSizeChart(product.sizeChartId),
   ]);
   const summary = toSummary(product);
-  const genderCrumb =
-    product.gender === "men"
-      ? { label: "Men", href: "/collections/men/" }
-      : product.gender === "women"
-        ? { label: "Women", href: "/collections/women/" }
-        : { label: "Accessories", href: "/collections/accessories/" };
+  const sectionCrumb =
+    product.category === "accessories"
+      ? { label: "Accessories", href: "/collections/accessories/" }
+      : { label: "Shop", href: "/collections/all/" };
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -101,7 +99,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
           className="mb-6"
           items={[
             { label: "Home", href: "/" },
-            genderCrumb,
+            sectionCrumb,
             { label: product.title, href: `/products/${slug}/` },
           ]}
         />

@@ -47,7 +47,7 @@ export function SearchResults() {
             type="search"
             value={value}
             onChange={(e) => setValue(e.target.value)}
-            placeholder="Search for shirts, linen, dresses…"
+            placeholder="Search for shirts, linen, panjabi…"
             className="w-full bg-transparent py-2 text-base outline-none placeholder:text-muted"
           />
           <button type="submit" className="label-caps text-xs hover:underline">

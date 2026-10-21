@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Img } from "@/components/ui/Img";
 import { PriceTag } from "@/components/ui/PriceTag";
 import { Rating } from "@/components/ui/Rating";
+import { Swatch } from "@/components/ui/Swatch";
 import { cn } from "@/lib/utils/cn";
 import type { ProductSummary } from "@/types";
 
@@ -72,12 +73,10 @@ export function ProductCard({ product, priority, className }: ProductCardProps) 
                   title={c.color.name}
                   aria-label={`${c.color.name}${c.current ? " (shown)" : ""}`}
                   aria-current={c.current ? "true" : undefined}
-                  className={cn(
-                    "block size-4 rounded-full border border-black/15 ring-offset-2 ring-offset-bg",
-                    c.current ? "ring-1 ring-text" : "hover:ring-1 hover:ring-muted",
-                  )}
-                  style={{ backgroundColor: c.color.hex }}
-                />
+                  className="group/swatch block"
+                >
+                  <Swatch hex={c.color.hex} selected={c.current} size="sm" />
+                </Link>
               </li>
             ))}
           </ul>

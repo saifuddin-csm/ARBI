@@ -7,12 +7,12 @@ test("browse → add to bag → checkout → order confirmation", async ({ page 
   await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
 
   // Collection page with URL filters.
-  await page.goto("collections/men/?category=shirts");
-  await expect(page.getByRole("heading", { name: "Men", level: 1 })).toBeVisible();
+  await page.goto("collections/all/?category=shirts");
+  await expect(page.getByRole("heading", { name: "Shop All", level: 1 })).toBeVisible();
   await expect(page.getByRole("button", { name: "Shirts Remove filter" })).toBeVisible();
 
   // Product page.
-  await page.goto("products/mens-linen-classic-shirt-sand/");
+  await page.goto("products/linen-classic-shirt-sand/");
   await expect(page.getByRole("heading", { name: "Linen Classic Shirt", level: 1 })).toBeVisible();
 
   // Adding without a size asks for one.
@@ -60,7 +60,7 @@ test("browse → add to bag → checkout → order confirmation", async ({ page 
 });
 
 test("sold-out sizes cannot be added", async ({ page }) => {
-  await page.goto("products/mens-coach-jacket-olive/");
+  await page.goto("products/coach-jacket-olive/");
   await expect(page.getByRole("button", { name: "Sold out" }).first()).toBeDisabled();
   const sizes = page.getByRole("radio");
   for (const radio of await sizes.all()) await expect(radio).toBeDisabled();
@@ -69,6 +69,6 @@ test("sold-out sizes cannot be added", async ({ page }) => {
 test("search drawer shows live results", async ({ page }) => {
   await page.goto("./");
   await page.getByRole("button", { name: "Search" }).filter({ visible: true }).click();
-  await page.getByRole("searchbox", { name: "Search products" }).fill("wrap dress");
-  await expect(page.getByRole("link", { name: /Wrap Midi Dress/ }).first()).toBeVisible();
+  await page.getByRole("searchbox", { name: "Search products" }).fill("panjabi");
+  await expect(page.getByRole("link", { name: /Cotton Panjabi/ }).first()).toBeVisible();
 });

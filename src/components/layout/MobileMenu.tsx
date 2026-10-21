@@ -18,7 +18,7 @@ type MobileMenuProps = {
 type Level = { item: NavItem } | { item: NavItem; group: NavGroup } | null;
 
 const row =
-  "flex min-h-12 w-full items-center justify-between border-b border-line px-5 text-left text-sm";
+  "flex min-h-12 w-full items-center justify-between border-b border-line px-5 text-left text-sm hover:bg-line/50";
 
 /** Mobile drawer with drill-down levels: Men → Top wear → Shirts, each with Back and View all. */
 export function MobileMenu({ open, onClose, navigation, socials }: MobileMenuProps) {
@@ -47,12 +47,12 @@ export function MobileMenu({ open, onClose, navigation, socials }: MobileMenuPro
             <li key={item.label}>
               {item.groups?.length ? (
                 <button type="button" className={row} onClick={() => setLevel({ item })}>
-                  <span className="label-caps text-xs">{item.label}</span>
+                  <span className="label-caps text-xs font-semibold">{item.label}</span>
                   <ChevronRight className="size-4" aria-hidden />
                 </button>
               ) : (
                 <Link href={item.href} className={row} onClick={onClose}>
-                  <span className="label-caps text-xs">{item.label}</span>
+                  <span className="label-caps text-xs font-semibold">{item.label}</span>
                 </Link>
               )}
             </li>
@@ -139,7 +139,15 @@ export function MobileMenu({ open, onClose, navigation, socials }: MobileMenuPro
 
   return (
     <Drawer open={open} onClose={onClose} side="right" title="Menu">
-      <nav aria-label="Mobile">{body}</nav>
+      <nav aria-label="Mobile">
+        {/* Re-keyed per level so each drill-down step fades in. */}
+        <div
+          key={level ? `${level.item.label}/${"group" in level ? level.group.title : ""}` : "root"}
+          className="animate-fade-up"
+        >
+          {body}
+        </div>
+      </nav>
     </Drawer>
   );
 }

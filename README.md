@@ -9,7 +9,8 @@ a demo. See [`docs/BUILD_PLAN.md`](docs/BUILD_PLAN.md) for the full plan and
 
 ## Adding photos and videos
 
-Every image on the site is a placeholder until you upload the real file.
+Every image slot currently shows a stand-in stock photo from Pexels (free licence; see
+[`docs/CREDITS.md`](docs/CREDITS.md)) or a labelled placeholder. Replace them with ARBI's own photos:
 
 1. Open [`docs/ASSETS.md`](docs/ASSETS.md). It lists every file the site looks for, its
    size, and what it shows (for example `public/images/products/mens-linen-classic-shirt-sand-1.webp`).

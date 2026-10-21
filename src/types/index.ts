@@ -170,9 +170,14 @@ export type HeroData = {
   video?: { mp4?: string; webm?: string };
 };
 
+// The home page is an overview of the brand and its categories: no product names, prices,
+// ratings or colours (those live on collection and product pages).
 export type HomeSection =
   | { type: "hero"; data: HeroData }
-  | { type: "splitTiles"; data: { tiles: { title: string; cta: NavLink; image: Media }[] } }
+  | {
+      type: "categoryTiles";
+      data: { eyebrow?: string; heading: string; collections: Collection[] };
+    }
   | {
       type: "banner";
       data: {
@@ -184,13 +189,18 @@ export type HomeSection =
         desktop: Media;
       };
     }
-  | { type: "productRow"; data: { heading: string; products: ProductSummary[]; cta?: NavLink } }
-  | { type: "collectionCards"; data: { heading: string; collections: Collection[] } }
   | {
-      type: "shopTheLook";
-      data: { heading: string; text?: string; image: Media; products: ProductSummary[] };
+      type: "editorial";
+      data: { eyebrow?: string; heading: string; text: string; image: Media; cta?: NavLink };
     }
-  | { type: "carousel"; data: { heading: string; products: ProductSummary[]; cta?: NavLink } }
+  | {
+      type: "collectionCards";
+      data: { eyebrow?: string; heading: string; collections: Collection[] };
+    }
+  | {
+      type: "lookbook";
+      data: { eyebrow?: string; heading: string; text?: string; images: Media[]; cta?: NavLink };
+    }
   | { type: "brandStatement"; data: { text: string } }
   | { type: "trustStrip"; data: { badges: TrustBadge[] } };
 

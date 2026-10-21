@@ -5,11 +5,26 @@
     "unit": "cm",
     "columns": ["Chest", "Length", "Shoulder", "Sleeve"],
     "rows": [
-      { "size": "S", "values": [96, 70, 43, 21] },
-      { "size": "M", "values": [102, 72, 45, 22] },
-      { "size": "L", "values": [108, 74, 47, 23] },
-      { "size": "XL", "values": [114, 76, 49, 24] },
-      { "size": "XXL", "values": [120, 78, 51, 25] }
+      {
+        "size": "S",
+        "values": [96, 70, 43, 21]
+      },
+      {
+        "size": "M",
+        "values": [102, 72, 45, 22]
+      },
+      {
+        "size": "L",
+        "values": [108, 74, 47, 23]
+      },
+      {
+        "size": "XL",
+        "values": [114, 76, 49, 24]
+      },
+      {
+        "size": "XXL",
+        "values": [120, 78, 51, 25]
+      }
     ],
     "howToMeasure": [
       {
@@ -24,7 +39,10 @@
         "title": "Shoulder",
         "text": "Measure straight across the back from one shoulder seam to the other."
       },
-      { "title": "Sleeve", "text": "Measure from the shoulder seam to the end of the sleeve." }
+      {
+        "title": "Sleeve",
+        "text": "Measure from the shoulder seam to the end of the sleeve."
+      }
     ],
     "faqs": [
       {
@@ -47,12 +65,30 @@
     "unit": "cm",
     "columns": ["Waist", "Hip", "Inseam", "Leg opening"],
     "rows": [
-      { "size": "28", "values": [72, 92, 78, 15] },
-      { "size": "30", "values": [77, 97, 79, 16] },
-      { "size": "32", "values": [82, 102, 80, 16.5] },
-      { "size": "34", "values": [87, 107, 81, 17] },
-      { "size": "36", "values": [92, 112, 81, 17.5] },
-      { "size": "38", "values": [97, 117, 82, 18] }
+      {
+        "size": "28",
+        "values": [72, 92, 78, 15]
+      },
+      {
+        "size": "30",
+        "values": [77, 97, 79, 16]
+      },
+      {
+        "size": "32",
+        "values": [82, 102, 80, 16.5]
+      },
+      {
+        "size": "34",
+        "values": [87, 107, 81, 17]
+      },
+      {
+        "size": "36",
+        "values": [92, 112, 81, 17.5]
+      },
+      {
+        "size": "38",
+        "values": [97, 117, 82, 18]
+      }
     ],
     "howToMeasure": [
       {
@@ -67,7 +103,10 @@
         "title": "Inseam",
         "text": "Measure from the crotch seam down the inside of the leg to the hem."
       },
-      { "title": "Leg opening", "text": "Measure straight across the hem of the leg, laid flat." }
+      {
+        "title": "Leg opening",
+        "text": "Measure straight across the hem of the leg, laid flat."
+      }
     ],
     "faqs": [
       {
@@ -81,71 +120,58 @@
     ]
   },
   {
-    "id": "women-tops",
-    "name": "Women's tops & dresses",
+    "id": "men-panjabi",
+    "name": "Men's panjabi",
     "unit": "cm",
-    "columns": ["Bust", "Waist", "Length", "Shoulder"],
+    "columns": ["Chest", "Length", "Shoulder", "Sleeve"],
     "rows": [
-      { "size": "XS", "values": [82, 66, 62, 36] },
-      { "size": "S", "values": [86, 70, 63, 37] },
-      { "size": "M", "values": [91, 75, 64, 38] },
-      { "size": "L", "values": [97, 81, 65, 39.5] },
-      { "size": "XL", "values": [103, 87, 66, 41] }
+      {
+        "size": "S",
+        "values": [100, 102, 44, 60]
+      },
+      {
+        "size": "M",
+        "values": [106, 104, 46, 61]
+      },
+      {
+        "size": "L",
+        "values": [112, 106, 48, 62]
+      },
+      {
+        "size": "XL",
+        "values": [118, 108, 50, 63]
+      },
+      {
+        "size": "XXL",
+        "values": [124, 110, 52, 64]
+      }
     ],
     "howToMeasure": [
       {
-        "title": "Bust",
-        "text": "Measure around the fullest part of your bust, keeping the tape level."
+        "title": "Chest",
+        "text": "Measure around the fullest part of your chest, keeping the tape level under your arms."
       },
-      { "title": "Waist", "text": "Measure around the narrowest part of your waist." },
       {
         "title": "Length",
-        "text": "Measure from the highest point of the shoulder to the hem. Dresses list bodice length."
+        "text": "Measure from the highest point of the shoulder down to the hem — our panjabi sit just below the knee."
       },
       {
         "title": "Shoulder",
-        "text": "Measure across the back from one shoulder point to the other."
+        "text": "Measure straight across the back from one shoulder seam to the other."
+      },
+      {
+        "title": "Sleeve",
+        "text": "Measure from the shoulder seam to the end of the cuff."
       }
     ],
     "faqs": [
       {
-        "question": "How do the oversized styles fit?",
-        "answer": "Oversized styles are cut with extra room. Choose your usual size for the intended look, or size down for a neater fit."
+        "question": "How does the panjabi fit?",
+        "answer": "A regular, straight fit with room through the chest. If you prefer a slimmer look, choose one size down."
       },
       {
-        "question": "Do the wrap dresses adjust?",
-        "answer": "Yes — the wrap tie lets you adjust the waist by roughly one size either way."
-      }
-    ]
-  },
-  {
-    "id": "women-bottoms",
-    "name": "Women's trousers",
-    "unit": "cm",
-    "columns": ["Waist", "Hip", "Rise", "Inseam"],
-    "rows": [
-      { "size": "XS", "values": [64, 90, 29, 76] },
-      { "size": "S", "values": [68, 94, 30, 76] },
-      { "size": "M", "values": [73, 99, 31, 77] },
-      { "size": "L", "values": [79, 105, 32, 77] },
-      { "size": "XL", "values": [85, 111, 33, 78] }
-    ],
-    "howToMeasure": [
-      {
-        "title": "Waist",
-        "text": "Measure around your natural waist, just above the belly button."
-      },
-      { "title": "Hip", "text": "Measure around the fullest part of your hips." },
-      {
-        "title": "Rise",
-        "text": "Measure from the crotch seam up to the top of the waistband at the front."
-      },
-      { "title": "Inseam", "text": "Measure from the crotch seam to the hem along the inside leg." }
-    ],
-    "faqs": [
-      {
-        "question": "Is there stretch in the fabric?",
-        "answer": "Our crepe has a slight mechanical stretch for comfort but holds its tailored shape."
+        "question": "Can I get the length adjusted?",
+        "answer": "Yes — any local tailor can shorten the hem without affecting the side slits."
       }
     ]
   }

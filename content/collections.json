@@ -2,69 +2,30 @@
   {
     "slug": "all",
     "title": "Shop All",
-    "description": "Every ARBI piece in one place — shirts, tees, bottoms, outerwear, dresses and accessories.",
+    "description": "Every ARBI piece in one place — shirts, tees, panjabi, bottoms, outerwear and accessories.",
+    "tagline": "The full ARBI wardrobe.",
+    "banner": {
+      "mobile": {
+        "src": "/images/collections/all-banner-mobile.webp",
+        "alt": "The ARBI wardrobe",
+        "label": "The ARBI wardrobe — banner (mobile 2:3)",
+        "width": 1080,
+        "height": 1620
+      },
+      "desktop": {
+        "src": "/images/collections/all-banner-desktop.webp",
+        "alt": "The ARBI wardrobe",
+        "label": "The ARBI wardrobe — banner (desktop 21:9)",
+        "width": 2560,
+        "height": 1080
+      }
+    },
     "card": {
       "src": "/images/collections/all.webp",
-      "alt": "A rail of ARBI clothing in neutral tones",
-      "label": "Shop all"
+      "alt": "Folded shirts on a shelf",
+      "label": "Folded shirts on a shelf"
     },
     "filter": {}
-  },
-  {
-    "slug": "men",
-    "title": "Men",
-    "description": "Considered essentials for him: breathable shirts, everyday tees and tailored bottoms made for the Bangladeshi climate.",
-    "tagline": "Built for the heat, cut for the city.",
-    "banner": {
-      "mobile": {
-        "src": "/images/collections/men-banner-mobile.webp",
-        "alt": "ARBI menswear campaign",
-        "label": "Men — banner (mobile 2:3)",
-        "width": 1080,
-        "height": 1620
-      },
-      "desktop": {
-        "src": "/images/collections/men-banner-desktop.webp",
-        "alt": "ARBI menswear campaign",
-        "label": "Men — banner (desktop 21:9)",
-        "width": 2560,
-        "height": 1080
-      }
-    },
-    "card": {
-      "src": "/images/collections/men.webp",
-      "alt": "Man wearing an ARBI linen shirt",
-      "label": "Men"
-    },
-    "filter": { "gender": "men" }
-  },
-  {
-    "slug": "women",
-    "title": "Women",
-    "description": "Easy, fluid pieces for her: linen shirts, wrap dresses and high-rise trousers that move with the day.",
-    "tagline": "Ease, in every layer.",
-    "banner": {
-      "mobile": {
-        "src": "/images/collections/women-banner-mobile.webp",
-        "alt": "ARBI womenswear campaign",
-        "label": "Women — banner (mobile 2:3)",
-        "width": 1080,
-        "height": 1620
-      },
-      "desktop": {
-        "src": "/images/collections/women-banner-desktop.webp",
-        "alt": "ARBI womenswear campaign",
-        "label": "Women — banner (desktop 21:9)",
-        "width": 2560,
-        "height": 1080
-      }
-    },
-    "card": {
-      "src": "/images/collections/women.webp",
-      "alt": "Woman wearing an ARBI wrap dress",
-      "label": "Women"
-    },
-    "filter": { "gender": "women" }
   },
   {
     "slug": "new-arrivals",
@@ -73,9 +34,11 @@
     "card": {
       "src": "/images/collections/new-arrivals.webp",
       "alt": "New ARBI arrivals",
-      "label": "New arrivals"
+      "label": "New ARBI arrivals"
     },
-    "filter": { "badge": "new" }
+    "filter": {
+      "badge": "new"
+    }
   },
   {
     "slug": "best-sellers",
@@ -84,78 +47,108 @@
     "card": {
       "src": "/images/collections/best-sellers.webp",
       "alt": "ARBI best sellers",
-      "label": "Best sellers"
+      "label": "ARBI best sellers"
     },
-    "filter": { "badge": "bestseller" }
+    "filter": {
+      "badge": "bestseller"
+    }
   },
   {
     "slug": "sale",
     "title": "Sale",
     "description": "Limited-time prices on selected styles. While sizes last.",
-    "card": { "src": "/images/collections/sale.webp", "alt": "ARBI sale", "label": "Sale" },
-    "filter": { "badge": "sale" }
+    "card": {
+      "src": "/images/collections/sale.webp",
+      "alt": "ARBI sale",
+      "label": "ARBI sale"
+    },
+    "filter": {
+      "badge": "sale"
+    }
   },
   {
     "slug": "shirts",
     "title": "Shirts",
-    "description": "Linen, oxford and relaxed shirts for him and her.",
-    "card": { "src": "/images/collections/shirts.webp", "alt": "ARBI shirts", "label": "Shirts" },
-    "filter": { "category": ["shirts"] }
+    "description": "Pure linen and crisp oxford shirts, cut for the heat.",
+    "tagline": "Linen and oxford, made to breathe.",
+    "card": {
+      "src": "/images/collections/shirts.webp",
+      "alt": "A linen shirt on a hanger",
+      "label": "A linen shirt on a hanger"
+    },
+    "filter": {
+      "category": ["shirts"]
+    }
   },
   {
     "slug": "tees-and-polos",
     "title": "Tees & Polos",
     "description": "Everyday cotton tees and piqué polos.",
+    "tagline": "The everyday essentials.",
     "card": {
       "src": "/images/collections/tees-and-polos.webp",
-      "alt": "ARBI tees and polos",
-      "label": "Tees & polos"
+      "alt": "Folded cotton tees",
+      "label": "Folded cotton tees"
     },
-    "filter": { "category": ["tees", "polos"] }
+    "filter": {
+      "category": ["tees", "polos"]
+    }
+  },
+  {
+    "slug": "panjabi",
+    "title": "Panjabi",
+    "description": "Fine-cotton panjabi for Jumma, Eid and every celebration in between.",
+    "tagline": "Dressed for every occasion.",
+    "card": {
+      "src": "/images/collections/panjabi.webp",
+      "alt": "Men wearing cotton panjabi",
+      "label": "Men wearing cotton panjabi"
+    },
+    "filter": {
+      "category": ["panjabi"]
+    }
   },
   {
     "slug": "bottoms",
     "title": "Bottoms",
-    "description": "Chinos, denim, joggers, shorts and trousers.",
+    "description": "Chinos, denim, cargo pants, joggers and shorts.",
+    "tagline": "Chinos, denim and more.",
     "card": {
       "src": "/images/collections/bottoms.webp",
-      "alt": "ARBI bottoms",
-      "label": "Bottoms"
+      "alt": "Tapered chinos",
+      "label": "Tapered chinos"
     },
-    "filter": { "category": ["pants", "denim", "joggers", "shorts"] }
+    "filter": {
+      "category": ["pants", "denim", "cargo", "joggers", "shorts"]
+    }
   },
   {
     "slug": "outerwear",
     "title": "Outerwear",
-    "description": "Sweatshirts and jackets for cooler evenings and monsoon showers.",
+    "description": "Sweatshirts, overshirts and jackets for cooler evenings and monsoon showers.",
+    "tagline": "Layers for cooler evenings.",
     "card": {
       "src": "/images/collections/outerwear.webp",
-      "alt": "ARBI outerwear",
-      "label": "Outerwear"
+      "alt": "A man in a tan overshirt",
+      "label": "A man in a tan overshirt"
     },
-    "filter": { "category": ["sweatshirts", "jackets"] }
-  },
-  {
-    "slug": "dresses",
-    "title": "Dresses",
-    "description": "Fluid dresses for days out and evenings in.",
-    "card": {
-      "src": "/images/collections/dresses.webp",
-      "alt": "ARBI dresses",
-      "label": "Dresses"
-    },
-    "filter": { "category": ["dresses"] }
+    "filter": {
+      "category": ["sweatshirts", "overshirts", "jackets"]
+    }
   },
   {
     "slug": "accessories",
     "title": "Accessories",
     "description": "Totes and caps to finish the look.",
+    "tagline": "The finishing touches.",
     "card": {
       "src": "/images/collections/accessories.webp",
-      "alt": "ARBI accessories",
-      "label": "Accessories"
+      "alt": "A black canvas tote",
+      "label": "A black canvas tote"
     },
-    "filter": { "category": ["accessories"] }
+    "filter": {
+      "category": ["accessories"]
+    }
   },
   {
     "slug": "linen-edit",
@@ -166,47 +159,69 @@
       "mobile": {
         "src": "/images/collections/linen-edit-banner-mobile.webp",
         "alt": "The Linen Edit by ARBI",
-        "label": "Linen Edit — banner (mobile 2:3)",
+        "label": "The Linen Edit by ARBI — banner (mobile 2:3)",
         "width": 1080,
         "height": 1620
       },
       "desktop": {
         "src": "/images/collections/linen-edit-banner-desktop.webp",
         "alt": "The Linen Edit by ARBI",
-        "label": "Linen Edit — banner (desktop 21:9)",
+        "label": "The Linen Edit by ARBI — banner (desktop 21:9)",
         "width": 2560,
         "height": 1080
       }
     },
     "card": {
       "src": "/images/collections/linen-edit.webp",
-      "alt": "Linen shirts in natural tones",
-      "label": "The Linen Edit"
+      "alt": "Linen shirts on hangers",
+      "label": "Linen shirts on hangers"
     },
-    "filter": { "tag": "linen-edit" }
+    "filter": {
+      "tag": "linen-edit"
+    }
   },
   {
     "slug": "weekend-edit",
     "title": "The Weekend Edit",
-    "description": "Relaxed tees, joggers and denim for slow Fridays and easy Saturdays.",
+    "description": "Relaxed tees, overshirts, cargo and denim for slow Fridays and easy Saturdays.",
     "tagline": "Off duty, still put together.",
     "card": {
       "src": "/images/collections/weekend-edit.webp",
-      "alt": "Relaxed weekend outfits",
-      "label": "The Weekend Edit"
+      "alt": "A relaxed weekend outfit",
+      "label": "A relaxed weekend outfit"
     },
-    "filter": { "tag": "weekend-edit" }
+    "filter": {
+      "tag": "weekend-edit"
+    }
   },
   {
     "slug": "festive-edit",
     "title": "The Festive Edit",
-    "description": "Dressier pieces for dawats, weddings and the season's celebrations.",
+    "description": "Panjabi, crisp shirts and sharp layers for Eid, weddings and the season's celebrations.",
     "tagline": "Dressed for every invitation.",
+    "banner": {
+      "mobile": {
+        "src": "/images/collections/festive-edit-banner-mobile.webp",
+        "alt": "The Festive Edit by ARBI",
+        "label": "The Festive Edit by ARBI — banner (mobile 2:3)",
+        "width": 1080,
+        "height": 1620
+      },
+      "desktop": {
+        "src": "/images/collections/festive-edit-banner-desktop.webp",
+        "alt": "The Festive Edit by ARBI",
+        "label": "The Festive Edit by ARBI — banner (desktop 21:9)",
+        "width": 2560,
+        "height": 1080
+      }
+    },
     "card": {
       "src": "/images/collections/festive-edit.webp",
-      "alt": "Festive outfits by ARBI",
-      "label": "The Festive Edit"
+      "alt": "A man in a red panjabi",
+      "label": "A man in a red panjabi"
     },
-    "filter": { "tag": "festive-edit" }
+    "filter": {
+      "tag": "festive-edit"
+    }
   }
 ]

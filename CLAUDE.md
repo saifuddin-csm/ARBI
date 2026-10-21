@@ -2,6 +2,9 @@
 
 # ARBI storefront — rules for Claude Code
 
+ARBI is a **menswear-only** brand: no women's products, collections or copy. The main
+nav is Home · Shop · Collections · Accessories.
+
 ARBI is a clothing brand's online store. `docs/BUILD_PLAN.md` is the source of truth;
 read the relevant section before starting a milestone.
 
@@ -24,7 +27,11 @@ read the relevant section before starting a milestone.
   Phase 1 demo is built in one run without stopping between them. After each milestone:
   run `npm run lint`, `npm run typecheck`, `npm test`, `npm run format:check`,
   `npm run build`; commit. At the end, push and summarise what to check on the preview.
-- **Images and videos are swappable placeholders.** Content JSON references real paths
+- **Home page is a brand overview** (hero, category tiles, campaign banners, editorial,
+  edits, lookbook, brand statement), modelled on the reference store's home. It must not
+  show product names, prices, ratings or colours.
+- **Images and videos are swappable placeholders.** Most slots currently hold stand-in
+  Pexels photos listed in `docs/stock-photos.json` / `docs/CREDITS.md`. Content JSON references real paths
   under `/images/...` and `/videos/...`. At build time `src/lib/api` uses the real file if
   it exists in `public/` (any of .webp/.avif/.jpg/.jpeg/.png), otherwise the generated SVG
   in `/placeholders/...` (`scripts/generate-placeholders.mjs`, runs before dev/build).

@@ -1,23 +1,31 @@
 {
   "main": [
     {
-      "label": "Men",
-      "href": "/collections/men/",
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Shop",
+      "href": "/collections/all/",
       "groups": [
         {
           "title": "Top wear",
           "links": [
             {
               "label": "Shirts",
-              "href": "/collections/men/?category=shirts"
+              "href": "/collections/all/?category=shirts"
             },
             {
-              "label": "Tees",
-              "href": "/collections/men/?category=tees"
+              "label": "T-shirts",
+              "href": "/collections/all/?category=tees"
             },
             {
               "label": "Polos",
-              "href": "/collections/men/?category=polos"
+              "href": "/collections/all/?category=polos"
+            },
+            {
+              "label": "Panjabi",
+              "href": "/collections/all/?category=panjabi"
             }
           ]
         },
@@ -26,19 +34,23 @@
           "links": [
             {
               "label": "Chinos",
-              "href": "/collections/men/?category=pants"
+              "href": "/collections/all/?category=pants"
             },
             {
               "label": "Denim",
-              "href": "/collections/men/?category=denim"
+              "href": "/collections/all/?category=denim"
+            },
+            {
+              "label": "Cargo pants",
+              "href": "/collections/all/?category=cargo"
             },
             {
               "label": "Joggers",
-              "href": "/collections/men/?category=joggers"
+              "href": "/collections/all/?category=joggers"
             },
             {
               "label": "Shorts",
-              "href": "/collections/men/?category=shorts"
+              "href": "/collections/all/?category=shorts"
             }
           ]
         },
@@ -47,98 +59,43 @@
           "links": [
             {
               "label": "Sweatshirts",
-              "href": "/collections/men/?category=sweatshirts"
+              "href": "/collections/all/?category=sweatshirts"
+            },
+            {
+              "label": "Overshirts",
+              "href": "/collections/all/?category=overshirts"
             },
             {
               "label": "Jackets",
-              "href": "/collections/men/?category=jackets"
+              "href": "/collections/all/?category=jackets"
             }
           ]
         },
         {
-          "title": "Edits",
+          "title": "Highlights",
           "links": [
             {
-              "label": "The Linen Edit",
-              "href": "/collections/linen-edit/"
-            },
-            {
-              "label": "The Weekend Edit",
-              "href": "/collections/weekend-edit/"
+              "label": "New Arrivals",
+              "href": "/collections/new-arrivals/"
             },
             {
               "label": "Best Sellers",
               "href": "/collections/best-sellers/"
+            },
+            {
+              "label": "Sale",
+              "href": "/collections/sale/"
             }
           ]
         }
       ],
       "feature": {
-        "title": "New for him",
+        "title": "New arrivals",
         "href": "/collections/new-arrivals/",
         "image": {
-          "src": "/images/menu/men-feature.webp",
-          "alt": "New menswear arrivals",
-          "label": "Menu feature — men"
-        }
-      }
-    },
-    {
-      "label": "Women",
-      "href": "/collections/women/",
-      "groups": [
-        {
-          "title": "Top wear",
-          "links": [
-            {
-              "label": "Shirts",
-              "href": "/collections/women/?category=shirts"
-            },
-            {
-              "label": "Tees",
-              "href": "/collections/women/?category=tees"
-            }
-          ]
-        },
-        {
-          "title": "Bottom wear",
-          "links": [
-            {
-              "label": "Trousers",
-              "href": "/collections/women/?category=pants"
-            }
-          ]
-        },
-        {
-          "title": "Dresses",
-          "links": [
-            {
-              "label": "All dresses",
-              "href": "/collections/dresses/"
-            }
-          ]
-        },
-        {
-          "title": "Edits",
-          "links": [
-            {
-              "label": "The Festive Edit",
-              "href": "/collections/festive-edit/"
-            },
-            {
-              "label": "The Linen Edit",
-              "href": "/collections/linen-edit/"
-            }
-          ]
-        }
-      ],
-      "feature": {
-        "title": "The Festive Edit",
-        "href": "/collections/festive-edit/",
-        "image": {
-          "src": "/images/menu/women-feature.webp",
-          "alt": "Festive womenswear",
-          "label": "Menu feature — women"
+          "src": "/images/menu/shop-feature.webp",
+          "alt": "New ARBI arrivals",
+          "label": "Menu feature — shop"
         }
       }
     },
@@ -175,41 +132,38 @@
               "href": "/collections/tees-and-polos/"
             },
             {
+              "label": "Panjabi",
+              "href": "/collections/panjabi/"
+            },
+            {
               "label": "Bottoms",
               "href": "/collections/bottoms/"
             },
             {
               "label": "Outerwear",
               "href": "/collections/outerwear/"
-            },
-            {
-              "label": "Dresses",
-              "href": "/collections/dresses/"
             }
           ]
         },
         {
-          "title": "Highlights",
+          "title": "Everything",
           "links": [
-            {
-              "label": "New Arrivals",
-              "href": "/collections/new-arrivals/"
-            },
-            {
-              "label": "Best Sellers",
-              "href": "/collections/best-sellers/"
-            },
-            {
-              "label": "Sale",
-              "href": "/collections/sale/"
-            },
             {
               "label": "Shop All",
               "href": "/collections/all/"
             }
           ]
         }
-      ]
+      ],
+      "feature": {
+        "title": "The Festive Edit",
+        "href": "/collections/festive-edit/",
+        "image": {
+          "src": "/images/menu/collections-feature.webp",
+          "alt": "The Festive Edit",
+          "label": "Menu feature — collections"
+        }
+      }
     },
     {
       "label": "Accessories",
@@ -308,16 +262,16 @@
     ],
     "collections": [
       {
-        "label": "Men",
-        "href": "/collections/men/"
-      },
-      {
-        "label": "Women",
-        "href": "/collections/women/"
+        "label": "Shop All",
+        "href": "/collections/all/"
       },
       {
         "label": "New Arrivals",
         "href": "/collections/new-arrivals/"
+      },
+      {
+        "label": "Panjabi",
+        "href": "/collections/panjabi/"
       },
       {
         "label": "The Linen Edit",

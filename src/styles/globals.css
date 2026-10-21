@@ -16,6 +16,31 @@
   --color-sale: #b42318;
   --radius-brand: 2px;
   --tracking-label: 0.1em;
+  /* Motion: one soft ease-out curve everywhere, so hovers and drawers feel consistent. */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  --default-transition-duration: 300ms;
+  --animate-fade-in: fade-in 300ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-fade-up: fade-up 450ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-pop-in: pop-in 300ms cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+  }
+  @keyframes pop-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.98);
+    }
+  }
 }
 
 /*
@@ -73,6 +98,17 @@
     outline-offset: 2px;
   }
 
+  /* Smooth default for every hover/press colour change; utilities can override. */
+  a,
+  button,
+  summary,
+  [role="tab"] {
+    transition-property:
+      color, background-color, border-color, text-decoration-color, opacity, box-shadow, transform;
+    transition-duration: 250ms;
+    transition-timing-function: var(--ease-out);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -90,6 +126,32 @@
   padding-block: 64px;
   @media (min-width: 1024px) {
     padding-block: 120px;
+  }
+}
+
+/* Text link with an underline that draws in from the left on hover/focus. */
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 350ms var(--ease-out);
+  &:hover,
+  &:focus-visible,
+  :where(.group):hover &,
+  :where(.group):focus-visible & {
+    background-size: 100% 1px;
+  }
+}
+
+/* Sections fade up as they scroll into view (CSS only; skipped where unsupported). */
+@utility reveal {
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      animation: fade-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { X } from "lucide-react";
-import { type ReactNode, useId, useRef } from "react";
+import { type ReactNode, useEffect, useId, useRef, useState } from "react";
 
 import { useDialog } from "@/lib/hooks/useDialog";
 import { cn } from "@/lib/utils/cn";
@@ -30,6 +30,13 @@ export function Drawer({
 }: DrawerProps) {
   const panelRef = useRef<HTMLDivElement>(null);
   const titleId = useId();
+  // Applied one frame after `open` changes, so a drawer that mounts already open (lazy
+  // drawers) still slides in instead of appearing.
+  const [shown, setShown] = useState(false);
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setShown(open));
+    return () => cancelAnimationFrame(frame);
+  }, [open]);
   useDialog(open, onClose, panelRef);
 
   return (
@@ -38,8 +45,8 @@ export function Drawer({
         aria-hidden="true"
         onClick={onClose}
         className={cn(
-          "absolute inset-0 bg-black/40 transition-opacity duration-300",
-          open ? "opacity-100" : "opacity-0",
+          "absolute inset-0 bg-black/40 transition-opacity duration-500 ease-out",
+          shown ? "opacity-100" : "opacity-0",
         )}
       />
       <div
@@ -49,9 +56,9 @@ export function Drawer({
         aria-labelledby={titleId}
         tabIndex={-1}
         className={cn(
-          "absolute top-0 flex h-full w-[min(100%,26rem)] flex-col bg-bg shadow-xl transition-transform duration-300 ease-out outline-none",
+          "absolute top-0 flex h-full w-[min(100%,26rem)] flex-col bg-bg shadow-xl transition-transform duration-500 ease-out outline-none",
           side === "right" ? "right-0" : "left-0",
-          open ? "translate-x-0" : side === "right" ? "translate-x-full" : "-translate-x-full",
+          shown ? "translate-x-0" : side === "right" ? "translate-x-full" : "-translate-x-full",
           className,
         )}
       >

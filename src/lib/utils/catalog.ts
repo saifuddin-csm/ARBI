@@ -203,6 +203,10 @@ export function matchesQuery(haystack: string, query: string): boolean {
 }
 
 export function categoryLabel(category: string): string {
-  const labels: Record<string, string> = { pants: "Trousers & chinos", tees: "T-shirts" };
+  const labels: Record<string, string> = {
+    pants: "Chinos",
+    tees: "T-shirts",
+    cargo: "Cargo pants",
+  };
   return labels[category] ?? category.charAt(0).toUpperCase() + category.slice(1);
 }

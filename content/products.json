@@ -1,9 +1,9 @@
 [
   {
     "id": "p001",
-    "slug": "mens-linen-classic-shirt-white",
+    "slug": "linen-classic-shirt-white",
     "title": "Linen Classic Shirt",
-    "styleGroup": "mens-linen-classic-shirt",
+    "styleGroup": "linen-classic-shirt",
     "color": {
       "name": "White",
       "hex": "#F4F2EE"
@@ -17,19 +17,19 @@
     "price": 1890,
     "images": [
       {
-        "src": "/images/products/mens-linen-classic-shirt-white-1.webp",
+        "src": "/images/products/linen-classic-shirt-white-1.webp",
         "alt": "Linen Classic Shirt in White, front view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-white-2.webp",
+        "src": "/images/products/linen-classic-shirt-white-2.webp",
         "alt": "Linen Classic Shirt in White, back view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-white-3.webp",
+        "src": "/images/products/linen-classic-shirt-white-3.webp",
         "alt": "Linen Classic Shirt in White, detail view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-white-4.webp",
+        "src": "/images/products/linen-classic-shirt-white-4.webp",
         "alt": "Linen Classic Shirt in White, on model view"
       }
     ],
@@ -99,9 +99,9 @@
   },
   {
     "id": "p002",
-    "slug": "mens-linen-classic-shirt-sand",
+    "slug": "linen-classic-shirt-sand",
     "title": "Linen Classic Shirt",
-    "styleGroup": "mens-linen-classic-shirt",
+    "styleGroup": "linen-classic-shirt",
     "color": {
       "name": "Sand",
       "hex": "#D9C7A7"
@@ -115,19 +115,19 @@
     "price": 1890,
     "images": [
       {
-        "src": "/images/products/mens-linen-classic-shirt-sand-1.webp",
+        "src": "/images/products/linen-classic-shirt-sand-1.webp",
         "alt": "Linen Classic Shirt in Sand, front view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-sand-2.webp",
+        "src": "/images/products/linen-classic-shirt-sand-2.webp",
         "alt": "Linen Classic Shirt in Sand, back view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-sand-3.webp",
+        "src": "/images/products/linen-classic-shirt-sand-3.webp",
         "alt": "Linen Classic Shirt in Sand, detail view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-sand-4.webp",
+        "src": "/images/products/linen-classic-shirt-sand-4.webp",
         "alt": "Linen Classic Shirt in Sand, on model view"
       }
     ],
@@ -197,9 +197,9 @@
   },
   {
     "id": "p003",
-    "slug": "mens-linen-classic-shirt-sky",
+    "slug": "linen-classic-shirt-sky",
     "title": "Linen Classic Shirt",
-    "styleGroup": "mens-linen-classic-shirt",
+    "styleGroup": "linen-classic-shirt",
     "color": {
       "name": "Sky",
       "hex": "#A9C6DE"
@@ -213,19 +213,19 @@
     "price": 1890,
     "images": [
       {
-        "src": "/images/products/mens-linen-classic-shirt-sky-1.webp",
+        "src": "/images/products/linen-classic-shirt-sky-1.webp",
         "alt": "Linen Classic Shirt in Sky, front view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-sky-2.webp",
+        "src": "/images/products/linen-classic-shirt-sky-2.webp",
         "alt": "Linen Classic Shirt in Sky, back view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-sky-3.webp",
+        "src": "/images/products/linen-classic-shirt-sky-3.webp",
         "alt": "Linen Classic Shirt in Sky, detail view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-sky-4.webp",
+        "src": "/images/products/linen-classic-shirt-sky-4.webp",
         "alt": "Linen Classic Shirt in Sky, on model view"
       }
     ],
@@ -295,9 +295,9 @@
   },
   {
     "id": "p004",
-    "slug": "mens-linen-classic-shirt-olive",
+    "slug": "linen-classic-shirt-olive",
     "title": "Linen Classic Shirt",
-    "styleGroup": "mens-linen-classic-shirt",
+    "styleGroup": "linen-classic-shirt",
     "color": {
       "name": "Olive",
       "hex": "#6B6B3A"
@@ -311,19 +311,19 @@
     "price": 1890,
     "images": [
       {
-        "src": "/images/products/mens-linen-classic-shirt-olive-1.webp",
+        "src": "/images/products/linen-classic-shirt-olive-1.webp",
         "alt": "Linen Classic Shirt in Olive, front view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-olive-2.webp",
+        "src": "/images/products/linen-classic-shirt-olive-2.webp",
         "alt": "Linen Classic Shirt in Olive, back view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-olive-3.webp",
+        "src": "/images/products/linen-classic-shirt-olive-3.webp",
         "alt": "Linen Classic Shirt in Olive, detail view"
       },
       {
-        "src": "/images/products/mens-linen-classic-shirt-olive-4.webp",
+        "src": "/images/products/linen-classic-shirt-olive-4.webp",
         "alt": "Linen Classic Shirt in Olive, on model view"
       }
     ],
@@ -386,17 +386,17 @@
       }
     ],
     "collections": ["linen-edit"],
-    "badges": [],
+    "badges": ["bestseller"],
     "rating": 4.3,
     "reviewCount": 95,
     "createdAt": "2026-07-21",
-    "bestSellerRank": 7
+    "bestSellerRank": 6
   },
   {
     "id": "p005",
-    "slug": "mens-oxford-button-down-shirt-white",
+    "slug": "oxford-button-down-shirt-white",
     "title": "Oxford Button-Down Shirt",
-    "styleGroup": "mens-oxford-button-down-shirt",
+    "styleGroup": "oxford-button-down-shirt",
     "color": {
       "name": "White",
       "hex": "#F4F2EE"
@@ -410,19 +410,19 @@
     "price": 1690,
     "images": [
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-white-1.webp",
+        "src": "/images/products/oxford-button-down-shirt-white-1.webp",
         "alt": "Oxford Button-Down Shirt in White, front view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-white-2.webp",
+        "src": "/images/products/oxford-button-down-shirt-white-2.webp",
         "alt": "Oxford Button-Down Shirt in White, back view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-white-3.webp",
+        "src": "/images/products/oxford-button-down-shirt-white-3.webp",
         "alt": "Oxford Button-Down Shirt in White, detail view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-white-4.webp",
+        "src": "/images/products/oxford-button-down-shirt-white-4.webp",
         "alt": "Oxford Button-Down Shirt in White, on model view"
       }
     ],
@@ -484,18 +484,18 @@
         "stock": 10
       }
     ],
-    "collections": ["weekend-edit"],
+    "collections": ["weekend-edit", "festive-edit"],
     "badges": ["bestseller"],
     "rating": 4.5,
     "reviewCount": 118,
     "createdAt": "2026-08-04",
-    "bestSellerRank": 3
+    "bestSellerRank": 2
   },
   {
     "id": "p006",
-    "slug": "mens-oxford-button-down-shirt-blue",
+    "slug": "oxford-button-down-shirt-blue",
     "title": "Oxford Button-Down Shirt",
-    "styleGroup": "mens-oxford-button-down-shirt",
+    "styleGroup": "oxford-button-down-shirt",
     "color": {
       "name": "Blue",
       "hex": "#5B7FB0"
@@ -509,19 +509,19 @@
     "price": 1690,
     "images": [
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-blue-1.webp",
+        "src": "/images/products/oxford-button-down-shirt-blue-1.webp",
         "alt": "Oxford Button-Down Shirt in Blue, front view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-blue-2.webp",
+        "src": "/images/products/oxford-button-down-shirt-blue-2.webp",
         "alt": "Oxford Button-Down Shirt in Blue, back view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-blue-3.webp",
+        "src": "/images/products/oxford-button-down-shirt-blue-3.webp",
         "alt": "Oxford Button-Down Shirt in Blue, detail view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-blue-4.webp",
+        "src": "/images/products/oxford-button-down-shirt-blue-4.webp",
         "alt": "Oxford Button-Down Shirt in Blue, on model view"
       }
     ],
@@ -583,18 +583,18 @@
         "stock": 2
       }
     ],
-    "collections": ["weekend-edit"],
+    "collections": ["weekend-edit", "festive-edit"],
     "badges": [],
     "rating": 4.2,
     "reviewCount": 95,
     "createdAt": "2026-09-13",
-    "bestSellerRank": 8
+    "bestSellerRank": 7
   },
   {
     "id": "p007",
-    "slug": "mens-oxford-button-down-shirt-pink",
+    "slug": "oxford-button-down-shirt-pink",
     "title": "Oxford Button-Down Shirt",
-    "styleGroup": "mens-oxford-button-down-shirt",
+    "styleGroup": "oxford-button-down-shirt",
     "color": {
       "name": "Pink",
       "hex": "#E7B8BE"
@@ -608,19 +608,19 @@
     "price": 1690,
     "images": [
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-pink-1.webp",
+        "src": "/images/products/oxford-button-down-shirt-pink-1.webp",
         "alt": "Oxford Button-Down Shirt in Pink, front view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-pink-2.webp",
+        "src": "/images/products/oxford-button-down-shirt-pink-2.webp",
         "alt": "Oxford Button-Down Shirt in Pink, back view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-pink-3.webp",
+        "src": "/images/products/oxford-button-down-shirt-pink-3.webp",
         "alt": "Oxford Button-Down Shirt in Pink, detail view"
       },
       {
-        "src": "/images/products/mens-oxford-button-down-shirt-pink-4.webp",
+        "src": "/images/products/oxford-button-down-shirt-pink-4.webp",
         "alt": "Oxford Button-Down Shirt in Pink, on model view"
       }
     ],
@@ -682,7 +682,7 @@
         "stock": 6
       }
     ],
-    "collections": ["weekend-edit"],
+    "collections": ["weekend-edit", "festive-edit"],
     "badges": [],
     "rating": 4.1,
     "reviewCount": 51,
@@ -690,9 +690,9 @@
   },
   {
     "id": "p008",
-    "slug": "mens-essential-crew-tee-black",
+    "slug": "essential-crew-tee-black",
     "title": "Essential Crew Tee",
-    "styleGroup": "mens-essential-crew-tee",
+    "styleGroup": "essential-crew-tee",
     "color": {
       "name": "Black",
       "hex": "#1C1C1C"
@@ -707,19 +707,19 @@
     "compareAtPrice": 890,
     "images": [
       {
-        "src": "/images/products/mens-essential-crew-tee-black-1.webp",
+        "src": "/images/products/essential-crew-tee-black-1.webp",
         "alt": "Essential Crew Tee in Black, front view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-black-2.webp",
+        "src": "/images/products/essential-crew-tee-black-2.webp",
         "alt": "Essential Crew Tee in Black, back view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-black-3.webp",
+        "src": "/images/products/essential-crew-tee-black-3.webp",
         "alt": "Essential Crew Tee in Black, detail view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-black-4.webp",
+        "src": "/images/products/essential-crew-tee-black-4.webp",
         "alt": "Essential Crew Tee in Black, on model view"
       }
     ],
@@ -789,9 +789,9 @@
   },
   {
     "id": "p009",
-    "slug": "mens-essential-crew-tee-white",
+    "slug": "essential-crew-tee-white",
     "title": "Essential Crew Tee",
-    "styleGroup": "mens-essential-crew-tee",
+    "styleGroup": "essential-crew-tee",
     "color": {
       "name": "White",
       "hex": "#F4F2EE"
@@ -806,19 +806,19 @@
     "compareAtPrice": 890,
     "images": [
       {
-        "src": "/images/products/mens-essential-crew-tee-white-1.webp",
+        "src": "/images/products/essential-crew-tee-white-1.webp",
         "alt": "Essential Crew Tee in White, front view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-white-2.webp",
+        "src": "/images/products/essential-crew-tee-white-2.webp",
         "alt": "Essential Crew Tee in White, back view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-white-3.webp",
+        "src": "/images/products/essential-crew-tee-white-3.webp",
         "alt": "Essential Crew Tee in White, detail view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-white-4.webp",
+        "src": "/images/products/essential-crew-tee-white-4.webp",
         "alt": "Essential Crew Tee in White, on model view"
       }
     ],
@@ -888,9 +888,9 @@
   },
   {
     "id": "p010",
-    "slug": "mens-essential-crew-tee-grey-melange",
+    "slug": "essential-crew-tee-grey-melange",
     "title": "Essential Crew Tee",
-    "styleGroup": "mens-essential-crew-tee",
+    "styleGroup": "essential-crew-tee",
     "color": {
       "name": "Grey Melange",
       "hex": "#A3A3A3"
@@ -905,19 +905,19 @@
     "compareAtPrice": 890,
     "images": [
       {
-        "src": "/images/products/mens-essential-crew-tee-grey-melange-1.webp",
+        "src": "/images/products/essential-crew-tee-grey-melange-1.webp",
         "alt": "Essential Crew Tee in Grey Melange, front view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-grey-melange-2.webp",
+        "src": "/images/products/essential-crew-tee-grey-melange-2.webp",
         "alt": "Essential Crew Tee in Grey Melange, back view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-grey-melange-3.webp",
+        "src": "/images/products/essential-crew-tee-grey-melange-3.webp",
         "alt": "Essential Crew Tee in Grey Melange, detail view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-grey-melange-4.webp",
+        "src": "/images/products/essential-crew-tee-grey-melange-4.webp",
         "alt": "Essential Crew Tee in Grey Melange, on model view"
       }
     ],
@@ -987,9 +987,9 @@
   },
   {
     "id": "p011",
-    "slug": "mens-essential-crew-tee-navy",
+    "slug": "essential-crew-tee-navy",
     "title": "Essential Crew Tee",
-    "styleGroup": "mens-essential-crew-tee",
+    "styleGroup": "essential-crew-tee",
     "color": {
       "name": "Navy",
       "hex": "#23314F"
@@ -1004,19 +1004,19 @@
     "compareAtPrice": 890,
     "images": [
       {
-        "src": "/images/products/mens-essential-crew-tee-navy-1.webp",
+        "src": "/images/products/essential-crew-tee-navy-1.webp",
         "alt": "Essential Crew Tee in Navy, front view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-navy-2.webp",
+        "src": "/images/products/essential-crew-tee-navy-2.webp",
         "alt": "Essential Crew Tee in Navy, back view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-navy-3.webp",
+        "src": "/images/products/essential-crew-tee-navy-3.webp",
         "alt": "Essential Crew Tee in Navy, detail view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-navy-4.webp",
+        "src": "/images/products/essential-crew-tee-navy-4.webp",
         "alt": "Essential Crew Tee in Navy, on model view"
       }
     ],
@@ -1086,9 +1086,9 @@
   },
   {
     "id": "p012",
-    "slug": "mens-essential-crew-tee-maroon",
+    "slug": "essential-crew-tee-maroon",
     "title": "Essential Crew Tee",
-    "styleGroup": "mens-essential-crew-tee",
+    "styleGroup": "essential-crew-tee",
     "color": {
       "name": "Maroon",
       "hex": "#6E1F2B"
@@ -1103,19 +1103,19 @@
     "compareAtPrice": 890,
     "images": [
       {
-        "src": "/images/products/mens-essential-crew-tee-maroon-1.webp",
+        "src": "/images/products/essential-crew-tee-maroon-1.webp",
         "alt": "Essential Crew Tee in Maroon, front view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-maroon-2.webp",
+        "src": "/images/products/essential-crew-tee-maroon-2.webp",
         "alt": "Essential Crew Tee in Maroon, back view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-maroon-3.webp",
+        "src": "/images/products/essential-crew-tee-maroon-3.webp",
         "alt": "Essential Crew Tee in Maroon, detail view"
       },
       {
-        "src": "/images/products/mens-essential-crew-tee-maroon-4.webp",
+        "src": "/images/products/essential-crew-tee-maroon-4.webp",
         "alt": "Essential Crew Tee in Maroon, on model view"
       }
     ],
@@ -1182,13 +1182,13 @@
     "rating": 4.8,
     "reviewCount": 90,
     "createdAt": "2026-09-03",
-    "bestSellerRank": 9
+    "bestSellerRank": 8
   },
   {
     "id": "p013",
-    "slug": "mens-pique-polo-navy",
+    "slug": "pique-polo-navy",
     "title": "Piqué Polo",
-    "styleGroup": "mens-pique-polo",
+    "styleGroup": "pique-polo",
     "color": {
       "name": "Navy",
       "hex": "#23314F"
@@ -1202,19 +1202,19 @@
     "price": 1190,
     "images": [
       {
-        "src": "/images/products/mens-pique-polo-navy-1.webp",
+        "src": "/images/products/pique-polo-navy-1.webp",
         "alt": "Piqué Polo in Navy, front view"
       },
       {
-        "src": "/images/products/mens-pique-polo-navy-2.webp",
+        "src": "/images/products/pique-polo-navy-2.webp",
         "alt": "Piqué Polo in Navy, back view"
       },
       {
-        "src": "/images/products/mens-pique-polo-navy-3.webp",
+        "src": "/images/products/pique-polo-navy-3.webp",
         "alt": "Piqué Polo in Navy, detail view"
       },
       {
-        "src": "/images/products/mens-pique-polo-navy-4.webp",
+        "src": "/images/products/pique-polo-navy-4.webp",
         "alt": "Piqué Polo in Navy, on model view"
       }
     ],
@@ -1284,9 +1284,9 @@
   },
   {
     "id": "p014",
-    "slug": "mens-pique-polo-white",
+    "slug": "pique-polo-white",
     "title": "Piqué Polo",
-    "styleGroup": "mens-pique-polo",
+    "styleGroup": "pique-polo",
     "color": {
       "name": "White",
       "hex": "#F4F2EE"
@@ -1300,19 +1300,19 @@
     "price": 1190,
     "images": [
       {
-        "src": "/images/products/mens-pique-polo-white-1.webp",
+        "src": "/images/products/pique-polo-white-1.webp",
         "alt": "Piqué Polo in White, front view"
       },
       {
-        "src": "/images/products/mens-pique-polo-white-2.webp",
+        "src": "/images/products/pique-polo-white-2.webp",
         "alt": "Piqué Polo in White, back view"
       },
       {
-        "src": "/images/products/mens-pique-polo-white-3.webp",
+        "src": "/images/products/pique-polo-white-3.webp",
         "alt": "Piqué Polo in White, detail view"
       },
       {
-        "src": "/images/products/mens-pique-polo-white-4.webp",
+        "src": "/images/products/pique-polo-white-4.webp",
         "alt": "Piqué Polo in White, on model view"
       }
     ],
@@ -1382,9 +1382,9 @@
   },
   {
     "id": "p015",
-    "slug": "mens-pique-polo-bottle-green",
+    "slug": "pique-polo-bottle-green",
     "title": "Piqué Polo",
-    "styleGroup": "mens-pique-polo",
+    "styleGroup": "pique-polo",
     "color": {
       "name": "Bottle Green",
       "hex": "#1F4D3A"
@@ -1398,19 +1398,19 @@
     "price": 1190,
     "images": [
       {
-        "src": "/images/products/mens-pique-polo-bottle-green-1.webp",
+        "src": "/images/products/pique-polo-bottle-green-1.webp",
         "alt": "Piqué Polo in Bottle Green, front view"
       },
       {
-        "src": "/images/products/mens-pique-polo-bottle-green-2.webp",
+        "src": "/images/products/pique-polo-bottle-green-2.webp",
         "alt": "Piqué Polo in Bottle Green, back view"
       },
       {
-        "src": "/images/products/mens-pique-polo-bottle-green-3.webp",
+        "src": "/images/products/pique-polo-bottle-green-3.webp",
         "alt": "Piqué Polo in Bottle Green, detail view"
       },
       {
-        "src": "/images/products/mens-pique-polo-bottle-green-4.webp",
+        "src": "/images/products/pique-polo-bottle-green-4.webp",
         "alt": "Piqué Polo in Bottle Green, on model view"
       }
     ],
@@ -1480,9 +1480,9 @@
   },
   {
     "id": "p016",
-    "slug": "mens-tapered-chino-khaki",
+    "slug": "tapered-chino-khaki",
     "title": "Tapered Chino",
-    "styleGroup": "mens-tapered-chino",
+    "styleGroup": "tapered-chino",
     "color": {
       "name": "Khaki",
       "hex": "#B59F74"
@@ -1496,19 +1496,19 @@
     "price": 1790,
     "images": [
       {
-        "src": "/images/products/mens-tapered-chino-khaki-1.webp",
+        "src": "/images/products/tapered-chino-khaki-1.webp",
         "alt": "Tapered Chino in Khaki, front view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-khaki-2.webp",
+        "src": "/images/products/tapered-chino-khaki-2.webp",
         "alt": "Tapered Chino in Khaki, back view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-khaki-3.webp",
+        "src": "/images/products/tapered-chino-khaki-3.webp",
         "alt": "Tapered Chino in Khaki, detail view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-khaki-4.webp",
+        "src": "/images/products/tapered-chino-khaki-4.webp",
         "alt": "Tapered Chino in Khaki, on model view"
       }
     ],
@@ -1579,13 +1579,14 @@
     "badges": [],
     "rating": 4.9,
     "reviewCount": 83,
-    "createdAt": "2026-06-27"
+    "createdAt": "2026-06-27",
+    "bestSellerRank": 10
   },
   {
     "id": "p017",
-    "slug": "mens-tapered-chino-navy",
+    "slug": "tapered-chino-navy",
     "title": "Tapered Chino",
-    "styleGroup": "mens-tapered-chino",
+    "styleGroup": "tapered-chino",
     "color": {
       "name": "Navy",
       "hex": "#23314F"
@@ -1599,19 +1600,19 @@
     "price": 1790,
     "images": [
       {
-        "src": "/images/products/mens-tapered-chino-navy-1.webp",
+        "src": "/images/products/tapered-chino-navy-1.webp",
         "alt": "Tapered Chino in Navy, front view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-navy-2.webp",
+        "src": "/images/products/tapered-chino-navy-2.webp",
         "alt": "Tapered Chino in Navy, back view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-navy-3.webp",
+        "src": "/images/products/tapered-chino-navy-3.webp",
         "alt": "Tapered Chino in Navy, detail view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-navy-4.webp",
+        "src": "/images/products/tapered-chino-navy-4.webp",
         "alt": "Tapered Chino in Navy, on model view"
       }
     ],
@@ -1686,9 +1687,9 @@
   },
   {
     "id": "p018",
-    "slug": "mens-tapered-chino-stone",
+    "slug": "tapered-chino-stone",
     "title": "Tapered Chino",
-    "styleGroup": "mens-tapered-chino",
+    "styleGroup": "tapered-chino",
     "color": {
       "name": "Stone",
       "hex": "#C8C1B4"
@@ -1702,19 +1703,19 @@
     "price": 1790,
     "images": [
       {
-        "src": "/images/products/mens-tapered-chino-stone-1.webp",
+        "src": "/images/products/tapered-chino-stone-1.webp",
         "alt": "Tapered Chino in Stone, front view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-stone-2.webp",
+        "src": "/images/products/tapered-chino-stone-2.webp",
         "alt": "Tapered Chino in Stone, back view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-stone-3.webp",
+        "src": "/images/products/tapered-chino-stone-3.webp",
         "alt": "Tapered Chino in Stone, detail view"
       },
       {
-        "src": "/images/products/mens-tapered-chino-stone-4.webp",
+        "src": "/images/products/tapered-chino-stone-4.webp",
         "alt": "Tapered Chino in Stone, on model view"
       }
     ],
@@ -1789,9 +1790,9 @@
   },
   {
     "id": "p019",
-    "slug": "mens-slim-denim-indigo",
+    "slug": "slim-denim-indigo",
     "title": "Slim Denim",
-    "styleGroup": "mens-slim-denim",
+    "styleGroup": "slim-denim",
     "color": {
       "name": "Indigo",
       "hex": "#2E3A5C"
@@ -1805,19 +1806,19 @@
     "price": 2290,
     "images": [
       {
-        "src": "/images/products/mens-slim-denim-indigo-1.webp",
+        "src": "/images/products/slim-denim-indigo-1.webp",
         "alt": "Slim Denim in Indigo, front view"
       },
       {
-        "src": "/images/products/mens-slim-denim-indigo-2.webp",
+        "src": "/images/products/slim-denim-indigo-2.webp",
         "alt": "Slim Denim in Indigo, back view"
       },
       {
-        "src": "/images/products/mens-slim-denim-indigo-3.webp",
+        "src": "/images/products/slim-denim-indigo-3.webp",
         "alt": "Slim Denim in Indigo, detail view"
       },
       {
-        "src": "/images/products/mens-slim-denim-indigo-4.webp",
+        "src": "/images/products/slim-denim-indigo-4.webp",
         "alt": "Slim Denim in Indigo, on model view"
       }
     ],
@@ -1892,9 +1893,9 @@
   },
   {
     "id": "p020",
-    "slug": "mens-slim-denim-black",
+    "slug": "slim-denim-black",
     "title": "Slim Denim",
-    "styleGroup": "mens-slim-denim",
+    "styleGroup": "slim-denim",
     "color": {
       "name": "Black",
       "hex": "#1C1C1C"
@@ -1908,19 +1909,19 @@
     "price": 2290,
     "images": [
       {
-        "src": "/images/products/mens-slim-denim-black-1.webp",
+        "src": "/images/products/slim-denim-black-1.webp",
         "alt": "Slim Denim in Black, front view"
       },
       {
-        "src": "/images/products/mens-slim-denim-black-2.webp",
+        "src": "/images/products/slim-denim-black-2.webp",
         "alt": "Slim Denim in Black, back view"
       },
       {
-        "src": "/images/products/mens-slim-denim-black-3.webp",
+        "src": "/images/products/slim-denim-black-3.webp",
         "alt": "Slim Denim in Black, detail view"
       },
       {
-        "src": "/images/products/mens-slim-denim-black-4.webp",
+        "src": "/images/products/slim-denim-black-4.webp",
         "alt": "Slim Denim in Black, on model view"
       }
     ],
@@ -1995,9 +1996,9 @@
   },
   {
     "id": "p021",
-    "slug": "mens-everyday-jogger-charcoal",
+    "slug": "everyday-jogger-charcoal",
     "title": "Everyday Jogger",
-    "styleGroup": "mens-everyday-jogger",
+    "styleGroup": "everyday-jogger",
     "color": {
       "name": "Charcoal",
       "hex": "#3C3C3C"
@@ -2011,19 +2012,19 @@
     "price": 1490,
     "images": [
       {
-        "src": "/images/products/mens-everyday-jogger-charcoal-1.webp",
+        "src": "/images/products/everyday-jogger-charcoal-1.webp",
         "alt": "Everyday Jogger in Charcoal, front view"
       },
       {
-        "src": "/images/products/mens-everyday-jogger-charcoal-2.webp",
+        "src": "/images/products/everyday-jogger-charcoal-2.webp",
         "alt": "Everyday Jogger in Charcoal, back view"
       },
       {
-        "src": "/images/products/mens-everyday-jogger-charcoal-3.webp",
+        "src": "/images/products/everyday-jogger-charcoal-3.webp",
         "alt": "Everyday Jogger in Charcoal, detail view"
       },
       {
-        "src": "/images/products/mens-everyday-jogger-charcoal-4.webp",
+        "src": "/images/products/everyday-jogger-charcoal-4.webp",
         "alt": "Everyday Jogger in Charcoal, on model view"
       }
     ],
@@ -2093,9 +2094,9 @@
   },
   {
     "id": "p022",
-    "slug": "mens-everyday-jogger-black",
+    "slug": "everyday-jogger-black",
     "title": "Everyday Jogger",
-    "styleGroup": "mens-everyday-jogger",
+    "styleGroup": "everyday-jogger",
     "color": {
       "name": "Black",
       "hex": "#1C1C1C"
@@ -2109,19 +2110,19 @@
     "price": 1490,
     "images": [
       {
-        "src": "/images/products/mens-everyday-jogger-black-1.webp",
+        "src": "/images/products/everyday-jogger-black-1.webp",
         "alt": "Everyday Jogger in Black, front view"
       },
       {
-        "src": "/images/products/mens-everyday-jogger-black-2.webp",
+        "src": "/images/products/everyday-jogger-black-2.webp",
         "alt": "Everyday Jogger in Black, back view"
       },
       {
-        "src": "/images/products/mens-everyday-jogger-black-3.webp",
+        "src": "/images/products/everyday-jogger-black-3.webp",
         "alt": "Everyday Jogger in Black, detail view"
       },
       {
-        "src": "/images/products/mens-everyday-jogger-black-4.webp",
+        "src": "/images/products/everyday-jogger-black-4.webp",
         "alt": "Everyday Jogger in Black, on model view"
       }
     ],
@@ -2188,13 +2189,13 @@
     "rating": 4,
     "reviewCount": 89,
     "createdAt": "2026-06-28",
-    "bestSellerRank": 10
+    "bestSellerRank": 9
   },
   {
     "id": "p023",
-    "slug": "mens-drawstring-shorts-olive",
+    "slug": "drawstring-shorts-olive",
     "title": "Drawstring Shorts",
-    "styleGroup": "mens-drawstring-shorts",
+    "styleGroup": "drawstring-shorts",
     "color": {
       "name": "Olive",
       "hex": "#6B6B3A"
@@ -2209,19 +2210,19 @@
     "compareAtPrice": 1290,
     "images": [
       {
-        "src": "/images/products/mens-drawstring-shorts-olive-1.webp",
+        "src": "/images/products/drawstring-shorts-olive-1.webp",
         "alt": "Drawstring Shorts in Olive, front view"
       },
       {
-        "src": "/images/products/mens-drawstring-shorts-olive-2.webp",
+        "src": "/images/products/drawstring-shorts-olive-2.webp",
         "alt": "Drawstring Shorts in Olive, back view"
       },
       {
-        "src": "/images/products/mens-drawstring-shorts-olive-3.webp",
+        "src": "/images/products/drawstring-shorts-olive-3.webp",
         "alt": "Drawstring Shorts in Olive, detail view"
       },
       {
-        "src": "/images/products/mens-drawstring-shorts-olive-4.webp",
+        "src": "/images/products/drawstring-shorts-olive-4.webp",
         "alt": "Drawstring Shorts in Olive, on model view"
       }
     ],
@@ -2291,9 +2292,9 @@
   },
   {
     "id": "p024",
-    "slug": "mens-drawstring-shorts-sand",
+    "slug": "drawstring-shorts-sand",
     "title": "Drawstring Shorts",
-    "styleGroup": "mens-drawstring-shorts",
+    "styleGroup": "drawstring-shorts",
     "color": {
       "name": "Sand",
       "hex": "#D9C7A7"
@@ -2308,19 +2309,19 @@
     "compareAtPrice": 1290,
     "images": [
       {
-        "src": "/images/products/mens-drawstring-shorts-sand-1.webp",
+        "src": "/images/products/drawstring-shorts-sand-1.webp",
         "alt": "Drawstring Shorts in Sand, front view"
       },
       {
-        "src": "/images/products/mens-drawstring-shorts-sand-2.webp",
+        "src": "/images/products/drawstring-shorts-sand-2.webp",
         "alt": "Drawstring Shorts in Sand, back view"
       },
       {
-        "src": "/images/products/mens-drawstring-shorts-sand-3.webp",
+        "src": "/images/products/drawstring-shorts-sand-3.webp",
         "alt": "Drawstring Shorts in Sand, detail view"
       },
       {
-        "src": "/images/products/mens-drawstring-shorts-sand-4.webp",
+        "src": "/images/products/drawstring-shorts-sand-4.webp",
         "alt": "Drawstring Shorts in Sand, on model view"
       }
     ],
@@ -2390,9 +2391,9 @@
   },
   {
     "id": "p025",
-    "slug": "mens-heavyweight-sweatshirt-grey-melange",
+    "slug": "heavyweight-sweatshirt-grey-melange",
     "title": "Heavyweight Sweatshirt",
-    "styleGroup": "mens-heavyweight-sweatshirt",
+    "styleGroup": "heavyweight-sweatshirt",
     "color": {
       "name": "Grey Melange",
       "hex": "#A3A3A3"
@@ -2406,19 +2407,19 @@
     "price": 2190,
     "images": [
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-1.webp",
+        "src": "/images/products/heavyweight-sweatshirt-grey-melange-1.webp",
         "alt": "Heavyweight Sweatshirt in Grey Melange, front view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-2.webp",
+        "src": "/images/products/heavyweight-sweatshirt-grey-melange-2.webp",
         "alt": "Heavyweight Sweatshirt in Grey Melange, back view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-3.webp",
+        "src": "/images/products/heavyweight-sweatshirt-grey-melange-3.webp",
         "alt": "Heavyweight Sweatshirt in Grey Melange, detail view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-grey-melange-4.webp",
+        "src": "/images/products/heavyweight-sweatshirt-grey-melange-4.webp",
         "alt": "Heavyweight Sweatshirt in Grey Melange, on model view"
       }
     ],
@@ -2488,9 +2489,9 @@
   },
   {
     "id": "p026",
-    "slug": "mens-heavyweight-sweatshirt-black",
+    "slug": "heavyweight-sweatshirt-black",
     "title": "Heavyweight Sweatshirt",
-    "styleGroup": "mens-heavyweight-sweatshirt",
+    "styleGroup": "heavyweight-sweatshirt",
     "color": {
       "name": "Black",
       "hex": "#1C1C1C"
@@ -2504,19 +2505,19 @@
     "price": 2190,
     "images": [
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-black-1.webp",
+        "src": "/images/products/heavyweight-sweatshirt-black-1.webp",
         "alt": "Heavyweight Sweatshirt in Black, front view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-black-2.webp",
+        "src": "/images/products/heavyweight-sweatshirt-black-2.webp",
         "alt": "Heavyweight Sweatshirt in Black, back view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-black-3.webp",
+        "src": "/images/products/heavyweight-sweatshirt-black-3.webp",
         "alt": "Heavyweight Sweatshirt in Black, detail view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-black-4.webp",
+        "src": "/images/products/heavyweight-sweatshirt-black-4.webp",
         "alt": "Heavyweight Sweatshirt in Black, on model view"
       }
     ],
@@ -2586,9 +2587,9 @@
   },
   {
     "id": "p027",
-    "slug": "mens-heavyweight-sweatshirt-cream",
+    "slug": "heavyweight-sweatshirt-cream",
     "title": "Heavyweight Sweatshirt",
-    "styleGroup": "mens-heavyweight-sweatshirt",
+    "styleGroup": "heavyweight-sweatshirt",
     "color": {
       "name": "Cream",
       "hex": "#EFE6D2"
@@ -2602,19 +2603,19 @@
     "price": 2190,
     "images": [
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-cream-1.webp",
+        "src": "/images/products/heavyweight-sweatshirt-cream-1.webp",
         "alt": "Heavyweight Sweatshirt in Cream, front view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-cream-2.webp",
+        "src": "/images/products/heavyweight-sweatshirt-cream-2.webp",
         "alt": "Heavyweight Sweatshirt in Cream, back view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-cream-3.webp",
+        "src": "/images/products/heavyweight-sweatshirt-cream-3.webp",
         "alt": "Heavyweight Sweatshirt in Cream, detail view"
       },
       {
-        "src": "/images/products/mens-heavyweight-sweatshirt-cream-4.webp",
+        "src": "/images/products/heavyweight-sweatshirt-cream-4.webp",
         "alt": "Heavyweight Sweatshirt in Cream, on model view"
       }
     ],
@@ -2684,9 +2685,9 @@
   },
   {
     "id": "p028",
-    "slug": "mens-coach-jacket-black",
+    "slug": "coach-jacket-black",
     "title": "Coach Jacket",
-    "styleGroup": "mens-coach-jacket",
+    "styleGroup": "coach-jacket",
     "color": {
       "name": "Black",
       "hex": "#1C1C1C"
@@ -2700,19 +2701,19 @@
     "price": 3490,
     "images": [
       {
-        "src": "/images/products/mens-coach-jacket-black-1.webp",
+        "src": "/images/products/coach-jacket-black-1.webp",
         "alt": "Coach Jacket in Black, front view"
       },
       {
-        "src": "/images/products/mens-coach-jacket-black-2.webp",
+        "src": "/images/products/coach-jacket-black-2.webp",
         "alt": "Coach Jacket in Black, back view"
       },
       {
-        "src": "/images/products/mens-coach-jacket-black-3.webp",
+        "src": "/images/products/coach-jacket-black-3.webp",
         "alt": "Coach Jacket in Black, detail view"
       },
       {
-        "src": "/images/products/mens-coach-jacket-black-4.webp",
+        "src": "/images/products/coach-jacket-black-4.webp",
         "alt": "Coach Jacket in Black, on model view"
       }
     ],
@@ -2782,9 +2783,9 @@
   },
   {
     "id": "p029",
-    "slug": "mens-coach-jacket-olive",
+    "slug": "coach-jacket-olive",
     "title": "Coach Jacket",
-    "styleGroup": "mens-coach-jacket",
+    "styleGroup": "coach-jacket",
     "color": {
       "name": "Olive",
       "hex": "#6B6B3A"
@@ -2798,19 +2799,19 @@
     "price": 3490,
     "images": [
       {
-        "src": "/images/products/mens-coach-jacket-olive-1.webp",
+        "src": "/images/products/coach-jacket-olive-1.webp",
         "alt": "Coach Jacket in Olive, front view"
       },
       {
-        "src": "/images/products/mens-coach-jacket-olive-2.webp",
+        "src": "/images/products/coach-jacket-olive-2.webp",
         "alt": "Coach Jacket in Olive, back view"
       },
       {
-        "src": "/images/products/mens-coach-jacket-olive-3.webp",
+        "src": "/images/products/coach-jacket-olive-3.webp",
         "alt": "Coach Jacket in Olive, detail view"
       },
       {
-        "src": "/images/products/mens-coach-jacket-olive-4.webp",
+        "src": "/images/products/coach-jacket-olive-4.webp",
         "alt": "Coach Jacket in Olive, on model view"
       }
     ],
@@ -2877,56 +2878,56 @@
     "rating": 4.2,
     "reviewCount": 117,
     "createdAt": "2026-09-07",
-    "bestSellerRank": 4
+    "bestSellerRank": 3
   },
   {
     "id": "p030",
-    "slug": "womens-wrap-midi-dress-terracotta",
-    "title": "Wrap Midi Dress",
-    "styleGroup": "womens-wrap-midi-dress",
+    "slug": "cotton-panjabi-white",
+    "title": "Cotton Panjabi",
+    "styleGroup": "cotton-panjabi",
     "color": {
-      "name": "Terracotta",
-      "hex": "#B5573A"
+      "name": "White",
+      "hex": "#F4F2EE"
     },
-    "gender": "women",
-    "category": "dresses",
-    "style": "Wrap",
-    "fabric": "Viscose",
-    "fit": "Relaxed",
-    "tags": ["Fluid viscose", "Midi length", "Occasion"],
-    "price": 2490,
+    "gender": "men",
+    "category": "panjabi",
+    "style": "Mandarin collar",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["Fine cotton", "Mandarin collar", "Festive"],
+    "price": 2690,
     "images": [
       {
-        "src": "/images/products/womens-wrap-midi-dress-terracotta-1.webp",
-        "alt": "Wrap Midi Dress in Terracotta, front view"
+        "src": "/images/products/cotton-panjabi-white-1.webp",
+        "alt": "Cotton Panjabi in White, front view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-terracotta-2.webp",
-        "alt": "Wrap Midi Dress in Terracotta, back view"
+        "src": "/images/products/cotton-panjabi-white-2.webp",
+        "alt": "Cotton Panjabi in White, back view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-terracotta-3.webp",
-        "alt": "Wrap Midi Dress in Terracotta, detail view"
+        "src": "/images/products/cotton-panjabi-white-3.webp",
+        "alt": "Cotton Panjabi in White, detail view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-terracotta-4.webp",
-        "alt": "Wrap Midi Dress in Terracotta, on model view"
+        "src": "/images/products/cotton-panjabi-white-4.webp",
+        "alt": "Cotton Panjabi in White, on model view"
       }
     ],
-    "shortDescription": "A fluid viscose wrap dress that falls to a flattering midi length.",
-    "description": "Cut from a softly draping viscose, this wrap dress ties at the waist and swings to mid-calf. Flutter sleeves and a V-neckline make it an easy choice for dinners, dawats and everything between.",
+    "shortDescription": "A fine-cotton panjabi with a mandarin collar and a clean, knee-length cut.",
+    "description": "Cut from a soft, fine-count cotton that drapes well and breathes all evening. A neat mandarin collar, concealed placket and side slits make it as right for Jumma as it is for Eid and wedding season.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Viscose"
+        "value": "Cotton"
       },
       {
         "label": "Fit",
-        "value": "Relaxed"
+        "value": "Regular"
       },
       {
         "label": "Colour",
-        "value": "Terracotta"
+        "value": "White"
       },
       {
         "label": "Country of origin",
@@ -2938,36 +2939,36 @@
       }
     ],
     "care": [
-      "Machine wash cold, gentle cycle",
-      "Do not tumble dry",
-      "Warm iron while slightly damp",
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-tops",
+    "sizeChartId": "men-panjabi",
     "variants": [
-      {
-        "sku": "ARBI-030-XS",
-        "size": "XS",
-        "stock": 0
-      },
       {
         "sku": "ARBI-030-S",
         "size": "S",
-        "stock": 10
+        "stock": 0
       },
       {
         "sku": "ARBI-030-M",
         "size": "M",
-        "stock": 0
+        "stock": 10
       },
       {
         "sku": "ARBI-030-L",
         "size": "L",
-        "stock": 2
+        "stock": 0
       },
       {
         "sku": "ARBI-030-XL",
         "size": "XL",
+        "stock": 2
+      },
+      {
+        "sku": "ARBI-030-XXL",
+        "size": "XXL",
         "stock": 1
       }
     ],
@@ -2979,52 +2980,52 @@
   },
   {
     "id": "p031",
-    "slug": "womens-wrap-midi-dress-black",
-    "title": "Wrap Midi Dress",
-    "styleGroup": "womens-wrap-midi-dress",
+    "slug": "cotton-panjabi-maroon",
+    "title": "Cotton Panjabi",
+    "styleGroup": "cotton-panjabi",
     "color": {
-      "name": "Black",
-      "hex": "#1C1C1C"
+      "name": "Maroon",
+      "hex": "#6E1F2B"
     },
-    "gender": "women",
-    "category": "dresses",
-    "style": "Wrap",
-    "fabric": "Viscose",
-    "fit": "Relaxed",
-    "tags": ["Fluid viscose", "Midi length", "Occasion"],
-    "price": 2490,
+    "gender": "men",
+    "category": "panjabi",
+    "style": "Mandarin collar",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["Fine cotton", "Mandarin collar", "Festive"],
+    "price": 2690,
     "images": [
       {
-        "src": "/images/products/womens-wrap-midi-dress-black-1.webp",
-        "alt": "Wrap Midi Dress in Black, front view"
+        "src": "/images/products/cotton-panjabi-maroon-1.webp",
+        "alt": "Cotton Panjabi in Maroon, front view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-black-2.webp",
-        "alt": "Wrap Midi Dress in Black, back view"
+        "src": "/images/products/cotton-panjabi-maroon-2.webp",
+        "alt": "Cotton Panjabi in Maroon, back view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-black-3.webp",
-        "alt": "Wrap Midi Dress in Black, detail view"
+        "src": "/images/products/cotton-panjabi-maroon-3.webp",
+        "alt": "Cotton Panjabi in Maroon, detail view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-black-4.webp",
-        "alt": "Wrap Midi Dress in Black, on model view"
+        "src": "/images/products/cotton-panjabi-maroon-4.webp",
+        "alt": "Cotton Panjabi in Maroon, on model view"
       }
     ],
-    "shortDescription": "A fluid viscose wrap dress that falls to a flattering midi length.",
-    "description": "Cut from a softly draping viscose, this wrap dress ties at the waist and swings to mid-calf. Flutter sleeves and a V-neckline make it an easy choice for dinners, dawats and everything between.",
+    "shortDescription": "A fine-cotton panjabi with a mandarin collar and a clean, knee-length cut.",
+    "description": "Cut from a soft, fine-count cotton that drapes well and breathes all evening. A neat mandarin collar, concealed placket and side slits make it as right for Jumma as it is for Eid and wedding season.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Viscose"
+        "value": "Cotton"
       },
       {
         "label": "Fit",
-        "value": "Relaxed"
+        "value": "Regular"
       },
       {
         "label": "Colour",
-        "value": "Black"
+        "value": "Maroon"
       },
       {
         "label": "Country of origin",
@@ -3036,36 +3037,36 @@
       }
     ],
     "care": [
-      "Machine wash cold, gentle cycle",
-      "Do not tumble dry",
-      "Warm iron while slightly damp",
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-tops",
+    "sizeChartId": "men-panjabi",
     "variants": [
-      {
-        "sku": "ARBI-031-XS",
-        "size": "XS",
-        "stock": 14
-      },
       {
         "sku": "ARBI-031-S",
         "size": "S",
-        "stock": 0
+        "stock": 14
       },
       {
         "sku": "ARBI-031-M",
         "size": "M",
-        "stock": 2
+        "stock": 0
       },
       {
         "sku": "ARBI-031-L",
         "size": "L",
-        "stock": 0
+        "stock": 2
       },
       {
         "sku": "ARBI-031-XL",
         "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-031-XXL",
+        "size": "XXL",
         "stock": 0
       }
     ],
@@ -3077,52 +3078,52 @@
   },
   {
     "id": "p032",
-    "slug": "womens-wrap-midi-dress-sage",
-    "title": "Wrap Midi Dress",
-    "styleGroup": "womens-wrap-midi-dress",
+    "slug": "cotton-panjabi-navy",
+    "title": "Cotton Panjabi",
+    "styleGroup": "cotton-panjabi",
     "color": {
-      "name": "Sage",
-      "hex": "#9CAF94"
+      "name": "Navy",
+      "hex": "#23314F"
     },
-    "gender": "women",
-    "category": "dresses",
-    "style": "Wrap",
-    "fabric": "Viscose",
-    "fit": "Relaxed",
-    "tags": ["Fluid viscose", "Midi length", "Occasion"],
-    "price": 2490,
+    "gender": "men",
+    "category": "panjabi",
+    "style": "Mandarin collar",
+    "fabric": "Cotton",
+    "fit": "Regular",
+    "tags": ["Fine cotton", "Mandarin collar", "Festive"],
+    "price": 2690,
     "images": [
       {
-        "src": "/images/products/womens-wrap-midi-dress-sage-1.webp",
-        "alt": "Wrap Midi Dress in Sage, front view"
+        "src": "/images/products/cotton-panjabi-navy-1.webp",
+        "alt": "Cotton Panjabi in Navy, front view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-sage-2.webp",
-        "alt": "Wrap Midi Dress in Sage, back view"
+        "src": "/images/products/cotton-panjabi-navy-2.webp",
+        "alt": "Cotton Panjabi in Navy, back view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-sage-3.webp",
-        "alt": "Wrap Midi Dress in Sage, detail view"
+        "src": "/images/products/cotton-panjabi-navy-3.webp",
+        "alt": "Cotton Panjabi in Navy, detail view"
       },
       {
-        "src": "/images/products/womens-wrap-midi-dress-sage-4.webp",
-        "alt": "Wrap Midi Dress in Sage, on model view"
+        "src": "/images/products/cotton-panjabi-navy-4.webp",
+        "alt": "Cotton Panjabi in Navy, on model view"
       }
     ],
-    "shortDescription": "A fluid viscose wrap dress that falls to a flattering midi length.",
-    "description": "Cut from a softly draping viscose, this wrap dress ties at the waist and swings to mid-calf. Flutter sleeves and a V-neckline make it an easy choice for dinners, dawats and everything between.",
+    "shortDescription": "A fine-cotton panjabi with a mandarin collar and a clean, knee-length cut.",
+    "description": "Cut from a soft, fine-count cotton that drapes well and breathes all evening. A neat mandarin collar, concealed placket and side slits make it as right for Jumma as it is for Eid and wedding season.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Viscose"
+        "value": "Cotton"
       },
       {
         "label": "Fit",
-        "value": "Relaxed"
+        "value": "Regular"
       },
       {
         "label": "Colour",
-        "value": "Sage"
+        "value": "Navy"
       },
       {
         "label": "Country of origin",
@@ -3134,36 +3135,36 @@
       }
     ],
     "care": [
-      "Machine wash cold, gentle cycle",
-      "Do not tumble dry",
-      "Warm iron while slightly damp",
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-tops",
+    "sizeChartId": "men-panjabi",
     "variants": [
-      {
-        "sku": "ARBI-032-XS",
-        "size": "XS",
-        "stock": 0
-      },
       {
         "sku": "ARBI-032-S",
         "size": "S",
-        "stock": 5
+        "stock": 0
       },
       {
         "sku": "ARBI-032-M",
         "size": "M",
-        "stock": 7
+        "stock": 5
       },
       {
         "sku": "ARBI-032-L",
         "size": "L",
-        "stock": 13
+        "stock": 7
       },
       {
         "sku": "ARBI-032-XL",
         "size": "XL",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-032-XXL",
+        "size": "XXL",
         "stock": 6
       }
     ],
@@ -3175,44 +3176,44 @@
   },
   {
     "id": "p033",
-    "slug": "womens-relaxed-linen-shirt-white",
-    "title": "Relaxed Linen Shirt",
-    "styleGroup": "womens-relaxed-linen-shirt",
+    "slug": "utility-overshirt-khaki",
+    "title": "Utility Overshirt",
+    "styleGroup": "utility-overshirt",
     "color": {
-      "name": "White",
-      "hex": "#F4F2EE"
+      "name": "Khaki",
+      "hex": "#B59F74"
     },
-    "gender": "women",
-    "category": "shirts",
-    "style": "Oversized",
-    "fabric": "Linen",
+    "gender": "men",
+    "category": "overshirts",
+    "style": "Two-pocket",
+    "fabric": "Cotton twill",
     "fit": "Relaxed",
-    "tags": ["100% Linen", "Oversized", "Summer"],
-    "price": 1790,
+    "tags": ["Brushed twill", "Layering", "Two pockets"],
+    "price": 2490,
     "images": [
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-white-1.webp",
-        "alt": "Relaxed Linen Shirt in White, front view"
+        "src": "/images/products/utility-overshirt-khaki-1.webp",
+        "alt": "Utility Overshirt in Khaki, front view"
       },
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-white-2.webp",
-        "alt": "Relaxed Linen Shirt in White, back view"
+        "src": "/images/products/utility-overshirt-khaki-2.webp",
+        "alt": "Utility Overshirt in Khaki, back view"
       },
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-white-3.webp",
-        "alt": "Relaxed Linen Shirt in White, detail view"
+        "src": "/images/products/utility-overshirt-khaki-3.webp",
+        "alt": "Utility Overshirt in Khaki, detail view"
       },
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-white-4.webp",
-        "alt": "Relaxed Linen Shirt in White, on model view"
+        "src": "/images/products/utility-overshirt-khaki-4.webp",
+        "alt": "Utility Overshirt in Khaki, on model view"
       }
     ],
-    "shortDescription": "An oversized pure-linen shirt with a dropped shoulder and curved hem.",
-    "description": "Generous through the body with a dropped shoulder and a curved hem, this linen shirt works buttoned up, open over a tee, or knotted at the waist.",
+    "shortDescription": "A brushed-twill overshirt with two chest pockets, made for layering.",
+    "description": "Somewhere between a shirt and a jacket: brushed cotton twill with two flap pockets, a straight hem and a relaxed fit that sits easily over a tee on cooler evenings.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Linen"
+        "value": "Cotton twill"
       },
       {
         "label": "Fit",
@@ -3220,7 +3221,7 @@
       },
       {
         "label": "Colour",
-        "value": "White"
+        "value": "Khaki"
       },
       {
         "label": "Country of origin",
@@ -3232,86 +3233,86 @@
       }
     ],
     "care": [
-      "Machine wash cold, gentle cycle",
-      "Do not tumble dry",
-      "Warm iron while slightly damp",
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-tops",
+    "sizeChartId": "men-tops",
     "variants": [
-      {
-        "sku": "ARBI-033-XS",
-        "size": "XS",
-        "stock": 4
-      },
       {
         "sku": "ARBI-033-S",
         "size": "S",
-        "stock": 7
+        "stock": 4
       },
       {
         "sku": "ARBI-033-M",
         "size": "M",
-        "stock": 13
+        "stock": 7
       },
       {
         "sku": "ARBI-033-L",
         "size": "L",
-        "stock": 0
+        "stock": 13
       },
       {
         "sku": "ARBI-033-XL",
         "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-033-XXL",
+        "size": "XXL",
         "stock": 6
       }
     ],
-    "collections": ["linen-edit"],
+    "collections": ["weekend-edit"],
     "badges": ["new", "bestseller"],
     "rating": 4.1,
     "reviewCount": 97,
     "createdAt": "2026-09-21",
-    "bestSellerRank": 6
+    "bestSellerRank": 5
   },
   {
     "id": "p034",
-    "slug": "womens-relaxed-linen-shirt-lilac",
-    "title": "Relaxed Linen Shirt",
-    "styleGroup": "womens-relaxed-linen-shirt",
+    "slug": "utility-overshirt-dark-olive",
+    "title": "Utility Overshirt",
+    "styleGroup": "utility-overshirt",
     "color": {
-      "name": "Lilac",
-      "hex": "#C3B1D6"
+      "name": "Dark Olive",
+      "hex": "#4A4D32"
     },
-    "gender": "women",
-    "category": "shirts",
-    "style": "Oversized",
-    "fabric": "Linen",
+    "gender": "men",
+    "category": "overshirts",
+    "style": "Two-pocket",
+    "fabric": "Cotton twill",
     "fit": "Relaxed",
-    "tags": ["100% Linen", "Oversized", "Summer"],
-    "price": 1790,
+    "tags": ["Brushed twill", "Layering", "Two pockets"],
+    "price": 2490,
     "images": [
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-lilac-1.webp",
-        "alt": "Relaxed Linen Shirt in Lilac, front view"
+        "src": "/images/products/utility-overshirt-dark-olive-1.webp",
+        "alt": "Utility Overshirt in Dark Olive, front view"
       },
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-lilac-2.webp",
-        "alt": "Relaxed Linen Shirt in Lilac, back view"
+        "src": "/images/products/utility-overshirt-dark-olive-2.webp",
+        "alt": "Utility Overshirt in Dark Olive, back view"
       },
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-lilac-3.webp",
-        "alt": "Relaxed Linen Shirt in Lilac, detail view"
+        "src": "/images/products/utility-overshirt-dark-olive-3.webp",
+        "alt": "Utility Overshirt in Dark Olive, detail view"
       },
       {
-        "src": "/images/products/womens-relaxed-linen-shirt-lilac-4.webp",
-        "alt": "Relaxed Linen Shirt in Lilac, on model view"
+        "src": "/images/products/utility-overshirt-dark-olive-4.webp",
+        "alt": "Utility Overshirt in Dark Olive, on model view"
       }
     ],
-    "shortDescription": "An oversized pure-linen shirt with a dropped shoulder and curved hem.",
-    "description": "Generous through the body with a dropped shoulder and a curved hem, this linen shirt works buttoned up, open over a tee, or knotted at the waist.",
+    "shortDescription": "A brushed-twill overshirt with two chest pockets, made for layering.",
+    "description": "Somewhere between a shirt and a jacket: brushed cotton twill with two flap pockets, a straight hem and a relaxed fit that sits easily over a tee on cooler evenings.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Linen"
+        "value": "Cotton twill"
       },
       {
         "label": "Fit",
@@ -3319,7 +3320,7 @@
       },
       {
         "label": "Colour",
-        "value": "Lilac"
+        "value": "Dark Olive"
       },
       {
         "label": "Country of origin",
@@ -3331,40 +3332,40 @@
       }
     ],
     "care": [
-      "Machine wash cold, gentle cycle",
-      "Do not tumble dry",
-      "Warm iron while slightly damp",
+      "Machine wash cold with similar colours",
+      "Tumble dry low",
+      "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-tops",
+    "sizeChartId": "men-tops",
     "variants": [
-      {
-        "sku": "ARBI-034-XS",
-        "size": "XS",
-        "stock": 11
-      },
       {
         "sku": "ARBI-034-S",
         "size": "S",
-        "stock": 0
+        "stock": 11
       },
       {
         "sku": "ARBI-034-M",
         "size": "M",
-        "stock": 11
+        "stock": 0
       },
       {
         "sku": "ARBI-034-L",
         "size": "L",
-        "stock": 0
+        "stock": 11
       },
       {
         "sku": "ARBI-034-XL",
         "size": "XL",
+        "stock": 0
+      },
+      {
+        "sku": "ARBI-034-XXL",
+        "size": "XXL",
         "stock": 4
       }
     ],
-    "collections": ["linen-edit"],
+    "collections": ["weekend-edit"],
     "badges": [],
     "rating": 3.9,
     "reviewCount": 58,
@@ -3372,52 +3373,52 @@
   },
   {
     "id": "p035",
-    "slug": "womens-wide-leg-trouser-ecru",
-    "title": "Wide-Leg Trouser",
-    "styleGroup": "womens-wide-leg-trouser",
+    "slug": "cargo-pants-dark-olive",
+    "title": "Cargo Pants",
+    "styleGroup": "cargo-pants",
     "color": {
-      "name": "Ecru",
-      "hex": "#E8DFCB"
+      "name": "Dark Olive",
+      "hex": "#4A4D32"
     },
-    "gender": "women",
-    "category": "pants",
-    "style": "High rise",
-    "fabric": "Crepe",
-    "fit": "Wide leg",
-    "tags": ["Soft crepe", "High rise", "Workwear"],
-    "price": 1990,
+    "gender": "men",
+    "category": "cargo",
+    "style": "Six-pocket",
+    "fabric": "Cotton ripstop",
+    "fit": "Relaxed",
+    "tags": ["Ripstop cotton", "Six pockets", "Utility"],
+    "price": 2190,
     "images": [
       {
-        "src": "/images/products/womens-wide-leg-trouser-ecru-1.webp",
-        "alt": "Wide-Leg Trouser in Ecru, front view"
+        "src": "/images/products/cargo-pants-dark-olive-1.webp",
+        "alt": "Cargo Pants in Dark Olive, front view"
       },
       {
-        "src": "/images/products/womens-wide-leg-trouser-ecru-2.webp",
-        "alt": "Wide-Leg Trouser in Ecru, back view"
+        "src": "/images/products/cargo-pants-dark-olive-2.webp",
+        "alt": "Cargo Pants in Dark Olive, back view"
       },
       {
-        "src": "/images/products/womens-wide-leg-trouser-ecru-3.webp",
-        "alt": "Wide-Leg Trouser in Ecru, detail view"
+        "src": "/images/products/cargo-pants-dark-olive-3.webp",
+        "alt": "Cargo Pants in Dark Olive, detail view"
       },
       {
-        "src": "/images/products/womens-wide-leg-trouser-ecru-4.webp",
-        "alt": "Wide-Leg Trouser in Ecru, on model view"
+        "src": "/images/products/cargo-pants-dark-olive-4.webp",
+        "alt": "Cargo Pants in Dark Olive, on model view"
       }
     ],
-    "shortDescription": "High-rise crepe trousers with a pressed crease and a fluid wide leg.",
-    "description": "A tailored trouser in a soft, wrinkle-resistant crepe. High rise with a pressed front crease and a wide leg that moves beautifully.",
+    "shortDescription": "Relaxed ripstop cargo pants with six pockets and cuffed ankles.",
+    "description": "Hard-wearing cotton ripstop with bellowed cargo pockets, a button-and-zip fly and adjustable ankle cuffs. Built for everyday errands and weekend wandering.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Crepe"
+        "value": "Cotton ripstop"
       },
       {
         "label": "Fit",
-        "value": "Wide leg"
+        "value": "Relaxed"
       },
       {
         "label": "Colour",
-        "value": "Ecru"
+        "value": "Dark Olive"
       },
       {
         "label": "Country of origin",
@@ -3434,85 +3435,90 @@
       "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-bottoms",
+    "sizeChartId": "men-bottoms",
     "variants": [
       {
-        "sku": "ARBI-035-XS",
-        "size": "XS",
+        "sku": "ARBI-035-28",
+        "size": "28",
         "stock": 1
       },
       {
-        "sku": "ARBI-035-S",
-        "size": "S",
+        "sku": "ARBI-035-30",
+        "size": "30",
         "stock": 7
       },
       {
-        "sku": "ARBI-035-M",
-        "size": "M",
+        "sku": "ARBI-035-32",
+        "size": "32",
         "stock": 1
       },
       {
-        "sku": "ARBI-035-L",
-        "size": "L",
+        "sku": "ARBI-035-34",
+        "size": "34",
         "stock": 7
       },
       {
-        "sku": "ARBI-035-XL",
-        "size": "XL",
+        "sku": "ARBI-035-36",
+        "size": "36",
         "stock": 11
+      },
+      {
+        "sku": "ARBI-035-38",
+        "size": "38",
+        "stock": 0
       }
     ],
-    "collections": ["festive-edit"],
+    "collections": ["weekend-edit"],
     "badges": ["bestseller"],
-    "rating": 4,
-    "reviewCount": 119,
+    "rating": 4.9,
+    "reviewCount": 99,
     "createdAt": "2026-07-27",
-    "bestSellerRank": 2
+    "bestSellerRank": 4
   },
   {
     "id": "p036",
-    "slug": "womens-wide-leg-trouser-black",
-    "title": "Wide-Leg Trouser",
-    "styleGroup": "womens-wide-leg-trouser",
+    "slug": "cargo-pants-black",
+    "title": "Cargo Pants",
+    "styleGroup": "cargo-pants",
     "color": {
       "name": "Black",
       "hex": "#1C1C1C"
     },
-    "gender": "women",
-    "category": "pants",
-    "style": "High rise",
-    "fabric": "Crepe",
-    "fit": "Wide leg",
-    "tags": ["Soft crepe", "High rise", "Workwear"],
-    "price": 1990,
+    "gender": "men",
+    "category": "cargo",
+    "style": "Six-pocket",
+    "fabric": "Cotton ripstop",
+    "fit": "Relaxed",
+    "tags": ["Ripstop cotton", "Six pockets", "Utility"],
+    "price": 2190,
     "images": [
       {
-        "src": "/images/products/womens-wide-leg-trouser-black-1.webp",
-        "alt": "Wide-Leg Trouser in Black, front view"
+        "src": "/images/products/cargo-pants-black-1.webp",
+        "alt": "Cargo Pants in Black, front view"
       },
       {
-        "src": "/images/products/womens-wide-leg-trouser-black-2.webp",
-        "alt": "Wide-Leg Trouser in Black, back view"
+        "src": "/images/products/cargo-pants-black-2.webp",
+        "alt": "Cargo Pants in Black, back view"
       },
       {
-        "src": "/images/products/womens-wide-leg-trouser-black-3.webp",
-        "alt": "Wide-Leg Trouser in Black, detail view"
+        "src": "/images/products/cargo-pants-black-3.webp",
+        "alt": "Cargo Pants in Black, detail view"
       },
       {
-        "src": "/images/products/womens-wide-leg-trouser-black-4.webp",
-        "alt": "Wide-Leg Trouser in Black, on model view"
+        "src": "/images/products/cargo-pants-black-4.webp",
+        "alt": "Cargo Pants in Black, on model view"
       }
     ],
-    "shortDescription": "High-rise crepe trousers with a pressed crease and a fluid wide leg.",
-    "description": "A tailored trouser in a soft, wrinkle-resistant crepe. High rise with a pressed front crease and a wide leg that moves beautifully.",
+    "shortDescription": "Relaxed ripstop cargo pants with six pockets and cuffed ankles.",
+    "description": "Hard-wearing cotton ripstop with bellowed cargo pockets, a button-and-zip fly and adjustable ankle cuffs. Built for everyday errands and weekend wandering.",
     "details": [
       {
         "label": "Fabric",
-        "value": "Crepe"
+        "value": "Cotton ripstop"
       },
       {
         "label": "Fit",
-        "value": "Wide leg"
+        "value": "Relaxed"
       },
       {
         "label": "Colour",
@@ -3533,338 +3539,47 @@
       "Iron on reverse",
       "Do not bleach"
     ],
-    "sizeChartId": "women-bottoms",
+    "sizeChartId": "men-bottoms",
     "variants": [
       {
-        "sku": "ARBI-036-XS",
-        "size": "XS",
-        "stock": 4
+        "sku": "ARBI-036-28",
+        "size": "28",
+        "stock": 5
       },
       {
-        "sku": "ARBI-036-S",
-        "size": "S",
+        "sku": "ARBI-036-30",
+        "size": "30",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-036-32",
+        "size": "32",
+        "stock": 13
+      },
+      {
+        "sku": "ARBI-036-34",
+        "size": "34",
         "stock": 6
       },
       {
-        "sku": "ARBI-036-M",
-        "size": "M",
-        "stock": 10
+        "sku": "ARBI-036-36",
+        "size": "36",
+        "stock": 3
       },
       {
-        "sku": "ARBI-036-L",
-        "size": "L",
-        "stock": 6
-      },
-      {
-        "sku": "ARBI-036-XL",
-        "size": "XL",
-        "stock": 12
+        "sku": "ARBI-036-38",
+        "size": "38",
+        "stock": 9
       }
     ],
-    "collections": ["festive-edit"],
-    "badges": ["bestseller"],
-    "rating": 4.1,
-    "reviewCount": 99,
-    "createdAt": "2026-07-18",
-    "bestSellerRank": 5
+    "collections": ["weekend-edit"],
+    "badges": [],
+    "rating": 4.5,
+    "reviewCount": 45,
+    "createdAt": "2026-07-02"
   },
   {
     "id": "p037",
-    "slug": "womens-ribbed-tee-white",
-    "title": "Ribbed Fitted Tee",
-    "styleGroup": "womens-ribbed-tee",
-    "color": {
-      "name": "White",
-      "hex": "#F4F2EE"
-    },
-    "gender": "women",
-    "category": "tees",
-    "style": "Crew neck",
-    "fabric": "Cotton rib",
-    "fit": "Fitted",
-    "tags": ["Cotton rib", "Stretch", "Everyday"],
-    "price": 790,
-    "images": [
-      {
-        "src": "/images/products/womens-ribbed-tee-white-1.webp",
-        "alt": "Ribbed Fitted Tee in White, front view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-white-2.webp",
-        "alt": "Ribbed Fitted Tee in White, back view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-white-3.webp",
-        "alt": "Ribbed Fitted Tee in White, detail view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-white-4.webp",
-        "alt": "Ribbed Fitted Tee in White, on model view"
-      }
-    ],
-    "shortDescription": "A fitted rib-knit tee with a little stretch and a neat crew neck.",
-    "description": "A close-fitting rib-knit cotton tee with stretch for comfort. Pairs with everything from wide-leg trousers to denim.",
-    "details": [
-      {
-        "label": "Fabric",
-        "value": "Cotton rib"
-      },
-      {
-        "label": "Fit",
-        "value": "Fitted"
-      },
-      {
-        "label": "Colour",
-        "value": "White"
-      },
-      {
-        "label": "Country of origin",
-        "value": "Bangladesh"
-      },
-      {
-        "label": "Manufactured by",
-        "value": "ARBI Clothing (placeholder — confirm)"
-      }
-    ],
-    "care": [
-      "Machine wash cold with similar colours",
-      "Tumble dry low",
-      "Iron on reverse",
-      "Do not bleach"
-    ],
-    "sizeChartId": "women-tops",
-    "variants": [
-      {
-        "sku": "ARBI-037-XS",
-        "size": "XS",
-        "stock": 5
-      },
-      {
-        "sku": "ARBI-037-S",
-        "size": "S",
-        "stock": 2
-      },
-      {
-        "sku": "ARBI-037-M",
-        "size": "M",
-        "stock": 6
-      },
-      {
-        "sku": "ARBI-037-L",
-        "size": "L",
-        "stock": 0
-      },
-      {
-        "sku": "ARBI-037-XL",
-        "size": "XL",
-        "stock": 4
-      }
-    ],
-    "collections": [],
-    "badges": ["bestseller"],
-    "rating": 3.9,
-    "reviewCount": 121,
-    "createdAt": "2026-08-14",
-    "bestSellerRank": 1
-  },
-  {
-    "id": "p038",
-    "slug": "womens-ribbed-tee-black",
-    "title": "Ribbed Fitted Tee",
-    "styleGroup": "womens-ribbed-tee",
-    "color": {
-      "name": "Black",
-      "hex": "#1C1C1C"
-    },
-    "gender": "women",
-    "category": "tees",
-    "style": "Crew neck",
-    "fabric": "Cotton rib",
-    "fit": "Fitted",
-    "tags": ["Cotton rib", "Stretch", "Everyday"],
-    "price": 790,
-    "images": [
-      {
-        "src": "/images/products/womens-ribbed-tee-black-1.webp",
-        "alt": "Ribbed Fitted Tee in Black, front view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-black-2.webp",
-        "alt": "Ribbed Fitted Tee in Black, back view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-black-3.webp",
-        "alt": "Ribbed Fitted Tee in Black, detail view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-black-4.webp",
-        "alt": "Ribbed Fitted Tee in Black, on model view"
-      }
-    ],
-    "shortDescription": "A fitted rib-knit tee with a little stretch and a neat crew neck.",
-    "description": "A close-fitting rib-knit cotton tee with stretch for comfort. Pairs with everything from wide-leg trousers to denim.",
-    "details": [
-      {
-        "label": "Fabric",
-        "value": "Cotton rib"
-      },
-      {
-        "label": "Fit",
-        "value": "Fitted"
-      },
-      {
-        "label": "Colour",
-        "value": "Black"
-      },
-      {
-        "label": "Country of origin",
-        "value": "Bangladesh"
-      },
-      {
-        "label": "Manufactured by",
-        "value": "ARBI Clothing (placeholder — confirm)"
-      }
-    ],
-    "care": [
-      "Machine wash cold with similar colours",
-      "Tumble dry low",
-      "Iron on reverse",
-      "Do not bleach"
-    ],
-    "sizeChartId": "women-tops",
-    "variants": [
-      {
-        "sku": "ARBI-038-XS",
-        "size": "XS",
-        "stock": 4
-      },
-      {
-        "sku": "ARBI-038-S",
-        "size": "S",
-        "stock": 4
-      },
-      {
-        "sku": "ARBI-038-M",
-        "size": "M",
-        "stock": 9
-      },
-      {
-        "sku": "ARBI-038-L",
-        "size": "L",
-        "stock": 12
-      },
-      {
-        "sku": "ARBI-038-XL",
-        "size": "XL",
-        "stock": 0
-      }
-    ],
-    "collections": [],
-    "badges": [],
-    "rating": 4,
-    "reviewCount": 5,
-    "createdAt": "2026-08-08"
-  },
-  {
-    "id": "p039",
-    "slug": "womens-ribbed-tee-rose",
-    "title": "Ribbed Fitted Tee",
-    "styleGroup": "womens-ribbed-tee",
-    "color": {
-      "name": "Rose",
-      "hex": "#D6929B"
-    },
-    "gender": "women",
-    "category": "tees",
-    "style": "Crew neck",
-    "fabric": "Cotton rib",
-    "fit": "Fitted",
-    "tags": ["Cotton rib", "Stretch", "Everyday"],
-    "price": 790,
-    "images": [
-      {
-        "src": "/images/products/womens-ribbed-tee-rose-1.webp",
-        "alt": "Ribbed Fitted Tee in Rose, front view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-rose-2.webp",
-        "alt": "Ribbed Fitted Tee in Rose, back view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-rose-3.webp",
-        "alt": "Ribbed Fitted Tee in Rose, detail view"
-      },
-      {
-        "src": "/images/products/womens-ribbed-tee-rose-4.webp",
-        "alt": "Ribbed Fitted Tee in Rose, on model view"
-      }
-    ],
-    "shortDescription": "A fitted rib-knit tee with a little stretch and a neat crew neck.",
-    "description": "A close-fitting rib-knit cotton tee with stretch for comfort. Pairs with everything from wide-leg trousers to denim.",
-    "details": [
-      {
-        "label": "Fabric",
-        "value": "Cotton rib"
-      },
-      {
-        "label": "Fit",
-        "value": "Fitted"
-      },
-      {
-        "label": "Colour",
-        "value": "Rose"
-      },
-      {
-        "label": "Country of origin",
-        "value": "Bangladesh"
-      },
-      {
-        "label": "Manufactured by",
-        "value": "ARBI Clothing (placeholder — confirm)"
-      }
-    ],
-    "care": [
-      "Machine wash cold with similar colours",
-      "Tumble dry low",
-      "Iron on reverse",
-      "Do not bleach"
-    ],
-    "sizeChartId": "women-tops",
-    "variants": [
-      {
-        "sku": "ARBI-039-XS",
-        "size": "XS",
-        "stock": 10
-      },
-      {
-        "sku": "ARBI-039-S",
-        "size": "S",
-        "stock": 0
-      },
-      {
-        "sku": "ARBI-039-M",
-        "size": "M",
-        "stock": 0
-      },
-      {
-        "sku": "ARBI-039-L",
-        "size": "L",
-        "stock": 5
-      },
-      {
-        "sku": "ARBI-039-XL",
-        "size": "XL",
-        "stock": 1
-      }
-    ],
-    "collections": [],
-    "badges": [],
-    "rating": 3.9,
-    "reviewCount": 31,
-    "createdAt": "2026-07-24"
-  },
-  {
-    "id": "p040",
     "slug": "canvas-tote-natural",
     "title": "Canvas Tote",
     "styleGroup": "canvas-tote",
@@ -3872,7 +3587,7 @@
       "name": "Natural",
       "hex": "#E3D6BC"
     },
-    "gender": "unisex",
+    "gender": "men",
     "category": "accessories",
     "style": "Tote",
     "fabric": "Cotton canvas",
@@ -3924,19 +3639,19 @@
     ],
     "variants": [
       {
-        "sku": "ARBI-040-ONESIZE",
+        "sku": "ARBI-037-ONESIZE",
         "size": "One size",
-        "stock": 2
+        "stock": 25
       }
     ],
     "collections": [],
     "badges": [],
-    "rating": 4.2,
-    "reviewCount": 60,
-    "createdAt": "2026-08-15"
+    "rating": 4.3,
+    "reviewCount": 49,
+    "createdAt": "2026-08-07"
   },
   {
-    "id": "p041",
+    "id": "p038",
     "slug": "canvas-tote-black",
     "title": "Canvas Tote",
     "styleGroup": "canvas-tote",
@@ -3944,7 +3659,7 @@
       "name": "Black",
       "hex": "#1C1C1C"
     },
-    "gender": "unisex",
+    "gender": "men",
     "category": "accessories",
     "style": "Tote",
     "fabric": "Cotton canvas",
@@ -3996,19 +3711,20 @@
     ],
     "variants": [
       {
-        "sku": "ARBI-041-ONESIZE",
+        "sku": "ARBI-038-ONESIZE",
         "size": "One size",
-        "stock": 1
+        "stock": 4
       }
     ],
     "collections": [],
-    "badges": ["new"],
-    "rating": 4.5,
-    "reviewCount": 88,
-    "createdAt": "2026-10-10"
+    "badges": ["new", "bestseller"],
+    "rating": 3.9,
+    "reviewCount": 121,
+    "createdAt": "2026-10-11",
+    "bestSellerRank": 1
   },
   {
-    "id": "p042",
+    "id": "p039",
     "slug": "logo-cap-black",
     "title": "Logo Cap",
     "styleGroup": "logo-cap",
@@ -4016,7 +3732,7 @@
       "name": "Black",
       "hex": "#1C1C1C"
     },
-    "gender": "unisex",
+    "gender": "men",
     "category": "accessories",
     "style": "Six-panel",
     "fabric": "Cotton twill",
@@ -4068,19 +3784,19 @@
     ],
     "variants": [
       {
-        "sku": "ARBI-042-ONESIZE",
+        "sku": "ARBI-039-ONESIZE",
         "size": "One size",
-        "stock": 5
+        "stock": 4
       }
     ],
     "collections": ["weekend-edit"],
     "badges": [],
     "rating": 4.8,
-    "reviewCount": 83,
-    "createdAt": "2026-07-30"
+    "reviewCount": 32,
+    "createdAt": "2026-08-08"
   },
   {
-    "id": "p043",
+    "id": "p040",
     "slug": "logo-cap-stone",
     "title": "Logo Cap",
     "styleGroup": "logo-cap",
@@ -4088,7 +3804,7 @@
       "name": "Stone",
       "hex": "#C8C1B4"
     },
-    "gender": "unisex",
+    "gender": "men",
     "category": "accessories",
     "style": "Six-panel",
     "fabric": "Cotton twill",
@@ -4140,15 +3856,15 @@
     ],
     "variants": [
       {
-        "sku": "ARBI-043-ONESIZE",
+        "sku": "ARBI-040-ONESIZE",
         "size": "One size",
-        "stock": 0
+        "stock": 6
       }
     ],
     "collections": ["weekend-edit"],
     "badges": [],
-    "rating": 4,
-    "reviewCount": 43,
-    "createdAt": "2026-07-29"
+    "rating": 4.7,
+    "reviewCount": 15,
+    "createdAt": "2026-07-27"
   }
 ]

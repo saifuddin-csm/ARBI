@@ -13,6 +13,7 @@ import { Img } from "@/components/ui/Img";
 import { PriceTag } from "@/components/ui/PriceTag";
 import { QuantityStepper } from "@/components/ui/QuantityStepper";
 import { Rating } from "@/components/ui/Rating";
+import { Swatch } from "@/components/ui/Swatch";
 import { useAddToCart } from "@/lib/hooks/useAddToCart";
 import { useMountOnOpen } from "@/lib/hooks/useMountOnOpen";
 import { cn } from "@/lib/utils/cn";
@@ -132,12 +133,10 @@ export function ProductDetails({
                   aria-label={s.color.name}
                   aria-current={s.current ? "true" : undefined}
                   title={s.color.name}
-                  className={cn(
-                    "block size-9 rounded-full border border-black/15 ring-offset-2 ring-offset-bg",
-                    s.current ? "ring-2 ring-text" : "hover:ring-1 hover:ring-muted",
-                  )}
-                  style={{ backgroundColor: s.color.hex }}
-                />
+                  className="group/swatch block"
+                >
+                  <Swatch hex={s.color.hex} selected={s.current} size="lg" />
+                </Link>
               </li>
             ))}
           </ul>

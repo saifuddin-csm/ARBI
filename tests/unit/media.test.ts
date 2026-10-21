@@ -24,7 +24,7 @@ describe("media resolution", () => {
   });
 
   it("gives every product image a source", async () => {
-    const product = (await getProduct("mens-essential-crew-tee-black"))!;
+    const product = (await getProduct("essential-crew-tee-black"))!;
     expect(product.images).toHaveLength(4);
     expect(product.images.every((i) => i.src && i.alt)).toBe(true);
   });
@@ -38,8 +38,8 @@ describe("media resolution", () => {
 describe("home config", () => {
   it("keeps the section order from home.json", async () => {
     const types = (await getHome()).map((s) => s.type);
-    expect(types.slice(0, 3)).toEqual(["hero", "splitTiles", "banner"]);
-    expect(types).toContain("shopTheLook");
+    expect(types.slice(0, 3)).toEqual(["hero", "categoryTiles", "banner"]);
+    expect(types).toContain("lookbook");
     expect(types.at(-1)).toBe("brandStatement");
   });
 });

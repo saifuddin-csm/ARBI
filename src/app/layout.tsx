@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl("/")),
   title: { default: "ARBI — Everyday clothing for a warm climate", template: "%s | ARBI" },
   description:
-    "ARBI makes considered everyday clothing — linen shirts, cotton tees, dresses and more. Delivery across Bangladesh, cash on delivery available.",
+    "ARBI makes considered everyday menswear — linen shirts, cotton tees, panjabi and more. Delivery across Bangladesh, cash on delivery available.",
   // Preview build: keep the demo out of search engines until launch.
   robots: { index: false, follow: false },
   openGraph: {

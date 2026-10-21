@@ -15,7 +15,7 @@ export function buttonClass({
   className,
 }: ButtonStyle = {}) {
   return cn(
-    "inline-flex items-center justify-center gap-2 rounded-brand border label-caps transition-colors duration-200 disabled:cursor-not-allowed disabled:opacity-40",
+    "inline-flex items-center justify-center gap-2 rounded-brand border label-caps transition-[color,background-color,border-color,transform] duration-300 ease-out active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 disabled:active:scale-100",
     size === "md" ? "min-h-12 px-6 text-xs" : "min-h-10 px-4 text-[11px]",
     variant === "primary" && "border-text bg-text text-bg hover:bg-text/85",
     variant === "secondary" && "border-text bg-transparent text-text hover:bg-text hover:text-bg",

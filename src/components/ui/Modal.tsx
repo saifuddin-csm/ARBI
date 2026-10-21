@@ -33,7 +33,11 @@ export function Modal({
 
   return (
     <div className="fixed inset-0 z-[60] flex items-end justify-center sm:items-center sm:p-6">
-      <div aria-hidden="true" onClick={onClose} className="absolute inset-0 bg-black/50" />
+      <div
+        aria-hidden="true"
+        onClick={onClose}
+        className="absolute inset-0 animate-fade-in bg-black/50"
+      />
       <div
         ref={panelRef}
         role="dialog"
@@ -41,7 +45,7 @@ export function Modal({
         aria-labelledby={titleId}
         tabIndex={-1}
         className={cn(
-          "relative flex max-h-[92vh] w-full flex-col bg-bg shadow-xl outline-none",
+          "relative flex max-h-[92vh] w-full animate-pop-in flex-col bg-bg shadow-xl outline-none",
           size === "md" && "sm:max-w-lg",
           size === "lg" && "sm:max-w-3xl",
           size === "full" && "h-full max-h-none sm:h-[92vh] sm:max-w-6xl",

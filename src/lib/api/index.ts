@@ -47,8 +47,6 @@ type RawCollection = Omit<Collection, "banner" | "card"> & {
   banner?: { mobile: MediaInput; desktop: MediaInput };
   card?: MediaInput;
 };
-type ProductQuery =
-  string[] | { styleGroup?: string; collection?: string; sort?: "newest"; limit?: number };
 type RawHomeSection = { type: HomeSection["type"]; data: Record<string, unknown> };
 
 const rawProducts = productsJson as unknown as RawProduct[];
@@ -209,23 +207,11 @@ export async function search(query: string): Promise<SearchEntry[]> {
 // ---------------------------------------------------------------------------------------
 // Home
 
-function queryProducts(q: ProductQuery): ProductSummary[] {
-  if (Array.isArray(q)) {
-    return q
-      .map((s) => allProducts().find((p) => p.slug === s))
-      .filter((p): p is Product => Boolean(p))
-      .map(toSummary);
-  }
-  let list = allProducts();
-  if (q.styleGroup) list = list.filter((p) => p.styleGroup === q.styleGroup);
-  if (q.collection) {
-    const c = rawCollections.find((x) => x.slug === q.collection);
-    list = c ? productsForFilter(c.filter, list) : [];
-    if (q.collection === "best-sellers")
-      list = [...list].sort((a, b) => (a.bestSellerRank ?? 99) - (b.bestSellerRank ?? 99));
-  }
-  if (q.sort === "newest") list = [...list].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
-  return list.slice(0, q.limit ?? list.length).map(toSummary);
+function collectionsBySlug(slugs: string[]): Collection[] {
+  return slugs
+    .map((slug) => rawCollections.find((c) => c.slug === slug))
+    .filter((c): c is RawCollection => Boolean(c))
+    .map(resolveCollection);
 }
 
 function resolveSection(s: RawHomeSection, site: SiteSettings): HomeSection | undefined {
@@ -247,14 +233,36 @@ function resolveSection(s: RawHomeSection, site: SiteSettings): HomeSection | un
         },
       };
     }
-    case "splitTiles":
+    case "categoryTiles":
+    case "collectionCards":
       return {
-        type: "splitTiles",
+        type: s.type,
         data: {
-          tiles: (d.tiles as { title: string; cta: never; image: MediaInput }[]).map((t) => ({
-            ...t,
-            image: resolveMedia(t.image),
-          })),
+          eyebrow: d.eyebrow,
+          heading: d.heading,
+          collections: collectionsBySlug(d.collections as string[]),
+        },
+      };
+    case "editorial":
+      return {
+        type: "editorial",
+        data: {
+          eyebrow: d.eyebrow,
+          heading: d.heading,
+          text: d.text,
+          cta: d.cta,
+          image: resolveMedia(d.image, { width: 1600, height: 2000 }),
+        },
+      };
+    case "lookbook":
+      return {
+        type: "lookbook",
+        data: {
+          eyebrow: d.eyebrow,
+          heading: d.heading,
+          text: d.text,
+          cta: d.cta,
+          images: (d.images as MediaInput[]).map((m) => resolveMedia(m)),
         },
       };
     case "banner":
@@ -267,33 +275,6 @@ function resolveSection(s: RawHomeSection, site: SiteSettings): HomeSection | un
           cta: d.cta,
           mobile: resolveMedia(d.mobile, { width: 1080, height: 1620 }),
           desktop: resolveMedia(d.desktop, { width: 2560, height: 1080 }),
-        },
-      };
-    case "productRow":
-    case "carousel":
-      return {
-        type: s.type,
-        data: { heading: d.heading, cta: d.cta, products: queryProducts(d.products) },
-      };
-    case "collectionCards":
-      return {
-        type: "collectionCards",
-        data: {
-          heading: d.heading,
-          collections: (d.collections as string[])
-            .map((slug) => rawCollections.find((c) => c.slug === slug))
-            .filter((c): c is RawCollection => Boolean(c))
-            .map(resolveCollection),
-        },
-      };
-    case "shopTheLook":
-      return {
-        type: "shopTheLook",
-        data: {
-          heading: d.heading,
-          text: d.text,
-          image: resolveMedia(d.image, { width: 1600, height: 2000 }),
-          products: queryProducts(d.products),
         },
       };
     case "brandStatement":
