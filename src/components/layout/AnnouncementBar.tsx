@@ -53,7 +53,7 @@ export function AnnouncementBar({ id, messages }: AnnouncementBarProps) {
       onFocus={() => setPaused(true)}
       onBlur={() => setPaused(false)}
     >
-      <div className="container-page flex h-10 items-center justify-center gap-2">
+      <div className="container-page flex h-10 items-center justify-center gap-2 pr-12">
         {messages.length > 1 && (
           <button
             type="button"
