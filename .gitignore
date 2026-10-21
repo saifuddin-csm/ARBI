@@ -45,3 +45,6 @@ next-env.d.ts
 
 # generated placeholder images (scripts/generate-placeholders.mjs)
 /public/placeholders/
+
+# local Claude Code launch config
+/.claude/
